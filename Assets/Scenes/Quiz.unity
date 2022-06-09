@@ -507,7 +507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.57426465}
   m_AnchorMax: {x: 0.47400004, y: 0.96800005}
-  m_AnchoredPosition: {x: 1.9989319, y: -2.1099854}
+  m_AnchoredPosition: {x: 1.9989624, y: -2.1099854}
   m_SizeDelta: {x: -3.9977722, y: 3.8200073}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &193189243
@@ -1897,7 +1897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.22700001, y: 0}
   m_AnchorMax: {x: 0.76775515, y: 1}
-  m_AnchoredPosition: {x: -4.0000076, y: -0.0039978027}
+  m_AnchoredPosition: {x: -4, y: -0.0039978027}
   m_SizeDelta: {x: 12.139999, y: -0.11000061}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &545548666
@@ -3910,67 +3910,142 @@ MonoBehaviour:
         pas en Afrique "
   - Subject: Sport
     AnsAndQues:
-    - Question: 
-      Answers: []
+    - Question: "Qui est le seul joueur Africain \xE0 avoir le ballon d'Or ?"
+      Answers:
+      - 'Roger Milla '
+      - Didier Drogba
+      - George Weah
+      - Samuel Eto'o
+      GreatAnswer: 2
+      Indice: "Sacr\xE9 meilleur joueur du monde en 1995, il devient le president
+        de la republique du Liberia en 2018"
+    - Question: "Lequel de ces joueurs n'a jamais gagn\xE9 la LDC ?"
+      Answers:
+      - Mickael Essian
+      - Rabah Madjer
+      - Samuel Eto'o
+      - Didier Drogba
+      GreatAnswer: 1
+      Indice: "Samuel Eto\u2019o fait partie de ces rares joueurs africains ayant
+        soulev\xE9 le troph\xE9e de la CAN et celle de l\u2019UEFA Ligue des Champions."
+    - Question: "Qui detient le record du plus de but marqu\xE9 en CAN ?"
+      Answers:
+      - Samuel Eto'o
+      - Didier Drogba
+      - 'Laurent Pokou '
+      - Rashidi Yekini
       GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
+      Indice: "Sont record de buts marqu\xE9 avec la selection camerounaise en CAN
+        est de 18 "
+    - Question: Qui est le joueur africain le plus cher de l'histoire ?
+      Answers:
+      - "Nicolas P\xE9p\xE9"
+      - 'Naby Keita '
+      - Leonnel Messi
+      - "Yaya Tour\xE9"
       GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
+      Indice: "Avec sons transfer \xE0 Arsenal pour 80M, il devient le joueur Africain
+        le plus cher de l'histoire "
+    - Question: 'Laquel de ces nations n''a jamais remporter la CAN ? '
+      Answers:
+      - Congo
+      - "C\xF4te D'ivoire "
+      - Cameroun
+      - "S\xE9n\xE9gal "
+      GreatAnswer: 3
+      Indice: "La c\xF4te D'ivoire devient champione d'Afrique en 2012"
+    - Question: "Qui a remport\xE8 le Ballon d'Or Africain 2015 ?"
+      Answers:
+      - 'Pierre-Emerick AAubameyang '
+      - 'Didier Drogba '
+      - Samuel Eto'o
+      - Yaya Toure
       GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
+      Indice: "Didier Drogba n'etait pas nomin\xE9 pour le ballon d'Or Africain en
+        2015"
+    - Question: "Qui est le premier joueur africain de l'histoire \xE0 avoir gagn\xE9
+        le troph\xE9e du meilleur joueur de la Premi\xE8re Ligue ?"
+      Answers:
+      - Yaya Toure
+      - 'Pierre-Emerick AAubameyang '
+      - Mohamed Salah
+      - 'Riyad Mahrez '
+      GreatAnswer: 3
+      Indice: il fait ces debuts internationnaux pour l'Algerie en 2014 avec la 
+        coupe du monde et la coupe d'Afrique en 2015
+    - Question: "Qui a eu le troph\xE9e du meilleur jeune joueur africain 2019 ?"
+      Answers:
+      - victor Osimshen
+      - Achraf Hakimi
+      - 'Ismael Bennacer '
+      - 'George Weah '
+      GreatAnswer: 1
+      Indice: "De nationalit\xE9 marocaine il re\xE7oit son prix au gala de la f\xE9deration
+        Africaine de Football"
+    - Question: "Quelle nation a gagn\xE9 la CAN 2000 ?"
+      Answers:
+      - Cameroun
+      - Nigeria
+      - 'Cote d''ivoire '
+      - "S\xE9n\xE9gal"
       GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
+      Indice: "Le s\xE9n\xE9gal n'a jamais rempot\xE9 de CAN"
+    - Question: "Quel joueur Africain a marqu\xE9 le plus de buts en C1 ?"
+      Answers:
+      - Samuel Eto'o
+      - 'Didier Drogba '
+      - 'George Weah '
+      - 'Yaya Toure '
+      GreatAnswer: 1
+      Indice: "ce joueur de nationalit\xE9 Ivoirienne"
+    - Question: "N\xE9 en 1963, il est consid\xE9r\xE9 comme le plus grand footballeur
+        zambien de tous les temps."
+      Answers:
+      - 'Didier Drogba '
+      - Mark Fish
+      - Kalusha Bwalya
+      - Samuel Eto'o
+      GreatAnswer: 2
+      Indice: Il est le Ballon d'or africain en 1988 et meilleur buteur de la CAN
+        1996 avec 5 buts.
+    - Question: "Athl\xE8te marocain de demi-fond et de fond, il est le premier homme
+        \xE0 descendre sous la barre des 13' au 5000 m."
+      Answers:
+      - 'Said Aouita '
+      - Ibrahim Lahalafi
+      - Aissa Djabir Said-Guerni
+      - Yaya Toure
       GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
+      Indice: "M\xE9daill\xE9 olympique au J. O. de 1984 sur 5000 m, il fut d\xE9tenteur
+        des records du monde sur 1500 m, 2000 m, 3000m et 5000 m."
+    - Question: Quelle instance organise la Coupe d'Afrique des Nations ?
+      Answers:
+      - CAF
+      - FFF
+      - FIFA
+      - FFCI
       GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
+      Indice: "C'est la plus haute autorit\xE9e du football africain "
+    - Question: "En quelle ann\xE9e a eu lieu la 1er Coupe d'afrique des nations
+        ?"
+      Answers:
+      - 1948
+      - 1957
+      - 1935
+      - 1966
+      GreatAnswer: 1
+      Indice: "La premier edition de la coupe d'Afrique des nations \xE0 eu lieu
+        apr\xE8s les ann\xE9es 50"
+    - Question: "Quelle est la p\xE9riodicit\xE9 de la Coupe d'Afrique des Nations
+        ?"
+      Answers:
+      - 'Tous les 2ans '
+      - 'Tous les 4ans '
+      - 'Tous les 1ans '
+      - "Tous les ann\xE9es "
       GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-  - Subject: Economie
+      Indice: "La coupe n'a pas lieu toute les ann\xE9es "
+  - Subject: "L\xE9gendes "
     AnsAndQues:
     - Question: 
       Answers: []
@@ -5120,7 +5195,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.013222223, y: 0.55752933}
   m_AnchorMax: {x: 0.09548829, y: 0.87767696}
-  m_AnchoredPosition: {x: 2.4400024, y: 0.000061035156}
+  m_AnchoredPosition: {x: 2.4400635, y: 0.000061035156}
   m_SizeDelta: {x: 6.330002, y: 0}
   m_Pivot: {x: 0.5000002, y: 0.49999994}
 --- !u!114 &1496806929
@@ -6066,7 +6141,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.202, y: 0.62600005}
   m_AnchorMax: {x: 0.35000002, y: 0.91676384}
-  m_AnchoredPosition: {x: 1.9999847, y: -2.5}
+  m_AnchoredPosition: {x: 1.9999695, y: -2.5}
   m_SizeDelta: {x: 0.5, y: -7.4000015}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1605082885
@@ -6294,7 +6369,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.202, y: 0.62600005}
   m_AnchorMax: {x: 0.35000002, y: 0.91676384}
-  m_AnchoredPosition: {x: 1.9999847, y: -2.5}
+  m_AnchoredPosition: {x: 1.9999695, y: -2.5}
   m_SizeDelta: {x: 0.5, y: -7.4000015}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1631977269
@@ -7122,7 +7197,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.202, y: 0.62600005}
   m_AnchorMax: {x: 0.35000002, y: 0.91676384}
-  m_AnchoredPosition: {x: 1.9999847, y: -2.5}
+  m_AnchoredPosition: {x: 1.9999695, y: -2.5}
   m_SizeDelta: {x: 0.5, y: -7.4000015}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1905564367
