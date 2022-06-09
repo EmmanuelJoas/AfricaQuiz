@@ -42,8 +42,6 @@ public class UnblockedAnimals : MonoBehaviour//Class use to undeblocked the subj
 
     #endregion
 
-
-
     #region Unity function 
 
 
@@ -63,8 +61,6 @@ public class UnblockedAnimals : MonoBehaviour//Class use to undeblocked the subj
 
 
     #endregion
-
-
 
     #region My Private Function 
 
