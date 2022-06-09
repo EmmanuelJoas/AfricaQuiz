@@ -4045,68 +4045,141 @@ MonoBehaviour:
       - "Tous les ann\xE9es "
       GreatAnswer: 0
       Indice: "La coupe n'a pas lieu toute les ann\xE9es "
-  - Subject: "L\xE9gendes "
+  - Subject: Mythologie
     AnsAndQues:
-    - Question: 
-      Answers: []
+    - Question: "En combien d'\xE9poque peut-on diviser les mythplogie Africaine
+        ? "
+      Answers:
+      - 1
+      - 2
+      - 3
+      - 4
+      GreatAnswer: 2
+      Indice: "Toutes mythologie Africaine \xE0 au plus  2 \xE9poque ?"
+    - Question: "Dans la mythologie Akan quel animal represente l'esprit de la rivi\xE8re
+        ?"
+      Answers:
+      - "Le li\xE8vre "
+      - 'Le cobra '
+      - 'Le python '
+      - 'Le mamba '
+      GreatAnswer: 2
+      Indice: 'C''est un serpent non venimeux d''Afrique '
+    - Question: Que represente le tabouret d'Or dans la mythologie Ashanti ?
+      Answers:
+      - Le pouvoir du roi
+      - "Le sumum et l'\xE2me des Ashantis "
+      - 'Le symbole de la guerre et de puissance '
+      - "Le symbole de l'echec et de la mis\xE8re "
+      GreatAnswer: 1
+      Indice: "En 1896 les Ashanti pr\xE9f\xE8rent d\xE9mettre leur roi que de se
+        lancer dans une guerre qui aurait mis en p\xE9ril l'objet sacr\xE9."
+    - Question: "Que symbolise Akawaba la d\xE9esse des Ashanti ?"
+      Answers:
+      - "D\xE9esse qui symbolise la bienvenue"
+      - "D\xE9esse qui symbolise la Guerre et la col\xE8re  "
+      - "D\xE9esse qui symbolise la nature et le respect de la for\xEAt "
+      - "D\xE9esse qui symbolise la femme et la vie "
       GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
+      Indice: "Les jeunes filles re\xE7oivent son image de la part d'un a\xEEn\xE9
+        quand elles prennent de l'\xE2ge, pour les accueillir dans leur r\xF4le de
+        m\xE8re"
+    - Question: Quel est le nom du Hero culturel dans la mythologie ?
+      Answers:
+      - Akawaba
+      - Anansi
+      - Ippoto
+      - Bikoko
+      GreatAnswer: 1
+      Indice: "Il est souvent repr\xE9senter sous la forme d'une araign\xE9e avec
+        des caracteristique humaine ."
+    - Question: Dans la mythologie congolaise qui sont les Biloko ?
+      Answers:
+      - "Des f\xE9es gardiennes de la for\xEAt "
+      - 'Des nains diaboliques '
+      - "Des fant\xF4mes du pass\xE9e "
+      - 'Des esprit vengeurs '
+      GreatAnswer: 1
+      Indice: "Ils prot\xE8gent avec z\xE8le la for\xEAt et ses cr\xE9atures vivantes
+        des arbres creux dans lesquels ils se cachent."
+    - Question: "Dans la myhologie Fon (peuple du centre et sud  Benin) en combien
+        de jours fu cr\xE9er le monde ?"
+      Answers:
+      - '2jours '
+      - '5jours '
+      - '7jours '
+      - '4jours '
+      GreatAnswer: 3
+      Indice: "Selon la mythologie Fon le monde a \xE9t\xE9 c\xE9er en plus de 2
+        jours "
+    - Question: "Dans la mythologie Igbo qui est le dieu supr\xEAme ?"
+      Answers:
+      - Chukwu
+      - Okejoku
+      - Na Na Kanan
+      - Nifeona
       GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
+      Indice: "Ce ne sont pas les deux derni\xE8re reponces "
+    - Question: Quelle est la fonction de Agbala dans la mythologie Igbo ?
+      Answers:
+      - Preparer le offrandes des dieux
+      - "Pr\xE9dire l'avenir et dialoguer avec les esprits des defuns "
+      - 'S''occuper des rituels '
+      - 'Messager des hommes pour les dieux '
+      GreatAnswer: 1
+      Indice: Ces femmes etaient les oracles du village
+    - Question: "Dans les mythe Africain quelle est la particularit\xE9 de l'hypopotame
+        ?"
+      Answers:
+      - ' respirer sous l''eau'
+      - ' se transformet en homme la nuit '
+      - " manger le r\xEAve des hommes "
+      - ' Etre invincible '
+      GreatAnswer: 1
+      Indice: "On leurs pretant la possibilit\xE9 de pouvoir changer d'apparence "
+    - Question: "Qu'elle est l'espit de l'eau le plus c\xE9l\xE8bre  du folclore
+        Africain ?"
+      Answers:
+      - Ariel
+      - Mami Wata
+      - Bikoko
+      - 'Boa '
+      GreatAnswer: 1
+      Indice: "On la repr\xE9sente souvent comme une femme avec un corps de poisson "
+    - Question: Dans la mythologie Zoulou qui sont les Abavata ?
+      Answers:
+      - "Des d\xE9mons vengeur "
+      - "Les esprits des anc\xE8tres "
+      - "Des \xEAtre f\xE9eriques de petite taille"
+      - "Des fant\xF4mes egar\xE9s"
+      GreatAnswer: 2
+      Indice: "On dit qu'ils apportent la bonne fortune \xE0 qui les trouvent ."
+    - Question: Dans la mythologie Zoulou qui est Mbaba Mwana Waresa ?
+      Answers:
+      - "La d\xE9esse de la guerre"
+      - "La d\xE9esse de la lune "
+      - "La d\xE9esse de la chasse "
+      - "La d\xE9esse de l\u2019arc en ciel, de la pluie, et des r\xE9coltes."
+      GreatAnswer: 3
+      Indice: "elle leur a enseign\xE9 la mani\xE8re de semer et r\xE9colter et elle
+        leur a donn\xE9 la recette de la bi\xE8re."
+    - Question: "Dans la mythologie Zoulou quel est l'animal dont la lenteur a caus\xE9
+        la mort ?"
+      Answers:
+      - Un escargo
+      - 'Une limace '
+      - "Un camel\xE9on"
+      - 'Une tortue '
       GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
-    - Question: 
-      Answers: []
-      GreatAnswer: 0
-      Indice: 
+      Indice: "Il est le hero d'un conte Africain tr\xE9s connu "
+    - Question: "Dans la mythologie Ashanti qui est l'\xEAtre supr\xEAme ?"
+      Answers:
+      - 'Mami Wata '
+      - Bikulou
+      - Nyame
+      - Nan Nan klo
+      GreatAnswer: 2
+      Indice: "Il est le centre d'une trinit\xE9 "
   answers:
   - {fileID: 956905079}
   - {fileID: 193189241}
