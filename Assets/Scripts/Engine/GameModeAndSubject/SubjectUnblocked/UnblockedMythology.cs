@@ -4,7 +4,7 @@ using UnityEngine;
 //Name space to use the unity UI function 
 using UnityEngine.UI;
 
-public class UnblockedEconomy : MonoBehaviour//Class use to unlocked the Economy subject
+public class UnblockedMythology : MonoBehaviour//Class use to unlocked the Economy subject
 {
 
     #region Variables 
@@ -49,7 +49,7 @@ public class UnblockedEconomy : MonoBehaviour//Class use to unlocked the Economy
     private void Start()
     {
         Coins = PlayerPrefs.GetInt("QuizCoins");
-        isUnblocked = PlayerPrefs.GetInt("UnblockedEco");
+        isUnblocked = PlayerPrefs.GetInt("UnblockedMytho");
         if (isUnblocked == 1)
         {
             LockedPanel.SetActive(false);
@@ -95,7 +95,7 @@ public class UnblockedEconomy : MonoBehaviour//Class use to unlocked the Economy
     private void SaveBuy()
     {
         PlayerPrefs.SetInt("QuizCoins", Coins);
-        PlayerPrefs.SetInt("UnblockedEco", isUnblocked);
+        PlayerPrefs.SetInt("UnblockedMytho", isUnblocked);
     }
 
 
