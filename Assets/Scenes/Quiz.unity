@@ -3510,8 +3510,8 @@ MonoBehaviour:
       - "30 415 874 Km\xB2"
       - "40 874 153 Km\xB2"
       GreatAnswer: 0
-      Indice: "c'est plus grand que 30.000.000 Km\xB2 mais plus petit que 40.000.000"
-    - Question: "Quelle pourcentage l'Afrique recouvre  \xE0 la surface de la Terre
+      Indice: "Elle est plus grand que 30.000.000 Km\xB2 mais plus petit que 40.000.000km\xB2"
+    - Question: "Quel pourcentage l'Afrique recouvre  \xE0 la surface de la Terre
         ?"
       Answers:
       - 20%
@@ -3519,34 +3519,33 @@ MonoBehaviour:
       - 12%
       - 4%
       GreatAnswer: 1
-      Indice: 'L''Afrique recouvre moins de 10% de la terre '
-    - Question: Quelle est  la plus haut montagne d Afrique ?
+      Indice: 'L''Afrique recouvre moins de 10% de la surface de la terre '
+    - Question: Quelle est  la plus haute montagne d Afrique ?
       Answers:
-      - 'Aucun des trois '
-      - 'La dents de Man '
+      - 'Le Mont Afrique '
+      - 'La Dents de Man '
       - 'Le Kilimandjaro '
-      - Le mont Everest
+      - Le Mont Everest
       GreatAnswer: 2
-      Indice: 'Le mont Everest est la plus haute montagne du monde '
+      Indice: 'Le Mont Everest est la plus haute montagne du monde '
     - Question: "Quelle est la plus grande for\xEAt d 'Afrique ?"
       Answers:
-      - "For\xEAt du basin du Banco "
-      - "For\xEAt Amazonien"
-      - "La for\xEAt du  Banco"
-      - Le Delta de l'Okavango
+      - "La For\xEAt du basin du Banco "
+      - "La For\xEAt Amazonien"
+      - "La For\xEAt du  Banco"
+      - "La For\xEAt de l'Okavango"
       GreatAnswer: 0
-      Indice: "La for\xEAt Amazonien est la plus grande for\xEAt du monde dit le
-        \"poumon du monde\""
-    - Question: Quelle est le plus long fleuve d Afrique ?
+      Indice: "La For\xEAt Amazonien est la plus grande for\xEAt du monde "
+    - Question: Quel est le plus long fleuve d Afrique ?
       Answers:
       - Le Nil
-      - L Amazone
+      - L'Amazone
       - 'La manche '
       - Le comoe
       GreatAnswer: 0
       Indice: 'L''Amazone est le plus grand fleuve d''Amerique mais egalement du
         monde '
-    - Question: Combien de pays compose Africain ?
+    - Question: Combien de pays compte l'Africain ?
       Answers:
       - 56
       - 50
@@ -3554,7 +3553,7 @@ MonoBehaviour:
       - 54
       GreatAnswer: 3
       Indice: "L'Afrique compte plus d'une cinquant\xE8nes de pays independant "
-    - Question: "Quelle est la population total Africaine estim\xE9e en 2021 ?"
+    - Question: A combien s'eleve la  population  Africaine  en 2021 ?
       Answers:
       - 1 373 486 472
       - 1 152 865 000
@@ -3562,23 +3561,23 @@ MonoBehaviour:
       - 4 874 153 000
       GreatAnswer: 0
       Indice: "En 2019 on estime la population Africaine \xE0 plus de 1 340 598 113"
-    - Question: Quelle est le pourcentage des terres arides en Afrique ?
+    - Question: Quel  pourcentage les terres arides occupent en Afrique ?
       Answers:
       - 51%
       - 60%
       - 70%
       - 50%
       GreatAnswer: 1
-      Indice: "Les deserts et savanes arides couvrent pr\xE9s de plus 50% de l'Afrique "
-    - Question: "O\xF9 se trouve le Kilimandjaro ?"
+      Indice: 'Les deserts et savanes arides occupent  plus 50% du territoire Afriquain '
+    - Question: "O\xF9 se trouve le Mont Kilimandjaro ?"
       Answers:
       - 'Au Kenya '
       - En Tanzanie
       - Au Rwanda
       - En Afrique du Sud
       GreatAnswer: 1
-      Indice: 'C''est aussi l''une des plus grande reserve naturel au sud de l''Afrique '
-    - Question: "Quelle superficie couvre le Sahara (en millions de Km\xB2)?"
+      Indice: 'Une des plus grande reserve naturel au sud de l''Afrique '
+    - Question: "Quelle est la superficie du Sahara (en millions de Km\xB2)?"
       Answers:
       - 2.5
       - 4.5
@@ -3586,7 +3585,7 @@ MonoBehaviour:
       - 14.5
       GreatAnswer: 2
       Indice: "La superficie du Sahara est de moin de 10 000 000 000 de Km\xB2"
-    - Question: "Quelle Etat est situ\xE9 le plus \xE0 l'ouest du continent africain
+    - Question: "Quel Etat est situ\xE9 le plus \xE0 l'ouest du continent africain
         ?"
       Answers:
       - "S\xE9n\xE9gal"
@@ -3610,7 +3609,7 @@ MonoBehaviour:
       - 'Les Seychelles '
       - 'Les Comores '
       GreatAnswer: 2
-      Indice: "C'est un ensemble d'\xEEles situ\xE9es au Sud-Ouest de l'Afrique "
+      Indice: "Une Archipel situ\xE9es au Sud-Ouest de l'Afrique "
     - Question: Lequel de ces fleuves ne coulent pas en Afrique ?
       Answers:
       - L'Orange
@@ -3619,15 +3618,14 @@ MonoBehaviour:
       - "Le Zamb\xE8ze"
       GreatAnswer: 2
       Indice: 'Le Nil est le plus grand fleuve d''Afrique '
-    - Question: Quel est le plus grand golfe d'Afrique ?
+    - Question: "Quel est le plus grand golfe d'Afrique (for\xEAt d'Afrique) ?"
       Answers:
       - Du Ghana
       - "De Guin\xE9e"
       - D'Aden
       - "Du B\xE9nin"
       GreatAnswer: 2
-      Indice: C'est une reserve naturel et l'un des dernier sanctuaire du Gorille
-        des montagnes
+      Indice: Reserve naturel et l'un des dernier sanctuaire du Gorille des montagnes
   - Subject: Story
     AnsAndQues:
     - Question: "Quel royaume unifi\xE9 par la dynastie des Ciss\xE9 Tounkara est
@@ -3820,8 +3818,7 @@ MonoBehaviour:
       GreatAnswer: 1
       Indice: "Cette antilope porte le nom d'un peuple africain c\xE9l\xE9bre pour
         leurs petite taille"
-    - Question: "Quel mange l'oryct\xE9rope, appel\xE9 aussi \"cochon de terre\"
-        ?"
+    - Question: "Que mange l'oryct\xE9rope, appel\xE9 aussi \"cochon de terre\" ?"
       Answers:
       - Des fourmis
       - 'Des sauterelles '
@@ -3847,8 +3844,8 @@ MonoBehaviour:
       - Un serpent
       - Un oiseau
       GreatAnswer: 1
-      Indice: "C'est l'espece de mammif\xE8re la plus andemic de Madascar"
-    - Question: 'Qu''est ce qu''un serval ? '
+      Indice: "L'espece de mammif\xE8re la plus andemic de Madascar"
+    - Question: 'Qu''est-ce qu''un serval ? '
       Answers:
       - "Un petit f\xE9lin "
       - Une antilope
@@ -3863,8 +3860,7 @@ MonoBehaviour:
       - 'Le gros-bec '
       - Le Kakapo
       GreatAnswer: 1
-      Indice: C'est le meilleur parleur parmi les perroquets et le plus vendu en
-        europe ?
+      Indice: 'le meilleur parleur parmi les perroquets et le plus vendu en europe '
     - Question: "Quelle est l'esp\xE8ce de vautour la plus courante en Afrique ?"
       Answers:
       - Le vautour oricou
@@ -4084,7 +4080,7 @@ MonoBehaviour:
       Indice: "Les jeunes filles re\xE7oivent son image de la part d'un a\xEEn\xE9
         quand elles prennent de l'\xE2ge, pour les accueillir dans leur r\xF4le de
         m\xE8re"
-    - Question: Quel est le nom du Hero culturel dans la mythologie ?
+    - Question: Quel est le nom du Hero culturel dans la mythologie Ashanti ?
       Answers:
       - Akawaba
       - Anansi
@@ -4137,8 +4133,8 @@ MonoBehaviour:
       - ' Etre invincible '
       GreatAnswer: 1
       Indice: "On leurs pretant la possibilit\xE9 de pouvoir changer d'apparence "
-    - Question: "Qu'elle est l'espit de l'eau le plus c\xE9l\xE8bre  du folclore
-        Africain ?"
+    - Question: "Quel est l'espit de l'eau le plus c\xE9l\xE8bre  du folclore Africain
+        ?"
       Answers:
       - Ariel
       - Mami Wata
