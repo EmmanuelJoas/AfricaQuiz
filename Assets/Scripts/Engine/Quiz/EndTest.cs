@@ -8,36 +8,30 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
 {
     #region Variables
 
-
     /// <summary>
     /// Reference to the game object score panel
     /// </summary>
     public GameObject ScorePanel;
-
 
     /// <summary>
     /// Reference to the game object score panel Gui
     /// </summary>
     public GameObject ScorePanelGameUI;
 
-
     /// <summary>
     /// Reference to the class generator 
     /// </summary>
     public CoinsGnerator CoinsGnerator;
-
 
     /// <summary>
     /// Reference to the text score 
     /// </summary>
     public Text TextScore;
 
-
     /// <summary>
     /// Reference to the akward 
     /// </summary>
     public GameObject[] Akward;
-
 
     /// <summary>
     /// Reference to the level of the Akward 
@@ -49,9 +43,7 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     public QuizManager QuizManager;
 
-
     #endregion
-
 
     #region Unity Function 
 
@@ -67,7 +59,6 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
 
 
     #endregion
-
 
     #region My Private Function 
 
@@ -95,6 +86,7 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
             Akward[LvlAkward].SetActive(true);
         }
     }
+
     /// <summary>
     /// Reference to the function who called to set the 
     /// </summary>
