@@ -33,7 +33,7 @@ public class MainMenuOptions : MonoBehaviour//class use to the action of th butt
     /// </summary>
     public void CloseGame()
     {
-        //close the application 
+        Application.Quit();
     }
 
 

@@ -165,7 +165,7 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
 
 
     /// <summary>
-    /// Reference to the function who called before the start function s
+    /// Reference to the function who called before the start function 
     /// </summary>
     private void Awake()
     {

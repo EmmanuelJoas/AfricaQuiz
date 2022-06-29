@@ -37,6 +37,10 @@ public class AudioManager : MonoBehaviour
     #endregion
 
     #region Unity Function 
+
+    /// <summary>
+    /// Reference to the function who called before the start function 
+    /// </summary>
     private void Awake()
     {
         if (PlayerPrefs.GetString("SoudIsActive")=="Active")
@@ -49,6 +53,9 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Referenec to the function who called on the start application 
+    /// </summary>
     private void Start()
     {
         SetSounds();
