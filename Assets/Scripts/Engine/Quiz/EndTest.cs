@@ -4,6 +4,7 @@ using UnityEngine;
 //Name space to use the unity base function 
 using UnityEngine.UI;
 
+
 public class EndTest : MonoBehaviour//Class reference the action of the end game 
 {
     #region Variables
@@ -34,19 +35,60 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     public GameObject[] Akward;
 
     /// <summary>
-    /// Reference to the level of the Akward 
-    /// </summary>
-    private int LvlAkward;
-
-    /// <summary>
     /// Reference to the quiz manager 
     /// </summary>
-    public QuizManager QuizManager;
+    public string GameMode;
+
+    /// <summary>
+    /// Reference to the index of the subject 
+    /// </summary>
+    private int IndexSubject;
+
+    /// <summary>
+    /// Reference to the max score of the player 
+    /// </summary>
+    private int MaxScore;
+
 
     #endregion
 
     #region Unity Function 
 
+    /// <summary>
+    /// Reference to the function who called before the start function 
+    /// </summary>
+    private void Awake()
+    {
+        GameMode = PlayerPrefs.GetString("GameMode");
+
+        IndexSubject = PlayerPrefs.GetInt("SubjectIndex");
+
+        if (IndexSubject == 0)
+        {
+            MaxScore=PlayerPrefs.GetInt("GeoHightScore");
+        }
+        else if (IndexSubject == 1)
+        {
+            MaxScore = PlayerPrefs.GetInt("StoryHightScore");
+        }
+        else if (IndexSubject == 2)
+        {
+            MaxScore = PlayerPrefs.GetInt("AnimalsHightScore");
+        }
+        else if (IndexSubject == 3)
+        {
+            MaxScore = PlayerPrefs.GetInt("SportHightScore");
+        }
+        else if (IndexSubject == 4)
+        {
+            MaxScore = PlayerPrefs.GetInt("MythoHightScore");
+        }
+        else if (GameMode=="Randome")
+        {
+            MaxScore = PlayerPrefs.GetInt("RandomeHightScore");
+        }
+        Debug.Log(IndexSubject);
+    }
 
     /// <summary>
     /// Start is called before the first frame update
@@ -68,48 +110,85 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     void DisplayAward()
     {
-        if(int.Parse(TextScore.text)>0 && int.Parse(TextScore.text) < 5)
+
+        if (GameMode == "Extreme" || GameMode == "Randome")
         {
-            LvlAkward = 0;
-            Akward[LvlAkward].SetActive(true);
+
+            if (int.Parse(TextScore.text)>0 && int.Parse(TextScore.text) <= 5)
+            {
+                Akward[0].SetActive(true);
+            }
+
+            else if (int.Parse(TextScore.text) > 5 && int.Parse(TextScore.text) <= 10)
+            {
+                Akward[1].SetActive(true);
+            }
+
+            else if (int.Parse(TextScore.text) >= 15)
+            {
+                Akward[2].SetActive(true);
+            }
+
         }
 
-        else if (int.Parse(TextScore.text) > 5 && int.Parse(TextScore.text) < 10)
-        {
-            LvlAkward = 1;
-            Akward[LvlAkward].SetActive(true);
-        }
-
-        else if (int.Parse(TextScore.text) ==15)
-        {
-            LvlAkward = 2;
-            Akward[LvlAkward].SetActive(true);
-        }
+        SetScore();
     }
 
     /// <summary>
-    /// Reference to the function who called to set the 
+    /// Reference to the function who called for set the score 
     /// </summary>
-    void SetAkward()
+    void SetScore()
     {
-        if (QuizManager.IndexSubject == 0)
+        if (IndexSubject == 0)
         {
-
+            if (MaxScore < int.Parse(TextScore.text))
+            {
+                PlayerPrefs.SetInt("GeoHightScore", int.Parse(TextScore.text));
+            }
+            Debug.Log(PlayerPrefs.GetInt("GeoHightScore"));
         }
-        else if (QuizManager.IndexSubject == 0)
+        else if (IndexSubject == 1)
         {
-
+            if (MaxScore < int.Parse(TextScore.text))
+            {
+                 PlayerPrefs.SetInt("StoryHightScore", int.Parse(TextScore.text));
+            }
+            Debug.Log(PlayerPrefs.GetInt("StoryHightScore"));
         }
-        else if (QuizManager.IndexSubject == 0)
+        else if (IndexSubject == 2)
         {
-
+            if (MaxScore < int.Parse(TextScore.text))
+            {
+                PlayerPrefs.SetInt("AnimalsHightScore", int.Parse(TextScore.text));
+            }
+            Debug.Log(PlayerPrefs.GetInt("AnimalsHightScore"));
         }
-        else if (QuizManager.IndexSubject == 0)
+        else if (IndexSubject == 3)
         {
-
+            if (MaxScore < int.Parse(TextScore.text))
+            {
+                PlayerPrefs.SetInt("SportHightScore", int.Parse(TextScore.text));
+            }
+            Debug.Log(PlayerPrefs.GetInt("SportHightScore"));  
         }
-
+        else if (IndexSubject == 4)
+        {
+            if (MaxScore < int.Parse(TextScore.text))
+            { 
+                PlayerPrefs.SetInt("MythoHightScore", int.Parse(TextScore.text));
+            }
+            Debug.Log(PlayerPrefs.GetInt("MythoHightScore")) ;
+        }
+        else if (GameMode == "Randome")
+        {
+            if (MaxScore < int.Parse(TextScore.text))
+            {
+                PlayerPrefs.SetInt("RandomeHightScore", int.Parse(TextScore.text));
+            }
+            
+        }
 
     }
+
     #endregion
 }

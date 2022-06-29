@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.49568957, g: 0.5555297, b: 0.53822535, a: 1}
+  m_IndirectSpecularColor: {r: 0.49521732, g: 0.55597454, b: 0.5376309, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5073,7 +5073,7 @@ MonoBehaviour:
   - {fileID: 179904205}
   - {fileID: 857324868}
   - {fileID: 1846539911}
-  QuizManager: {fileID: 0}
+  GameMode: 
 --- !u!1 &1485143375
 GameObject:
   m_ObjectHideFlags: 0
@@ -7159,7 +7159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.22740732}
   m_AnchorMax: {x: 0.89862, y: 0.8421976}
-  m_AnchoredPosition: {x: 2.25, y: -1.4100056}
+  m_AnchoredPosition: {x: 2.25, y: -1.4100037}
   m_SizeDelta: {x: -0.87999725, y: 0.5699997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1878696814
