@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.49521732, g: 0.55597454, b: 0.5376309, a: 1}
+  m_IndirectSpecularColor: {r: 0.49568957, g: 0.5555297, b: 0.53822535, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1379,6 +1379,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -2229,6 +2230,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 382669972}
     m_Modifications:
     - target: {fileID: 4961847858158989479, guid: 51cfb0b88878baf4aac776508e3fc57a, type: 3}
@@ -2328,6 +2330,7 @@ PrefabInstance:
       value: SondsButton
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 51cfb0b88878baf4aac776508e3fc57a, type: 3}
 --- !u!114 &641047361 stripped
 MonoBehaviour:
@@ -2350,6 +2353,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 1087994071}
     m_Modifications:
     - target: {fileID: 1701556990, guid: efd9d8398cee791439ed4815425c98c9, type: 3}
@@ -2417,6 +2421,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: efd9d8398cee791439ed4815425c98c9, type: 3}
 --- !u!1 &676221788
 GameObject:
@@ -3404,10 +3409,10 @@ RectTransform:
   m_Father: {fileID: 1575380235}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.0795114, y: 0.16827336}
-  m_AnchorMax: {x: 0.90182316, y: 0.84637034}
-  m_AnchoredPosition: {x: 0.8919678, y: 0.000015258789}
-  m_SizeDelta: {x: -1.74, y: -0.000030518}
+  m_AnchorMin: {x: 0.079277754, y: 0}
+  m_AnchorMax: {x: 0.90182316, y: 1}
+  m_AnchoredPosition: {x: 0.010986328, y: 0.2853012}
+  m_SizeDelta: {x: 0.022034, y: 0.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1112951113
 MonoBehaviour:
@@ -3435,7 +3440,7 @@ MonoBehaviour:
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 80
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -3545,7 +3550,7 @@ MonoBehaviour:
       GreatAnswer: 0
       Indice: 'L''Amazone est le plus grand fleuve d''Amerique mais egalement du
         monde '
-    - Question: Combien de pays compte l'Africain ?
+    - Question: Combien de pays compte l'Afrique?
       Answers:
       - 56
       - 50
@@ -3853,7 +3858,7 @@ MonoBehaviour:
       - "Un petit mammif\xE8re "
       GreatAnswer: 0
       Indice: "Il est proche du chat dor\xE9 Africain ainsi que du caracal "
-    - Question: Comme nomme-t-on le perroquet Africain ?
+    - Question: Comment nomme-t-on le perroquet Africain ?
       Answers:
       - 'Le toucan Africain '
       - 'Le gris d''Afrique '
@@ -3986,7 +3991,7 @@ MonoBehaviour:
       - "S\xE9n\xE9gal"
       GreatAnswer: 0
       Indice: "Le s\xE9n\xE9gal n'a jamais rempot\xE9 de CAN"
-    - Question: "Quel joueur Africain a marqu\xE9 le plus de buts en C1 ?"
+    - Question: "Quel joueur Africain a marqu\xE9 le plus de buts en C 1 ?"
       Answers:
       - Samuel Eto'o
       - 'Didier Drogba '
@@ -4043,7 +4048,7 @@ MonoBehaviour:
       Indice: "La coupe n'a pas lieu toute les ann\xE9es "
   - Subject: Mythology
     AnsAndQues:
-    - Question: "En combien d'\xE9poque peut-on diviser les mythplogie Africaine
+    - Question: "En combien d'\xE9poque peut-on diviser les mythologie Africaine
         ? "
       Answers:
       - 1
@@ -4098,7 +4103,7 @@ MonoBehaviour:
       GreatAnswer: 1
       Indice: "Ils prot\xE8gent avec z\xE8le la for\xEAt et ses cr\xE9atures vivantes
         des arbres creux dans lesquels ils se cachent."
-    - Question: "Dans la myhologie Fon (peuple du centre et sud  Benin) en combien
+    - Question: "Dans la mythologie Fon (peuple du centre et sud  Benin) en combien
         de jours fu cr\xE9er le monde ?"
       Answers:
       - '2jours '
@@ -4124,7 +4129,7 @@ MonoBehaviour:
       - 'Messager des hommes pour les dieux '
       GreatAnswer: 1
       Indice: Ces femmes etaient les oracles du village
-    - Question: "Dans les mythe Africain quelle est la particularit\xE9 de l'hypopotame
+    - Question: "Dans les mythes Africain quelle est la particularit\xE9 de l'hypopotame
         ?"
       Answers:
       - ' respirer sous l''eau'
@@ -4133,7 +4138,7 @@ MonoBehaviour:
       - ' Etre invincible '
       GreatAnswer: 1
       Indice: "On leurs pretant la possibilit\xE9 de pouvoir changer d'apparence "
-    - Question: "Quel est l'espit de l'eau le plus c\xE9l\xE8bre  du folclore Africain
+    - Question: "Quel est l'esprit de l'eau le plus c\xE9l\xE8bre  du folclore Africain
         ?"
       Answers:
       - Ariel
@@ -4479,10 +4484,10 @@ RectTransform:
   m_Father: {fileID: 507775355}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.07436583, y: 0.21553445}
-  m_AnchorMax: {x: 0.90200007, y: 0.8304726}
-  m_AnchoredPosition: {x: 0.005065918, y: 1.0145111}
-  m_SizeDelta: {x: -0.0098877, y: -2.03}
+  m_AnchorMin: {x: 0.07436583, y: 0}
+  m_AnchorMax: {x: 0.90200007, y: 1}
+  m_AnchoredPosition: {x: 0.005065918, y: 0.044303894}
+  m_SizeDelta: {x: -0.010000229, y: 0.22000122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1321530769
 MonoBehaviour:
@@ -4510,7 +4515,7 @@ MonoBehaviour:
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 80
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -4843,10 +4848,10 @@ RectTransform:
   m_Father: {fileID: 956905085}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.0795114, y: 0.16827336}
-  m_AnchorMax: {x: 0.90182316, y: 0.84637034}
-  m_AnchoredPosition: {x: 0.8919678, y: 0.000015258789}
-  m_SizeDelta: {x: -1.74, y: -0.000030518}
+  m_AnchorMin: {x: 0.07946429, y: 0}
+  m_AnchorMax: {x: 0.90200007, y: 1}
+  m_AnchoredPosition: {x: 0.011016846, y: 0.2853012}
+  m_SizeDelta: {x: 0.021911621, y: 0.40000153}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1404890307
 MonoBehaviour:
@@ -4874,7 +4879,7 @@ MonoBehaviour:
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 80
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -5711,7 +5716,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.048711956, y: 0}
   m_AnchorMax: {x: 0.21765952, y: 1}
-  m_AnchoredPosition: {x: 1.5501709, y: -0.105529785}
+  m_AnchoredPosition: {x: 1.5501404, y: -0.105529785}
   m_SizeDelta: {x: -3.1, y: 0.77307}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1570582930
@@ -7154,7 +7159,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.22740732}
   m_AnchorMax: {x: 0.89862, y: 0.8421976}
-  m_AnchoredPosition: {x: 2.25, y: -1.4100037}
+  m_AnchoredPosition: {x: 2.25, y: -1.4100056}
   m_SizeDelta: {x: -0.87999725, y: 0.5699997}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1878696814
@@ -7452,10 +7457,10 @@ RectTransform:
   m_Father: {fileID: 193189242}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.0795114, y: 0.16827336}
-  m_AnchorMax: {x: 0.90182316, y: 0.84637034}
-  m_AnchoredPosition: {x: 0.8919678, y: 0.000015258789}
-  m_SizeDelta: {x: -1.74, y: -0.000030518}
+  m_AnchorMin: {x: 0.083000004, y: 0}
+  m_AnchorMax: {x: 0.90182316, y: 1}
+  m_AnchoredPosition: {x: -0.6080322, y: -0.22639465}
+  m_SizeDelta: {x: 1.2600002, y: -0.08100128}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1956324308
 MonoBehaviour:
@@ -7483,7 +7488,7 @@ MonoBehaviour:
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 80
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1

@@ -8,32 +8,24 @@ public class AddCoins : MonoBehaviour//Class use to the coins systeme
 {
     #region Variables 
 
-
     /// <summary>
     /// Reference to the text who display the coins count 
     /// </summary>
     private GameObject Text;
-
 
     /// <summary>
     /// Reference to the coins count pickup
     /// </summary>
     public int CoinsCount;
 
-
     /// <summary>
     /// Reference to the coins count pickup
     /// </summary>
     public int CoinsCountSave;
 
-
-
     #endregion
 
-
-
     #region Unity Function 
-
 
     /// <summary>
     /// Reference to the function who called before the start function 
@@ -43,7 +35,6 @@ public class AddCoins : MonoBehaviour//Class use to the coins systeme
         Text = GameObject.FindGameObjectWithTag("TextCount");
        
     }
-
 
     /// <summary>
     /// Reference to the function who called when the game object collides is the player 
@@ -59,10 +50,7 @@ public class AddCoins : MonoBehaviour//Class use to the coins systeme
 
     }
 
-
     #endregion
-
-
 
     #region My private region 
 
@@ -76,7 +64,6 @@ public class AddCoins : MonoBehaviour//Class use to the coins systeme
         Text.GetComponent<Text>().text = CoinsCount + " ";//Display of the variable 
     }
 
-
     /// <summary>
     /// Reference to the function who called to save the coins account 
     /// </summary>
@@ -84,7 +71,6 @@ public class AddCoins : MonoBehaviour//Class use to the coins systeme
     {
         PlayerPrefs.SetInt("QuizCoins", CoinsCountSave + int.Parse(Text.GetComponent<Text>().text));//Save the coins account
     }
-
 
     #endregion
 }

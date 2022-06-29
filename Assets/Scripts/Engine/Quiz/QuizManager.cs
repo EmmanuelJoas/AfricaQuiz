@@ -161,8 +161,6 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
 
     #endregion
 
-
-
     #region Unity function 
 
 
@@ -197,9 +195,7 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
 
     #endregion
 
-
     #region My Private function 
-
 
     /// <summary>
     /// Reference to the function who called when giving correct an answers 
@@ -218,14 +214,14 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
            answers[i].transform.GetComponent<Image>().color = Color.green;
 
            answers[i].transform.GetComponent<Animator>().SetBool("IsActive", true);
-           
+
          }
 
          else
          {
            answers[i].transform.GetComponent<Image>().color=Color.red;
          }
-
+            answers[i].transform.GetComponent<Button>().interactable = false;
        }
    
         AllSubject[IndexSubject].AnsAndQues.RemoveAt(currentQuestion);//Remove the component of the list
@@ -262,6 +258,7 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
              answers[i].transform.GetComponent<Animator>().SetBool("IsActive", true);
           }
 
+            answers[i].transform.GetComponent<Button>().interactable = false;
        }
        
         AllSubject[IndexSubject].AnsAndQues.RemoveAt(currentQuestion);//Remove the component of the list
@@ -335,8 +332,6 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
     /// </summary>
     void GeneratorQuestion()
     { 
-      
-
 
         if (GameMode == "Easy")
         {
@@ -537,11 +532,8 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
     /// <returns></returns>
     IEnumerator LoadNewQuestion()
     {
-        
-
+  
         yield return new WaitForSeconds(1.5f);
-
-      
 
         for (int i = 0; i < answers.Length; i++)
         {   
@@ -549,7 +541,7 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
 
             answers[i].transform.GetComponent<Image>().color = Color.white;
 
-        
+            answers[i].transform.GetComponent<Button>().interactable = true;
         }
 
         InitilizeSliderTime();
