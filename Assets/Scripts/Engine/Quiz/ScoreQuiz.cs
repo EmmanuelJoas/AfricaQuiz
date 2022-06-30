@@ -12,14 +12,14 @@ public class ScoreQuiz : MonoBehaviour
     #region Variables 
 
     /// <summary>
-    /// Reference to the quiz manager 
+    /// 
     /// </summary>
     public string GameMode;
 
     /// <summary>
     /// Reference to the index of the subject 
     /// </summary>
-    public int IndexSubject;
+    public int IndexSubjectScore;
 
     /// <summary>
     /// Reference to the max score of the player 
@@ -45,43 +45,21 @@ public class ScoreQuiz : MonoBehaviour
     /// </summary>
     private void Awake()
     {
-        if (IndexSubject == 0)
-        {
-            MaxScore = PlayerPrefs.GetInt("GeoHightScore");
-        }
-        else if (IndexSubject == 1)
-        {
-            MaxScore = PlayerPrefs.GetInt("StoryHightScore");
-        }
-        else if (IndexSubject == 2)
-        {
-            MaxScore = PlayerPrefs.GetInt("AnimalsHightScore");
-        }
-        else if (IndexSubject == 3)
-        {
-            MaxScore = PlayerPrefs.GetInt("SportHightScore");
-        }
-        else if (IndexSubject == 4)
-        {
-            MaxScore = PlayerPrefs.GetInt("MythoHightScore");
-        }
-        else if (GameMode == "Randome")
-        {
-            MaxScore = PlayerPrefs.GetInt("RandomeHightScore");
-        }
-        Debug.Log(IndexSubject);
+        GetScoreGeo();
+
+        GetScoreStory();
+
+        GetScoreAnimals();
+
+        GetScoreSport();
+
+        GetScoreMytho();
+
+        GetScoreRandome();
+
     }
 
     #endregion
-
-    /// <summary>
-    /// Start is called before the first frame update
-    /// </summary>
-    void Start()
-    {
-        DisplayAward();
-    }
-
 
     #region My Private Function 
 
@@ -92,12 +70,12 @@ public class ScoreQuiz : MonoBehaviour
     void DisplayAward()
     {
 
-      if (MaxScore > 0 && MaxScore <= 5)
+      if ( MaxScore >= 5)
       {
         Akwards[2].SetActive(true);
       }
 
-       else if (MaxScore > 5 && MaxScore <= 10)
+       else if (MaxScore > 5 && MaxScore >= 10)
        {
           Akwards[1].SetActive(true);
        }
@@ -108,6 +86,84 @@ public class ScoreQuiz : MonoBehaviour
       }
 
         TextScore.text = MaxScore + "";
+    }
+
+    /// <summary>
+    /// Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreGeo()
+    {
+        if (IndexSubjectScore == 0 && GameMode == "None")
+        {
+            MaxScore = PlayerPrefs.GetInt("GeoHightScore");
+        }
+
+        DisplayAward();
+    }
+
+    /// <summary>
+    ///  Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreStory()
+    {
+        if (IndexSubjectScore == 1 && GameMode == "None")
+        {
+            MaxScore = PlayerPrefs.GetInt("StoryHightScore");
+        }
+
+        DisplayAward();
+    }
+
+    /// <summary>
+    ///  Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreAnimals()
+    {
+        if (IndexSubjectScore == 2 && GameMode == "None")
+        {
+            MaxScore = PlayerPrefs.GetInt("AnimalsHightScore");
+        }
+
+        DisplayAward();
+    }
+
+    /// <summary>
+    ///  Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreSport()
+    {
+        if (IndexSubjectScore == 3 && GameMode == "None")
+        {
+            MaxScore = PlayerPrefs.GetInt("SportHightScore");
+        }
+
+        DisplayAward();
+    }
+
+    /// <summary>
+    ///  Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreMytho()
+    {
+        if (IndexSubjectScore == 4 && GameMode == "None")
+        {
+            MaxScore = PlayerPrefs.GetInt("MythoHightScore");
+        }
+
+        DisplayAward();
+    }
+
+    /// <summary>
+    ///  Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreRandome()
+    {
+        if (IndexSubjectScore == 5 && GameMode == "Randome")
+        {
+            MaxScore = PlayerPrefs.GetInt("RandomeHightScore");
+        }
+  
+        DisplayAward();
     }
 
     #endregion

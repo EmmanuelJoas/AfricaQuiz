@@ -35,7 +35,6 @@ public class GameModeAndSubjectOption : MonoBehaviour//Class use to he optin the
 
     #endregion
 
-
     #region My Private Function 
 
     /// <summary>
@@ -55,5 +54,12 @@ public class GameModeAndSubjectOption : MonoBehaviour//Class use to he optin the
         SceneManager.LoadScene("Prize");
     }
 
+    /// <summary>
+    /// Reference to the function who called for return on the Game Mode AndSubject
+    /// </summary>
+    public void MenuButton()
+    {
+        SceneManager.LoadScene("GameModeAndSubject");
+    }
     #endregion
 }

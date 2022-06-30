@@ -63,31 +63,18 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
 
         IndexSubject = PlayerPrefs.GetInt("SubjectIndex");
 
-        if (IndexSubject == 0)
-        {
-            MaxScore=PlayerPrefs.GetInt("GeoHightScore");
-        }
-        else if (IndexSubject == 1)
-        {
-            MaxScore = PlayerPrefs.GetInt("StoryHightScore");
-        }
-        else if (IndexSubject == 2)
-        {
-            MaxScore = PlayerPrefs.GetInt("AnimalsHightScore");
-        }
-        else if (IndexSubject == 3)
-        {
-            MaxScore = PlayerPrefs.GetInt("SportHightScore");
-        }
-        else if (IndexSubject == 4)
-        {
-            MaxScore = PlayerPrefs.GetInt("MythoHightScore");
-        }
-        else if (GameMode=="Randome")
-        {
-            MaxScore = PlayerPrefs.GetInt("RandomeHightScore");
-        }
-        Debug.Log(IndexSubject);
+        GetScoreAnimals();
+
+        GetScoreGeo();
+
+        GetScoreMytho();
+
+        GetScoreRandome();
+
+        GetScoreSport();
+
+        GetScoreStory();
+       
     }
 
     /// <summary>
@@ -114,12 +101,12 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
         if (GameMode == "Extreme" || GameMode == "Randome")
         {
 
-            if (int.Parse(TextScore.text)>0 && int.Parse(TextScore.text) <= 5)
+            if (int.Parse(TextScore.text)>0 && int.Parse(TextScore.text) >= 5)
             {
                 Akward[0].SetActive(true);
             }
 
-            else if (int.Parse(TextScore.text) > 5 && int.Parse(TextScore.text) <= 10)
+            else if (int.Parse(TextScore.text) >= 10 && int.Parse(TextScore.text) <= 15)
             {
                 Akward[1].SetActive(true);
             }
@@ -131,64 +118,178 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
 
         }
 
-        SetScore();
+        SetScoreGeo();
+
+        SetScoreAnimal();
+
+        SetScoreMytho();
+
+        SetScoreRandomeMode();
+
+        SetScoreSport();
+
+        SetScoreStory();
     }
 
     /// <summary>
     /// Reference to the function who called for set the score 
     /// </summary>
-    void SetScore()
+    void SetScoreGeo()
     {
-        if (IndexSubject == 0)
+        if (IndexSubject == 0 && GameMode == "Extreme")
         {
             if (MaxScore < int.Parse(TextScore.text))
             {
                 PlayerPrefs.SetInt("GeoHightScore", int.Parse(TextScore.text));
             }
-            Debug.Log(PlayerPrefs.GetInt("GeoHightScore"));
+
         }
-        else if (IndexSubject == 1)
+    }
+
+    /// <summary>
+    /// Reference to the function who called for set the score 
+    /// </summary>
+    void SetScoreStory()
+    {
+        if (IndexSubject == 1 && GameMode == "Extreme")
         {
             if (MaxScore < int.Parse(TextScore.text))
             {
-                 PlayerPrefs.SetInt("StoryHightScore", int.Parse(TextScore.text));
+                PlayerPrefs.SetInt("StoryHightScore", int.Parse(TextScore.text));
             }
-            Debug.Log(PlayerPrefs.GetInt("StoryHightScore"));
-        }
-        else if (IndexSubject == 2)
+        }    
+    }
+
+    /// <summary>
+    /// Reference to the function who called for set the score 
+    /// </summary>
+    void SetScoreAnimal()
+    {
+        if (IndexSubject == 2 && GameMode == "Extreme")
         {
             if (MaxScore < int.Parse(TextScore.text))
             {
                 PlayerPrefs.SetInt("AnimalsHightScore", int.Parse(TextScore.text));
             }
-            Debug.Log(PlayerPrefs.GetInt("AnimalsHightScore"));
+
         }
-        else if (IndexSubject == 3)
+    }
+
+    /// <summary>
+    /// Reference to the function who called for set the score 
+    /// </summary>
+    void SetScoreSport()
+    {
+        if (IndexSubject == 3 && GameMode == "Extreme")
         {
             if (MaxScore < int.Parse(TextScore.text))
             {
                 PlayerPrefs.SetInt("SportHightScore", int.Parse(TextScore.text));
             }
-            Debug.Log(PlayerPrefs.GetInt("SportHightScore"));  
+
         }
-        else if (IndexSubject == 4)
+    }
+
+    /// <summary>
+    /// Reference to the function who called for set the score 
+    /// </summary>
+    void SetScoreMytho()
+    {
+        if (IndexSubject == 4 && GameMode == "Extreme")
         {
             if (MaxScore < int.Parse(TextScore.text))
-            { 
+            {
                 PlayerPrefs.SetInt("MythoHightScore", int.Parse(TextScore.text));
             }
-            Debug.Log(PlayerPrefs.GetInt("MythoHightScore")) ;
+
         }
-        else if (GameMode == "Randome")
+    }
+
+    /// <summary>
+    ///  Reference to the function who called for set the score 
+    /// </summary>
+    private void SetScoreRandomeMode()
+    {
+        if (GameMode == "Randome")
         {
             if (MaxScore < int.Parse(TextScore.text))
             {
                 PlayerPrefs.SetInt("RandomeHightScore", int.Parse(TextScore.text));
             }
-            
-        }
 
+        }
     }
 
+    /// <summary>
+    /// Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreGeo()
+    {
+        if (IndexSubject == 0 && GameMode == "Extreme")
+        {
+            MaxScore = PlayerPrefs.GetInt("GeoHightScore");
+        }
+
+       
+    }
+
+    /// <summary>
+    ///  Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreStory()
+    {
+        if (IndexSubject == 1 && GameMode == "Extreme")
+        {
+            MaxScore = PlayerPrefs.GetInt("StoryHightScore");
+        }
+      
+    }
+
+    /// <summary>
+    ///  Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreAnimals()
+    {
+        if (IndexSubject == 2 && GameMode == "Extreme")
+        {
+            MaxScore = PlayerPrefs.GetInt("AnimalsHightScore");
+        }
+      
+    }
+
+    /// <summary>
+    ///  Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreSport()
+    {
+        if (IndexSubject == 3 && GameMode == "Extreme")
+        {
+            MaxScore = PlayerPrefs.GetInt("SportHightScore");
+        }
+ 
+    }
+
+    /// <summary>
+    ///  Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreMytho()
+    {
+        if (IndexSubject == 4 && GameMode == "Extreme")
+        {
+            MaxScore = PlayerPrefs.GetInt("MythoHightScore");
+        }
+      
+    }
+
+    /// <summary>
+    ///  Reference to the function who called for get the score 
+    /// </summary>
+    void GetScoreRandome()
+    {
+        if ( GameMode == "Randome")
+        {
+            MaxScore = PlayerPrefs.GetInt("RandomeHightScore");
+        }
+    }
     #endregion
 }
