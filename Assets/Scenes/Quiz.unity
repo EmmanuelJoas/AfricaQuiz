@@ -391,7 +391,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: df42c47b7184f6444b723f415973ee12, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a282e187a19c82d45b5268e1c0625ce5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1369,7 +1369,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d9e6b41e96a95744b0f049607cc9e2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bookModePanel: {fileID: 351639451}
 --- !u!1 &369889530
 GameObject:
   m_ObjectHideFlags: 0
@@ -4303,7 +4302,7 @@ PrefabInstance:
       objectReference: {fileID: 193189241}
     - target: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
       propertyPath: m_Name
-      value: Subject (2)
+      value: Animals
       objectReference: {fileID: 0}
     - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
       propertyPath: m_Pivot.x
@@ -7176,7 +7175,7 @@ PrefabInstance:
       objectReference: {fileID: 193189241}
     - target: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
       propertyPath: m_Name
-      value: Subject (4)
+      value: Mythologie
       objectReference: {fileID: 0}
     - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
       propertyPath: m_Pivot.x
@@ -7560,7 +7559,7 @@ PrefabInstance:
       objectReference: {fileID: 193189241}
     - target: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
       propertyPath: m_Name
-      value: Subject (3)
+      value: Geographie
       objectReference: {fileID: 0}
     - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
       propertyPath: m_Pivot.x
@@ -8146,7 +8145,7 @@ PrefabInstance:
       objectReference: {fileID: 193189241}
     - target: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
       propertyPath: m_Name
-      value: Subject (1)
+      value: Sport
       objectReference: {fileID: 0}
     - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
       propertyPath: m_Pivot.x
@@ -8573,7 +8572,7 @@ PrefabInstance:
       objectReference: {fileID: 193189241}
     - target: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
       propertyPath: m_Name
-      value: Subject
+      value: Story
       objectReference: {fileID: 0}
     - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
       propertyPath: m_Pivot.x

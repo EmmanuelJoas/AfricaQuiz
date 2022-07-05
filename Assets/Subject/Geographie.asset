@@ -14,139 +14,256 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Subject: 
   AnsAndQues:
-  - Question: Geographie test
+  - Question: Quelle est la superficie total de l'Afrique ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - "30 300 000 km\xB2"
+    - "14 152 000 km\xB2"
+    - "30 415 000 km\xB2 "
+    - "40 874 000 km\xB2 "
     GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    Indice: "Elle est plus grande que 30 000 000 Km\xB2 "
+    RefDescription: "Le continent africain couvre 6 % de la plan\xE8te. Sa superficie
+      est d\u2019environ 30 300 000 km2 en incluant les \xEEles qui y sont rattach\xE9es.
+      Le d\xE9sert du Sahara occupe \xE0 lui seul a une superficie de 9 065 000 km2
+      sur le territoire africain."
+  - Question: "Quel pourcentage l'Afrique couvre \xE0 la surface de la terre ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    - 20%
+    - 6%
+    - 8%
+    - 4%
+    GreatAnswer: 1
+    Indice: 'L''Afrique recouvre moins de 10% de la surface de la terre '
+    RefDescription: "Le continent africain couvre 6 % de la plan\xE8te. Sa superficie
+      est d\u2019environ 30 300 000 km2 en incluant les \xEEles qui y sont rattach\xE9es.
+      Le d\xE9sert du Sahara occupe \xE0 lui seul a une superficie de 9 065 000 km2
+      sur le territoire africain."
+  - Question: Quelle est la plus haute montagne d'Afrique ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    - 'Le mont Afrique '
+    - 'La dent de Man '
+    - Le Kilimandjaro
+    - 'Le mont Everest '
+    GreatAnswer: 2
+    Indice: Le mont Everest est la plus haute montagne du monde mais ne se trouve
+      pas en Afrique.
+    RefDescription: "Le Kilimandjaro est situ\xE9 en Tanzanie et repr\xE9sente la
+      plus haute montagne d'Afrique. C'est aussi un stratovolcan qui abrite trois
+      sommets volcaniques dont un est aujourd'hui consid\xE9r\xE9 comme dormant.Le
+      Kilimandjaro comprend trois sommets volcaniques qui se sont form\xE9s successivement
+      au fil des \xE9ruptions et mouvements g\xE9ologiques il y a plus de 500.000
+      ans : le Shira (3.962 m d'altitude), le Mawenzi (5.149 m) et le Kibo (qui abrite
+      le pic Uhuru \xE0 5.892 m)."
+  - Question: "Quelle est la plus grande for\xEAt d'Afrique ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - "La for\xEAt du Congo (Basin du congo)"
+    - "La for\xEAt Amozonien "
+    - "La for\xEAt du banco"
+    - "La for\xEAt de l'Okavango"
     GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    Indice: "l'Okavango n'est pas une for\xEAt mais l'un des plus grand delta d'Afrique "
+    RefDescription: "Le bassin du Congo contient quelque 314 millions d'hectares
+      de for\xEAt tropicale primaire - la plus ancienne, la plus dense et la plus
+      importante sur le plan \xE9cologique. La for\xEAt tropicale joue un r\xF4le
+      crucial dans la stabilit\xE9 du climat mondial et s'\xE9tend sur six pays d'Afrique
+      centrale : la R\xE9publique d\xE9mocratique du Congo, le Cameroun, la R\xE9publique
+      centrafricaine, la R\xE9publique du Congo, le Gabon et la Guin\xE9e \xE9quatoriale.
+      En comparaison, l'Amazonie contient 519 millions d'hectares de for\xEAt tropicale
+      primaire."
+  - Question: Quel est le plus long fleuve d'Afrique ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - Le Nil
+    - L'Amazone
+    - 'La manche '
+    - 'Le comoe '
     GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    Indice: 'L''Amazone est le plus grand fleuve du monde et d''Amerique '
+    RefDescription: "D\u2019une longueur de 6 670 kilom\xE8tres hors affluent, le
+      Nil est le plus grand fleuve d\u2019Afrique. La surface du fleuve est de 3,4
+      millions de km\xB2 et le d\xE9bit moyen \xE0 l\u2019embouchure est de 2 830
+      m\xE8tres cubes par seconde.  Ce fleuve est mythique et majestueux. Il prend
+      sa source quelque part dans la jungle africaine et il termine sa course dans
+      la M\xE9diterran\xE9e.  Le Nil traverse l\u2019Ethiopie, le Soudan, l\u2019Egypte,
+      le Rwanda, la Tanzanie, le Burundi, le Kenya, L\u2019Erythr\xE9e et la R\xE9publique
+      D\xE9mocratique du Congo."
+  - Question: "Combien de pays ind\xE9pendant compte l'Afrique ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    - 56
+    - 50
+    - 45
+    - 54
+    GreatAnswer: 3
+    Indice: "L'Afrique compte plus d'une cinquant\xE8ne de pays ind\xE9pendant "
+    RefDescription: "L\u2019Afrique compte 54 pays. Le plus grand pays africain en
+      nombre d\u2019habitants est le Nig\xE9ria, avec 193 millions d\u2019habitants,
+      et le plus petit pays d\u2019Afrique en nombre d\u2019habitants est les Seychelles
+      avec seulement 88 000 habitants.  En terme de taille, le plus grand pays africain
+      est l\u2019Alg\xE9rie (qui est aussi le plus grand pays du monde arabe et du
+      bassin m\xE9diterran\xE9en).  Le continent africain est tellement grand qu\u2019on
+      le divise en 5 r\xE9gions, d\xE9limit\xE9es par couleur sur la carte ci-dessous.  "
+  - Question: "A combien s'\xE9l\xE8ve la population Africaine en 2021 ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - '1 373 486 472 '
+    - 1 152 865 000
+    - ' 2 123 741 569'
+    - '4 000 114 002 '
     GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    Indice: "En 2019 on estime la population Africaine \xE0 plus de 1 340 598 113 "
+    RefDescription: "La population est in\xE9galement r\xE9partie sur le continent.
+      C'est l'Afrique de l'Est qui compte le plus grand nombre d'habitants, soit
+      373 millions, tandis que l'Afrique australe ne compte que 60 millions d'habitants.
+      En 2009, la densit\xE9 s'\xE9l\xE8ve \xE0 environ 30 personnes par kilom\xE8tre
+      carr\xE9. C'est le quart de la densit\xE9 calcul\xE9e au coeur de l'Union Europ\xE9enne."
+  - Question: Quel le pourcentage des terres arables en Afrique ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    - 51%
+    - 65%
+    - 70%
+    - 50%
+    GreatAnswer: 1
+    Indice: 'L''Afrique dispose de  plus de 50% des terres arables du monde '
+    RefDescription: "Le secteur agricole repr\xE9sente environ 60 pour cent de la
+      population active dans de nombreuses \xE9conomies africaines. La fonction publique
+      repr\xE9sente \xE0 peine 2 \xE0 3 % de la population active, alors que dans
+      nombreuses \xE9conomies africaines la masse salariale des fonctionnaires repr\xE9sente
+      pr\xE8s de 50% des recettes fiscales (dans certains cas le pourcentage est
+      largement sup\xE9rieur \xE0 50%). Chacun de ces pays :Le Br\xE9sil, La Tha\xEFlande,
+      L\u2019Indon\xE9sie exporte plus de produits agricoles que toute l\u2019Afrique. 
+      Pour lire plus https://intellivoire.net/lafrique-possede-65-terres-arables-monde-ne-manger-potentiel/"
+  - Question: "O\xF9 se trouve le Kilimandjaro ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    - Au kenya
+    - En Tanzanie
+    - Au Rwanda
+    - "En c\xF4te d'ivoire "
+    GreatAnswer: 1
+    Indice: "La plus haute montagne de c\xF4te d'ivoire est la dent de Man"
+    RefDescription: "Le Kilimandjaro ou Kilimanjaro est une montagne situ\xE9e dans
+      le Nord-Est de la Tanzanie et compos\xE9e de trois volcans : le Shira \xE0
+      l'ouest, culminant \xE0 3 962 m\xE8tres d'altitude, le Mawenzi \xE0 l'est,
+      s'\xE9levant \xE0 5 149 m\xE8tres d'altitude, et le Kibo, le plus r\xE9cent
+      g\xE9ologiquement, situ\xE9 entre les deux autres et dont le pic Uhuru \xE0
+      5 891,8 m\xE8tres d'altitude constitue le point culminant de l'Afrique. Outre
+      cette caract\xE9ristique, le Kilimandjaro est connu pour sa calotte glaciaire
+      sommitale en phase de retrait acc\xE9l\xE9r\xE9 depuis le d\xE9but du xxe si\xE8cle
+      et qui devrait dispara\xEEtre totalement d'ici 2030 \xE0 2050."
+  - Question: "Quelle est la superficie du sahara (en milions de km\xB2) ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    - 2.5
+    - 4.5
+    - 8.5
+    - 14.5
+    GreatAnswer: 2
+    Indice: "La superficie du sahara est moin de 10 millions de km\xB2."
+    RefDescription: "Avec 8,6 millions de km2 \u2013 presque l'\xE9quivalent de la
+      superficie des \xC9tats-Unis \u2013, le Sahara est le plus vaste d\xE9sert
+      du monde. Cet espace n'est pas un vide g\xE9opolitique. Il est riche en mati\xE8res
+      premi\xE8res et travers\xE9 par diff\xE9rents flux. Du point de vue politique,
+      le d\xE9sert est morcel\xE9 entre dix pays, mais la notion de fronti\xE8re
+      ou de souverainet\xE9 politique pose question dans cet espace difficilement
+      contr\xF4lable vu son immensit\xE9."
+  - Question: "Quel est Etat est situ\xE9 le plus \xE0 l'ouest sur le continent Africain
+      ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    - "Le s\xE9n\xE9gal "
+    - "La Guin\xE9e-Bisseau "
+    - 'La Somalie '
+    - Le Cap-Vert
+    GreatAnswer: 3
+    Indice: "La Guin\xE9e-Bissau est l'un des pays les plus \xE0 l'Est "
+    RefDescription: "Le Cap-Vert, en forme longue la r\xE9publique du Cap-Vert (en
+      portugais : Cabo Verde et Rep\xFAblica de Cabo Verde) est un \xC9tat insulaire
+      d'Afrique de l'Ouest, compos\xE9 d'un archipel de dix \xEEles volcaniques.
+      Situ\xE9 dans l'oc\xE9an Atlantique, au large des c\xF4tes du S\xE9n\xE9gal,
+      il couvre une superficie d'environ 4 000 km2. Praia, la capitale, se trouve
+      \xE0 644 km de la presqu'\xEEle du Cap-Vert, au S\xE9n\xE9gal. L'archipel se
+      divise en deux s\xE9ries d'\xEEles : au sud, les \xEEles de Sotavento (Brava,
+      Fogo, Santiago et Maio) et au nord, les \xEEles de Barlavento (Boa Vista, Sal,
+      S\xE3o Nicolau, Santa Luzia, S\xE3o Vicente et Santo Ant\xE3o)."
+  - Question: "Combiens de pays sont traver\xE9s par le Nil ( blanc et Bleu) ?"
     Answers:
-    - 1
-    - 2
-    - 3
+    - 8
     - 4
-    GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    - 7
+    - 10
+    GreatAnswer: 3
+    Indice: "Le Nil traverse toute l'\xE9tandue centrale de l'Afrique "
+    RefDescription: "Le Nil est consid\xE9r\xE9 comme le plus long fleuve du monde,
+      avec ses 6.700 kilom\xE8tres.  Ce fleuve africain, issu de la rencontre du
+      Nil Blanc et du Nil Bleu, traverse donc forc\xE9ment plusieurs pays : le Burundi,
+      l'\xC9gypte, le Rwanda, la Tanzanie, l'Ouganda, l'\xC9thiopie, le Soudan et
+      le Soudan du Sud.  Mais avec ses lacs, le Nil est pr\xE9sent \xE9galement au
+      Kenya ainsi qu'en R\xE9publique d\xE9mocratique du Congo. De plus, l'un de
+      ses affluents passe en \xC9rythr\xE9e.  Connu comme un cours d'eau typiquement
+      \xE9gyptien, le Nil fait donc profiter 10 pays de ses eaux limoneuses (le dernier
+      cit\xE9 n'\xE9tant pas un voisin direct)."
+  - Question: Quel est le plus petit Etat Africain ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    - Le Cap-vert
+    - "L'\xEEle Maurice "
+    - 'Les Seychelles '
+    - 'Les Comores '
+    GreatAnswer: 2
+    Indice: "Ce n'est pas pays \xE0 proprement parler mais plut\xF4t une archipel "
+    RefDescription: "L\u2019archipel est un Etat ind\xE9pendant depuis 1976. Situ\xE9
+      au niveau de l\u2019\xE9quateur, il est plus proche de Madagascar que du continent
+      africain ou indien. Les Seychelles se divisent en deux grands groupes, les
+      \xEEles Int\xE9rieures et les \xEEles Ext\xE9rieures.  Les \xEEles Int\xE9rieures
+      rassemblent les \xEEles proches de Mah\xE9. Les \xEEles Ext\xE9rieures, plus
+      lointaines, comportent notamment les Amirantes, le groupe de Farquhar et le
+      groupe d\u2019Aldabra. Dans les \xEEles Int\xE9rieures, le trio de Mah\xE9,
+      Praslin et La Digue re\xE7oit tous les suffrages lors d\u2019un premier voyage. 
+      Ces \xEEles granitiques offrent des plages de r\xEAve, comme l\u2019anse Intendance
+      \xE0 Mah\xE9, l\u2019anse Lazio \xE0 Praslin et l\u2019anse Source d\u2019Argent
+      \xE0 La Digue.  "
+  - Question: Lequel de ces fleuves ne coulent pas en Afrique ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  - Question: Geographie test
+    - 'L''Orange '
+    - Le Nil
+    - L'Ouganda
+    - "Le Zamb\xE8ze "
+    GreatAnswer: 2
+    Indice: 'Le Nil est le plus grand fleuve d''Afrique '
+    RefDescription: "Aucune r\xE9f\xE9rence"
+  - Question: "Par quel moyen le climat Africain est il  regul\xE9 ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - 'Les Montagnes '
+    - 'Les Mers '
+    - "Les for\xEAts "
+    - 'Aucun des trois '
     GreatAnswer: 0
-    Indice: Geographie
-    RefDescription: 3333
-  RefImage: []
+    Indice: "L'Afrique ne dispose pas de grande cha\xEEne de montagne pour reguler
+      son climat "
+    RefDescription: "Short presentational grey line Le continent africain sera le
+      plus durement touch\xE9 par le changement climatique.  Il y a quatre raisons
+      principales \xE0 cela :  Premi\xE8rement, la soci\xE9t\xE9 africaine est tr\xE8s
+      \xE9troitement li\xE9e au syst\xE8me climatique ; des centaines de millions
+      de personnes d\xE9pendent des pr\xE9cipitations pour produire leurs aliments.
+      Deuxi\xE8mement, le syst\xE8me climatique africain est contr\xF4l\xE9 par un
+      m\xE9lange extr\xEAmement complexe de syst\xE8mes m\xE9t\xE9orologiques \xE0
+      grande \xE9chelle, provenant souvent de r\xE9gions \xE9loign\xE9es de la plan\xE8te
+      et, en comparaison avec presque toutes les autres r\xE9gions habit\xE9es, il
+      est tr\xE8s peu \xE9tudi\xE9. Il est donc capable de toutes sortes de surprises
+      Troisi\xE8mement, le degr\xE9 de changement climatique attendu est important.
+      Les deux baisses de pr\xE9cipitations les plus importantes pr\xE9vues \xE0
+      la fin du si\xE8cle sur terre, se produisent sur l'Afrique, l'une sur l'Afrique
+      du Nord et l'autre sur l'Afrique australe. Enfin, la capacit\xE9 d'adaptation
+      au changement climatique est faible ; la pauvret\xE9 \xE9quivaut \xE0 un choix
+      r\xE9duit au niveau individuel alors que la gouvernance ne parvient g\xE9n\xE9ralement
+      pas \xE0 \xE9tablir des priorit\xE9s et \xE0 agir sur le changement climatique."
+  RefImage:
+  - {fileID: 21300000, guid: 7d5e6a5bc2a55f54dae129a7eac957d2, type: 3}
+  - {fileID: 21300000, guid: 7d5e6a5bc2a55f54dae129a7eac957d2, type: 3}
+  - {fileID: 21300000, guid: aea880af56e746846841efbdcae83cd3, type: 3}
+  - {fileID: 21300000, guid: 8af5021c4a81f17418d89014a6477863, type: 3}
+  - {fileID: 21300000, guid: 56ac9b7217a3a34479df5d286fbc854e, type: 3}
+  - {fileID: 21300000, guid: b05993c8d244b5e41ac25ef9177dc4c5, type: 3}
+  - {fileID: 21300000, guid: 63db6bf9e0e2d904ab74fd06c87599ae, type: 3}
+  - {fileID: 21300000, guid: b9fb1f7e1b8ba8b41a76af8a29da9c43, type: 3}
+  - {fileID: 21300000, guid: aea880af56e746846841efbdcae83cd3, type: 3}
+  - {fileID: 21300000, guid: f3260e7186b269d47a0a8372019d78e4, type: 3}
+  - {fileID: 21300000, guid: 73054efad80ed0c4b87d112ddff27948, type: 3}
+  - {fileID: 21300000, guid: 6ffdc2925d15fcb43b8f7ef73b7d4a9c, type: 3}
+  - {fileID: 21300000, guid: 74ef27c8b9c1ced41a58ff6ea707546c, type: 3}
+  - {fileID: 21300000, guid: b4867e4fab7494049b6f5d2cc57090f4, type: 3}
+  - {fileID: 21300000, guid: 3dfd09b1c8e1ad942af8595c34881ba8, type: 3}
