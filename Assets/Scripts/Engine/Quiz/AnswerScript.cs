@@ -13,13 +13,6 @@ public class AnswerScript : MonoBehaviour//Class use when the user give the answ
     /// </summary>
     public bool isCorrect = false;
 
-
-    /// <summary>
-    /// Reference to the class quiz manager 
-    /// </summary>
-    public QuizManager QuizManager;
-
-
     /// <summary>
     /// Reference to the audios good answer 
     /// </summary>
@@ -57,14 +50,6 @@ public class AnswerScript : MonoBehaviour//Class use when the user give the answ
 
     #endregion
 
-    #region
-
-
-
-
-    #endregion
-
-
     #region My private Function 
 
 
@@ -75,13 +60,13 @@ public class AnswerScript : MonoBehaviour//Class use when the user give the answ
     {
         if (isCorrect)
         {
-            QuizManager.Correct();
+            QuizManager.intance.CurrentSubject.GetComponent<StartSubject>().Correct();
             GoodAnswerSound.Play();
            
         }
         else
         {
-            QuizManager.Wrong();
+            QuizManager.intance.CurrentSubject.GetComponent<StartSubject>().Wrong();
             WrongAnswerSound.Play();
            
         }

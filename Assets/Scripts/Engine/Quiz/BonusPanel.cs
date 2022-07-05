@@ -38,11 +38,6 @@ public class BonusPanel : MonoBehaviour
     /// </summary>
     public GameObject fiftyFiftyButton;
 
-    /// <summary>
-    /// Reference to the script Quiz Manager 
-    /// </summary>
-    public QuizManager QuizManager;
-
 
     #endregion
 
@@ -98,7 +93,7 @@ public class BonusPanel : MonoBehaviour
     public void FiftyFiftyButton()
     {
 
-        QuizManager.DesableWrongAnswers();
+        QuizManager.intance.CurrentSubject.GetComponent<StartSubject>().DesableWrongAnswers();
         fiftyFiftyButton.SetActive(false);
 
     }

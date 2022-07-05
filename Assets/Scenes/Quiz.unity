@@ -276,6 +276,215 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 75981512}
   m_CullTransparentMesh: 1
+--- !u!1 &121751966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 121751967}
+  - component: {fileID: 121751970}
+  - component: {fileID: 121751969}
+  - component: {fileID: 121751968}
+  m_Layer: 0
+  m_Name: NextRef
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &121751967
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121751966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 351639452}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.8883378, y: 0.8773607}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -10.380005, y: -0.24005127}
+  m_SizeDelta: {x: -20.76, y: 0.48}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &121751968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121751966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 121751969}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 351639455}
+        m_TargetAssemblyTypeName: NextBookMode, Assembly-CSharp
+        m_MethodName: Next
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &121751969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121751966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: df42c47b7184f6444b723f415973ee12, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &121751970
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 121751966}
+  m_CullTransparentMesh: 1
+--- !u!1 &128994395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 128994396}
+  - component: {fileID: 128994398}
+  - component: {fileID: 128994397}
+  m_Layer: 0
+  m_Name: ImageRefBookMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &128994396
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128994395}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 351639452}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.036324523, y: 0.6043277}
+  m_AnchorMax: {x: 0.4801292, y: 0.97686887}
+  m_AnchoredPosition: {x: 0.00012207031, y: -8.996216}
+  m_SizeDelta: {x: -0.00036621, y: 18.01}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &128994397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128994395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &128994398
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128994395}
+  m_CullTransparentMesh: 1
 --- !u!1 &135840593
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,6 +676,86 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &191580728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 191580729}
+  - component: {fileID: 191580731}
+  - component: {fileID: 191580730}
+  m_Layer: 0
+  m_Name: TextRefBookMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &191580729
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191580728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 351639452}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.036324523, y: 0.060147606}
+  m_AnchorMax: {x: 0.9293378, y: 0.5898688}
+  m_AnchoredPosition: {x: 0.9100342, y: 4.159973}
+  m_SizeDelta: {x: 1.82, y: -8.3199}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &191580730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191580728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 94759d9ea6f023840841a77f5a86e2c1, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 98
+    m_Alignment: 3
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: New Text
+--- !u!222 &191580731
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191580728}
+  m_CullTransparentMesh: 1
 --- !u!1 &193189241
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,7 +812,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  QuizManager: {fileID: 1168700783}
   GoodAnswerSound: {fileID: 1708292640}
   WrongAnswerSound: {fileID: 1791791782}
   WrongAnswerText: {fileID: 2146744140}
@@ -756,6 +1044,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &233771588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+  m_PrefabInstance: {fileID: 464573882624743898}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &233771589 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+  m_PrefabInstance: {fileID: 464573882624743898}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &274925384
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,6 +1277,99 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &351639451
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 351639452}
+  - component: {fileID: 351639454}
+  - component: {fileID: 351639453}
+  - component: {fileID: 351639455}
+  m_Layer: 0
+  m_Name: BookModePanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &351639452
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351639451}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 121751967}
+  - {fileID: 128994396}
+  - {fileID: 191580729}
+  m_Father: {fileID: 1159603640}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.063625, y: 0.096255206}
+  m_AnchorMax: {x: 0.9016055, y: 0.90700006}
+  m_AnchoredPosition: {x: -2.567627, y: -0.2000122}
+  m_SizeDelta: {x: -5.13, y: -0.40002}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &351639453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351639451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f265b9e6ffa648345aa6bb2c1398a4f3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &351639454
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351639451}
+  m_CullTransparentMesh: 1
+--- !u!114 &351639455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351639451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9e6b41e96a95744b0f049607cc9e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookModePanel: {fileID: 351639451}
 --- !u!1 &369889530
 GameObject:
   m_ObjectHideFlags: 0
@@ -1057,6 +1448,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369889530}
   m_CullTransparentMesh: 1
+--- !u!1 &377992807 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+  m_PrefabInstance: {fileID: 2135365628}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &382669971
 GameObject:
   m_ObjectHideFlags: 0
@@ -1532,7 +1928,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  QuizManager: {fileID: 1168700783}
   GoodAnswerSound: {fileID: 1708292640}
   WrongAnswerSound: {fileID: 1791791782}
   WrongAnswerText: {fileID: 2146744140}
@@ -2837,6 +3232,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!1 &848193883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+  m_PrefabInstance: {fileID: 1869391252}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &857324868
 GameObject:
   m_ObjectHideFlags: 0
@@ -3111,7 +3511,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  QuizManager: {fileID: 1168700783}
   GoodAnswerSound: {fileID: 1708292640}
   WrongAnswerSound: {fileID: 1791791782}
   WrongAnswerText: {fileID: 2146744140}
@@ -3456,6 +3855,43 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1112951111}
   m_CullTransparentMesh: 1
+--- !u!1 &1159603639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1159603640}
+  m_Layer: 0
+  m_Name: BookModeGame
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1159603640
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159603639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 351639452}
+  m_Father: {fileID: 1529905883}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1168700781
 GameObject:
   m_ObjectHideFlags: 0
@@ -3484,7 +3920,12 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 90.00275}
   m_LocalScale: {x: 0.0046296297, y: 0.0046296297, z: 0.0046296297}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 233771589}
+  - {fileID: 2135365629}
+  - {fileID: 1299453902}
+  - {fileID: 1908521299}
+  - {fileID: 1869391253}
   m_Father: {fileID: 187357458}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3505,704 +3946,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f66d20029b0d1458ee9ca3aa9c6eb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AllSubject:
-  - Subject: Geography
-    AnsAndQues:
-    - Question: Quelle est la superficie total de l'Afrique ?
-      Answers:
-      - "30 415 873 Km\xB2"
-      - "14 152 865 Km\xB2"
-      - "30 415 874 Km\xB2"
-      - "40 874 153 Km\xB2"
-      GreatAnswer: 0
-      Indice: "Elle est plus grand que 30.000.000 Km\xB2 mais plus petit que 40.000.000km\xB2"
-    - Question: "Quel pourcentage l'Afrique recouvre  \xE0 la surface de la Terre
-        ?"
-      Answers:
-      - 20%
-      - 6%
-      - 12%
-      - 4%
-      GreatAnswer: 1
-      Indice: 'L''Afrique recouvre moins de 10% de la surface de la terre '
-    - Question: Quelle est  la plus haute montagne d Afrique ?
-      Answers:
-      - 'Le Mont Afrique '
-      - 'La Dents de Man '
-      - 'Le Kilimandjaro '
-      - Le Mont Everest
-      GreatAnswer: 2
-      Indice: 'Le Mont Everest est la plus haute montagne du monde '
-    - Question: "Quelle est la plus grande for\xEAt d 'Afrique ?"
-      Answers:
-      - "La For\xEAt du basin du Banco "
-      - "La For\xEAt Amazonien"
-      - "La For\xEAt du  Banco"
-      - "La For\xEAt de l'Okavango"
-      GreatAnswer: 0
-      Indice: "La For\xEAt Amazonien est la plus grande for\xEAt du monde "
-    - Question: Quel est le plus long fleuve d Afrique ?
-      Answers:
-      - Le Nil
-      - L'Amazone
-      - 'La manche '
-      - Le comoe
-      GreatAnswer: 0
-      Indice: 'L''Amazone est le plus grand fleuve d''Amerique mais egalement du
-        monde '
-    - Question: Combien de pays compte l'Afrique?
-      Answers:
-      - 56
-      - 50
-      - 45
-      - 54
-      GreatAnswer: 3
-      Indice: "L'Afrique compte plus d'une cinquant\xE8nes de pays independant "
-    - Question: A combien s'eleve la  population  Africaine  en 2021 ?
-      Answers:
-      - 1 373 486 472
-      - 1 152 865 000
-      - 3 415 874 000
-      - 4 874 153 000
-      GreatAnswer: 0
-      Indice: "En 2019 on estime la population Africaine \xE0 plus de 1 340 598 113"
-    - Question: Quel  pourcentage les terres arides occupent en Afrique ?
-      Answers:
-      - 51%
-      - 60%
-      - 70%
-      - 50%
-      GreatAnswer: 1
-      Indice: 'Les deserts et savanes arides occupent  plus 50% du territoire Afriquain '
-    - Question: "O\xF9 se trouve le Mont Kilimandjaro ?"
-      Answers:
-      - 'Au Kenya '
-      - En Tanzanie
-      - Au Rwanda
-      - En Afrique du Sud
-      GreatAnswer: 1
-      Indice: 'Une des plus grande reserve naturel au sud de l''Afrique '
-    - Question: "Quelle est la superficie du Sahara (en millions de Km\xB2)?"
-      Answers:
-      - 2.5
-      - 4.5
-      - 8.5
-      - 14.5
-      GreatAnswer: 2
-      Indice: "La superficie du Sahara est de moin de 10 000 000 000 de Km\xB2"
-    - Question: "Quel Etat est situ\xE9 le plus \xE0 l'ouest du continent africain
-        ?"
-      Answers:
-      - "S\xE9n\xE9gal"
-      - "La Guin\xE9e-Bissau"
-      - La Somalie
-      - Le Cap-Vert
-      GreatAnswer: 3
-      Indice: "La Guin\xE9e-Bissau est l'un des pays les plus \xE0 l'Est "
-    - Question: "Combien de pays sont travers\xE9s par le Nil (bleu et blanc) ?"
-      Answers:
-      - 2
-      - 4
-      - 7
-      - 10
-      GreatAnswer: 3
-      Indice: "Le Nil blanc traverse toute l'\xE9tandue centrale de l'Afrique "
-    - Question: Quel est le plus petit Etat Africain ?
-      Answers:
-      - Le Cap-Vert
-      - "L'\xEEle Maurice"
-      - 'Les Seychelles '
-      - 'Les Comores '
-      GreatAnswer: 2
-      Indice: "Une Archipel situ\xE9es au Sud-Ouest de l'Afrique "
-    - Question: Lequel de ces fleuves ne coulent pas en Afrique ?
-      Answers:
-      - L'Orange
-      - Le Nil
-      - ' L''Ouganda'
-      - "Le Zamb\xE8ze"
-      GreatAnswer: 2
-      Indice: 'Le Nil est le plus grand fleuve d''Afrique '
-    - Question: "Quel est le plus grand golfe d'Afrique (for\xEAt d'Afrique) ?"
-      Answers:
-      - Du Ghana
-      - "De Guin\xE9e"
-      - D'Aden
-      - "Du B\xE9nin"
-      GreatAnswer: 2
-      Indice: Reserve naturel et l'un des dernier sanctuaire du Gorille des montagnes
-  - Subject: Story
-    AnsAndQues:
-    - Question: "Quel royaume unifi\xE9 par la dynastie des Ciss\xE9 Tounkara est
-        consid\xE9r\xE9 comme l'un des plus ancien de l'Afrique ?"
-      Answers:
-      - L'empire du Mali
-      - L'empire du Ghana
-      - L'empire Egyptien
-      - L'empire Ivoirien
-      GreatAnswer: 1
-      Indice: "Aussi connu pour \xE7a richesse en Or fond\xE9 par les Sonink\xE9s,
-        il s'\xE9tendait du s\xE9n\xE9gal \xE0 tombouctou "
-    - Question: "Quel est l'empire fond\xE9 par le mandigue Soundiata Keita en 1235
-        ?"
-      Answers:
-      - 'L ''empire Tchad '
-      - L'empire du Kamen
-      - L'empire du Mali
-      - L'empire Romain
-      GreatAnswer: 2
-      Indice: 'Cours d''histoire primaire '
-    - Question: "Quel est l'empire situ\xE9 d\xE8s le VII si\xE8cle sur le bassin
-        du tchad , connu pour ces cavaliers redoutables ? "
-      Answers:
-      - L'empire Mongole
-      - L'empire du Tchad
-      - L'empire du Mali
-      - L'empire du Kanem
-      GreatAnswer: 3
-      Indice: 'Il existait dans les regions qui font maintenant partie du Niger,
-        du Cameroun, du Tchad et du Nigeria '
-    - Question: "Quel sont les premiers Europ\xE9ens \xE0 s'installer en Afrique
-        ?"
-      Answers:
-      - 'Les Portugais '
-      - "Les Fran\xE7ais "
-      - Les Britanniques
-      - 'Les Hollandais '
-      GreatAnswer: 0
-      Indice: "Les Fran\xE7ais etaient les deuxiemes \xE0 s'installer sur le continent "
-    - Question: Quel est le titre que portait le roi de l'empire du Ghana ?
-      Answers:
-      - Kaya-Manga
-      - Negus
-      - Dohmey
-      - Nanan
-      GreatAnswer: 0
-      Indice: Ce titre signifiait "roi de l'or"
-    - Question: "Quel etait la principal activit\xE9e responsable de l'expansion
-        de l'empire du Ghana ?"
-      Answers:
-      - Le commerce transsaharien
-      - "L'\xE9l\xE9vage"
-      - "La p\xEAche "
-      - 'L''agriculture '
-      GreatAnswer: 0
-      Indice: "Cette activit\xE9 etait bas\xE9 sur l'\xE9change de la ressources
-        la plus importante de l'empire : l'Or  "
-    - Question: Quel etait la principale source de richesse du "Mai"(tittre donner
-        au souverain du Kamen) ?
-      Answers:
-      - 'L''Or '
-      - Les Diamants
-      - 'Les Esclaves '
-      - "Les B\xEAtes "
-      GreatAnswer: 2
-      Indice: "\"Son emprise sur ces sujet , \xE9crit un chronique musulman de l'\xE9poque,
-        est absolue.Il r\xE9duit en esclavage qui il veut \""
-    - Question: "Quel empire succede au Ghana apr\xE9s sont d\xE9clin ?"
-      Answers:
-      - L'empire du Mali
-      - L'empire Romain
-      - 'L''empire du Kamen '
-      - L'empire Songhai
-      GreatAnswer: 0
-      Indice: "Consid\xE9r\xE9 comme le tout premier Etat structur\xE9 de l'Afrique
-        occidentale "
-    - Question: Quel est la cause de la chute de l'empire du Ghana ?
-      Answers:
-      - Une catastrophe naturel
-      - 'Une guerre contre les Almoravides pour monopole du commerce '
-      - 'Une guerre civile pour le pouvoir '
-      - "Un d\xE9sacord de successeur "
-      GreatAnswer: 1
-      Indice: "Dans l'empire du Ghana la tradition veut de le tr\xF4ne soit occup\xE9
-        par le fils a\xEEn\xE9 de la soeur du roi, le probl\xE8me de successions
-        etait inconnus "
-    - Question: "Quel souverain de l'empire du Mali prit la t\xEAte d'un immense
-        cort\xE8ge pour se rendre \xE0 la mecque ?"
-      Answers:
-      - Mansa Moussa (Kankou Moussa)
-      - 'Soundata Keita '
-      - Soumaoro Kante
-      - "Ciss\xE9 Tounkara "
-      GreatAnswer: 0
-      Indice: "Concid\xE9r\xE9 comme l'un des plus riche roi de l'mpire du Mali,Durant
-        son passage au caire , il depens\xE9re sans compter au point de faire chuter
-        la valeur de l'or dans la region pour des ann\xE9es "
-    - Question: "Sous le regne de quel roi l'empire Zoulou connu sont apog\xE9 ?"
-      Answers:
-      - Senzangakona
-      - 'Chaka '
-      - Nandi
-      - KwaZulu-Natal
-      GreatAnswer: 2
-      Indice: "Il est concid\xE9r\xE9 comme une figure \xE9pique de l'Afrique australe
-        au XIX sci\xE8cle "
-    - Question: "Quel est l'empire de l'Afrique de l'Ouest qui s'\xE9tend du niger
-        aux c\xF4tes s\xE9n\xE9galiases , et qui  \xE9t\xE9 dirig\xE9 par Sonni Ali
-        Ber ?"
-      Answers:
-      - L'empire du Soso
-      - L'empire Songhai
-      - L'empire du Mali
-      - L'empire du Ghana
-      GreatAnswer: 1
-      Indice: Il etait l'un des vasseau de l'empire du Mali
-    - Question: "Quel est le royaume Africain autrefois dirig\xE9 par Andrianampoinim\xE9rina
-        ?"
-      Answers:
-      - Le royaume Nampoina
-      - Le royaume Merina
-      - Le royaume de Kongo
-      - Le royaume de Nkuku
-      GreatAnswer: 1
-      Indice: "C'est \xE0 partir de 1817 que le Merina s'est appel\xE9 le royaume
-        de Madagascar "
-    - Question: "Quel est le royaume appel\xE9 autrefois le Munhumutapa (vers 1450-1629),qui
-        se situait sur les territoires actuels du Zimbabw\xE9 et du Mozanbique ?"
-      Answers:
-      - Le Katanga
-      - 'Le Wakanda '
-      - Le Monomotopa
-      - Le Kongo
-      GreatAnswer: 2
-      Indice: "Cette version du nom \xE0 \xE9t\xE9 donn\xE9e par les portuguai du
-        mot Mwene Mutapa"
-    - Question: "Quel est le royaume \xE0 envoyer des ambassadeurs dans un pays de
-        l'Europe ?"
-      Answers:
-      - Le royaume du Kongo
-      - 'Le royaume des Negus '
-      - 'Le royaume du Benin '
-      - 'Le royaume de Madagascar '
-      GreatAnswer: 0
-      Indice: 'Il etait autre fois vue comme les vasseau des portugais '
-  - Subject: Animals
-    AnsAndQues:
-    - Question: "Quelle est l'esp\xE9rance de vie moyenne d'un \xE9l\xE9phant d'Afrique
-        ?"
-      Answers:
-      - 30ans
-      - '60ans '
-      - '10ans '
-      - 90ans
-      GreatAnswer: 1
-      Indice: "L'\xE9l\xE9phant le plus vieux du monde etait ag\xE9 de plus de 50ans "
-    - Question: "Combien peut peser la trompe d'un \xE9l\xE9phant d'Afrique ?"
-      Answers:
-      - 50 Kg
-      - 100 Kg
-      - 150 Kg
-      - 200 Kg
-      GreatAnswer: 1
-      Indice: "En moyenne la trompe d'un \xE9l\xE9phant pese plus de 50 Kg"
-    - Question: Qu'est ce qu'un caracal, animal vivant en Afrique ?
-      Answers:
-      - 'Un oiseau de proie '
-      - Une antilope
-      - 'Un lynx '
-      - 'Un poisson '
-      GreatAnswer: 2
-      Indice: "En Europe son nom est utilis\xE9 dans une expression : malin comme
-        ..."
-    - Question: Quelle antilopes se rassemblent en troupeau gigantesque pour migrer
-        ?
-      Answers:
-      - 'Les impalas '
-      - 'Les gazelles '
-      - Les gnous
-      - 'Les gazelles de Tomson '
-      GreatAnswer: 2
-      Indice: 'Cette migration est connu comme etant la plus grande de toute l''Afrique '
-    - Question: Comment s'appelle la plus petite des antilopes Africaines ?
-      Answers:
-      - L'antilope naine
-      - "L'antilope pygm\xE9e "
-      - L'antilope de Livingstone
-      - 'L''antilope minus '
-      GreatAnswer: 1
-      Indice: "Cette antilope porte le nom d'un peuple africain c\xE9l\xE9bre pour
-        leurs petite taille"
-    - Question: "Que mange l'oryct\xE9rope, appel\xE9 aussi \"cochon de terre\" ?"
-      Answers:
-      - Des fourmis
-      - 'Des sauterelles '
-      - 'Des termites '
-      - 'Des verres de terre '
-      GreatAnswer: 2
-      Indice: "Il utilise ces griffres pour detruire le \xE9difices construit par
-        ces proies ?"
-    - Question: "Quel f\xE9lin Africain hisse ses proies sur un arbre pour les soustraire
-        aux autres carnassiers ?"
-      Answers:
-      - "Le gu\xE9pard "
-      - Le puma
-      - "Le l\xE9opard"
-      - 'Le lion '
-      GreatAnswer: 2
-      Indice: "Il est le deuxi\xE8me plus grand f\xE9lins d'Afrique et plus agile
-        dans les arbres "
-    - Question: Qu'est-ce qu'un potto ?
-      Answers:
-      - 'Un rongeur '
-      - "Un l\xE9murien "
-      - Un serpent
-      - Un oiseau
-      GreatAnswer: 1
-      Indice: "L'espece de mammif\xE8re la plus andemic de Madascar"
-    - Question: 'Qu''est-ce qu''un serval ? '
-      Answers:
-      - "Un petit f\xE9lin "
-      - Une antilope
-      - Un oiseau de proie
-      - "Un petit mammif\xE8re "
-      GreatAnswer: 0
-      Indice: "Il est proche du chat dor\xE9 Africain ainsi que du caracal "
-    - Question: Comment nomme-t-on le perroquet Africain ?
-      Answers:
-      - 'Le toucan Africain '
-      - 'Le gris d''Afrique '
-      - 'Le gros-bec '
-      - Le Kakapo
-      GreatAnswer: 1
-      Indice: 'le meilleur parleur parmi les perroquets et le plus vendu en europe '
-    - Question: "Quelle est l'esp\xE8ce de vautour la plus courante en Afrique ?"
-      Answers:
-      - Le vautour oricou
-      - 'Le vautour moine '
-      - "Le vautour percnopt\xE8re "
-      - "La harpie f\xE9roce "
-      GreatAnswer: 0
-      Indice: "Le vautour moine est une esp\xE8ce originaire du sud de l'Eurasie"
-    - Question: Quel est le serpent le plus venimeux d'Afrique ?
-      Answers:
-      - Le cobra
-      - 'Le crotale '
-      - 'Le mamba noir '
-      - 'Le fer de lance '
-      GreatAnswer: 2
-      Indice: 'Le cobra ne vie pas en Afrique '
-    - Question: Quel est plus grand parc naturel d'Afrique ?
-      Answers:
-      - Le parc Kruger
-      - Le parc Serengeti
-      - Le parc Amboseli
-      - 'Le parc Kenya '
-      GreatAnswer: 0
-      Indice: 'Le parc Amboseli se trouve au kenya '
-    - Question: "Comment est surnomm\xE9 un gorille m\xE2le adulte ?"
-      Answers:
-      - Un kong
-      - "Dos argent\xE9"
-      - L'alpha
-      - Un king Kong
-      GreatAnswer: 1
-      Indice: "Cette appelation fait reference \xE0 une caracteristique physique
-        unique au m\xE2le "
-    - Question: "Quel est le plus grand serpent Africain qui peut atteindre 6 m\xE8tres
-        de long ?"
-      Answers:
-      - Le python de Seba
-      - "Le python reticl\xE9"
-      - Le Boa
-      - L'anaconda
-      GreatAnswer: 0
-      Indice: "Le python reticul\xE9 est plus grand serpent du monde mais ne vie
-        pas en Afrique "
-  - Subject: Sport
-    AnsAndQues:
-    - Question: "Qui est le seul joueur Africain \xE0 avoir le ballon d'Or ?"
-      Answers:
-      - 'Roger Milla '
-      - Didier Drogba
-      - George Weah
-      - Samuel Eto'o
-      GreatAnswer: 2
-      Indice: "Sacr\xE9 meilleur joueur du monde en 1995, il devient le president
-        de la republique du Liberia en 2018"
-    - Question: "Lequel de ces joueurs n'a jamais gagn\xE9 la LDC ?"
-      Answers:
-      - Mickael Essian
-      - Rabah Madjer
-      - Samuel Eto'o
-      - Didier Drogba
-      GreatAnswer: 1
-      Indice: "Samuel Eto\u2019o fait partie de ces rares joueurs africains ayant
-        soulev\xE9 le troph\xE9e de la CAN et celle de l\u2019UEFA Ligue des Champions."
-    - Question: "Qui detient le record du plus de but marqu\xE9 en CAN ?"
-      Answers:
-      - Samuel Eto'o
-      - Didier Drogba
-      - 'Laurent Pokou '
-      - Rashidi Yekini
-      GreatAnswer: 0
-      Indice: "Sont record de buts marqu\xE9 avec la selection camerounaise en CAN
-        est de 18 "
-    - Question: Qui est le joueur africain le plus cher de l'histoire ?
-      Answers:
-      - "Nicolas P\xE9p\xE9"
-      - 'Naby Keita '
-      - Leonnel Messi
-      - "Yaya Tour\xE9"
-      GreatAnswer: 0
-      Indice: "Avec sons transfer \xE0 Arsenal pour 80M, il devient le joueur Africain
-        le plus cher de l'histoire "
-    - Question: 'Laquel de ces nations n''a jamais remporter la CAN ? '
-      Answers:
-      - Congo
-      - "C\xF4te D'ivoire "
-      - Cameroun
-      - "S\xE9n\xE9gal "
-      GreatAnswer: 3
-      Indice: "La c\xF4te D'ivoire devient champione d'Afrique en 2012"
-    - Question: "Qui a remport\xE8 le Ballon d'Or Africain 2015 ?"
-      Answers:
-      - 'Pierre-Emerick AAubameyang '
-      - 'Didier Drogba '
-      - Samuel Eto'o
-      - Yaya Toure
-      GreatAnswer: 0
-      Indice: "Didier Drogba n'etait pas nomin\xE9 pour le ballon d'Or Africain en
-        2015"
-    - Question: "Qui est le premier joueur africain de l'histoire \xE0 avoir gagn\xE9
-        le troph\xE9e du meilleur joueur de la Premi\xE8re Ligue ?"
-      Answers:
-      - Yaya Toure
-      - 'Pierre-Emerick AAubameyang '
-      - Mohamed Salah
-      - 'Riyad Mahrez '
-      GreatAnswer: 3
-      Indice: il fait ces debuts internationnaux pour l'Algerie en 2014 avec la 
-        coupe du monde et la coupe d'Afrique en 2015
-    - Question: "Qui a eu le troph\xE9e du meilleur jeune joueur africain 2019 ?"
-      Answers:
-      - victor Osimshen
-      - Achraf Hakimi
-      - 'Ismael Bennacer '
-      - 'George Weah '
-      GreatAnswer: 1
-      Indice: "De nationalit\xE9 marocaine il re\xE7oit son prix au gala de la f\xE9deration
-        Africaine de Football"
-    - Question: "Quelle nation a gagn\xE9 la CAN 2000 ?"
-      Answers:
-      - Cameroun
-      - Nigeria
-      - 'Cote d''ivoire '
-      - "S\xE9n\xE9gal"
-      GreatAnswer: 0
-      Indice: "Le s\xE9n\xE9gal n'a jamais rempot\xE9 de CAN"
-    - Question: "Quel joueur Africain a marqu\xE9 le plus de buts en C 1 ?"
-      Answers:
-      - Samuel Eto'o
-      - 'Didier Drogba '
-      - 'George Weah '
-      - 'Yaya Toure '
-      GreatAnswer: 1
-      Indice: "ce joueur de nationalit\xE9 Ivoirienne"
-    - Question: "N\xE9 en 1963, il est consid\xE9r\xE9 comme le plus grand footballeur
-        zambien de tous les temps."
-      Answers:
-      - 'Didier Drogba '
-      - Mark Fish
-      - Kalusha Bwalya
-      - Samuel Eto'o
-      GreatAnswer: 2
-      Indice: Il est le Ballon d'or africain en 1988 et meilleur buteur de la CAN
-        1996 avec 5 buts.
-    - Question: "Athl\xE8te marocain de demi-fond et de fond, il est le premier homme
-        \xE0 descendre sous la barre des 13' au 5000 m."
-      Answers:
-      - 'Said Aouita '
-      - Ibrahim Lahalafi
-      - Aissa Djabir Said-Guerni
-      - Yaya Toure
-      GreatAnswer: 0
-      Indice: "M\xE9daill\xE9 olympique au J. O. de 1984 sur 5000 m, il fut d\xE9tenteur
-        des records du monde sur 1500 m, 2000 m, 3000m et 5000 m."
-    - Question: Quelle instance organise la Coupe d'Afrique des Nations ?
-      Answers:
-      - CAF
-      - FFF
-      - FIFA
-      - FFCI
-      GreatAnswer: 0
-      Indice: "C'est la plus haute autorit\xE9e du football africain "
-    - Question: "En quelle ann\xE9e a eu lieu la 1er Coupe d'afrique des nations
-        ?"
-      Answers:
-      - 1948
-      - 1957
-      - 1935
-      - 1966
-      GreatAnswer: 1
-      Indice: "La premier edition de la coupe d'Afrique des nations \xE0 eu lieu
-        apr\xE8s les ann\xE9es 50"
-    - Question: "Quelle est la p\xE9riodicit\xE9 de la Coupe d'Afrique des Nations
-        ?"
-      Answers:
-      - 'Tous les 2ans '
-      - 'Tous les 4ans '
-      - 'Tous les 1ans '
-      - "Tous les ann\xE9es "
-      GreatAnswer: 0
-      Indice: "La coupe n'a pas lieu toute les ann\xE9es "
-  - Subject: Mythology
-    AnsAndQues:
-    - Question: "En combien d'\xE9poque peut-on diviser les mythologie Africaine
-        ? "
-      Answers:
-      - 1
-      - 2
-      - 3
-      - 4
-      GreatAnswer: 2
-      Indice: "Toutes mythologie Africaine \xE0 au plus  2 \xE9poque ?"
-    - Question: "Dans la mythologie Akan quel animal represente l'esprit de la rivi\xE8re
-        ?"
-      Answers:
-      - "Le li\xE8vre "
-      - 'Le cobra '
-      - 'Le python '
-      - 'Le mamba '
-      GreatAnswer: 2
-      Indice: 'C''est un serpent non venimeux d''Afrique '
-    - Question: Que represente le tabouret d'Or dans la mythologie Ashanti ?
-      Answers:
-      - Le pouvoir du roi
-      - "Le sumum et l'\xE2me des Ashantis "
-      - 'Le symbole de la guerre et de puissance '
-      - "Le symbole de l'echec et de la mis\xE8re "
-      GreatAnswer: 1
-      Indice: "En 1896 les Ashanti pr\xE9f\xE8rent d\xE9mettre leur roi que de se
-        lancer dans une guerre qui aurait mis en p\xE9ril l'objet sacr\xE9."
-    - Question: "Que symbolise Akawaba la d\xE9esse des Ashanti ?"
-      Answers:
-      - "D\xE9esse qui symbolise la bienvenue"
-      - "D\xE9esse qui symbolise la Guerre et la col\xE8re  "
-      - "D\xE9esse qui symbolise la nature et le respect de la for\xEAt "
-      - "D\xE9esse qui symbolise la femme et la vie "
-      GreatAnswer: 0
-      Indice: "Les jeunes filles re\xE7oivent son image de la part d'un a\xEEn\xE9
-        quand elles prennent de l'\xE2ge, pour les accueillir dans leur r\xF4le de
-        m\xE8re"
-    - Question: Quel est le nom du Hero culturel dans la mythologie Ashanti ?
-      Answers:
-      - Akawaba
-      - Anansi
-      - Ippoto
-      - Bikoko
-      GreatAnswer: 1
-      Indice: "Il est souvent repr\xE9senter sous la forme d'une araign\xE9e avec
-        des caracteristique humaine ."
-    - Question: Dans la mythologie congolaise qui sont les Biloko ?
-      Answers:
-      - "Des f\xE9es gardiennes de la for\xEAt "
-      - 'Des nains diaboliques '
-      - "Des fant\xF4mes du pass\xE9e "
-      - 'Des esprit vengeurs '
-      GreatAnswer: 1
-      Indice: "Ils prot\xE8gent avec z\xE8le la for\xEAt et ses cr\xE9atures vivantes
-        des arbres creux dans lesquels ils se cachent."
-    - Question: "Dans la mythologie Fon (peuple du centre et sud  Benin) en combien
-        de jours fu cr\xE9er le monde ?"
-      Answers:
-      - '2jours '
-      - '5jours '
-      - '7jours '
-      - '4jours '
-      GreatAnswer: 3
-      Indice: "Selon la mythologie Fon le monde a \xE9t\xE9 c\xE9er en plus de 2
-        jours "
-    - Question: "Dans la mythologie Igbo qui est le dieu supr\xEAme ?"
-      Answers:
-      - Chukwu
-      - Okejoku
-      - Na Na Kanan
-      - Nifeona
-      GreatAnswer: 0
-      Indice: "Ce ne sont pas les deux derni\xE8re reponces "
-    - Question: Quelle est la fonction de Agbala dans la mythologie Igbo ?
-      Answers:
-      - Preparer le offrandes des dieux
-      - "Pr\xE9dire l'avenir et dialoguer avec les esprits des defuns "
-      - 'S''occuper des rituels '
-      - 'Messager des hommes pour les dieux '
-      GreatAnswer: 1
-      Indice: Ces femmes etaient les oracles du village
-    - Question: "Dans les mythes Africain quelle est la particularit\xE9 de l'hypopotame
-        ?"
-      Answers:
-      - ' respirer sous l''eau'
-      - ' se transformet en homme la nuit '
-      - " manger le r\xEAve des hommes "
-      - ' Etre invincible '
-      GreatAnswer: 1
-      Indice: "On leurs pretant la possibilit\xE9 de pouvoir changer d'apparence "
-    - Question: "Quel est l'esprit de l'eau le plus c\xE9l\xE8bre  du folclore Africain
-        ?"
-      Answers:
-      - Ariel
-      - Mami Wata
-      - Bikoko
-      - 'Boa '
-      GreatAnswer: 1
-      Indice: "On la repr\xE9sente souvent comme une femme avec un corps de poisson "
-    - Question: Dans la mythologie Zoulou qui sont les Abavata ?
-      Answers:
-      - "Des d\xE9mons vengeur "
-      - "Les esprits des anc\xE8tres "
-      - "Des \xEAtre f\xE9eriques de petite taille"
-      - "Des fant\xF4mes egar\xE9s"
-      GreatAnswer: 2
-      Indice: "On dit qu'ils apportent la bonne fortune \xE0 qui les trouvent ."
-    - Question: Dans la mythologie Zoulou qui est Mbaba Mwana Waresa ?
-      Answers:
-      - "La d\xE9esse de la guerre"
-      - "La d\xE9esse de la lune "
-      - "La d\xE9esse de la chasse "
-      - "La d\xE9esse de l\u2019arc en ciel, de la pluie, et des r\xE9coltes."
-      GreatAnswer: 3
-      Indice: "elle leur a enseign\xE9 la mani\xE8re de semer et r\xE9colter et elle
-        leur a donn\xE9 la recette de la bi\xE8re."
-    - Question: "Dans la mythologie Zoulou quel est l'animal dont la lenteur a caus\xE9
-        la mort ?"
-      Answers:
-      - Un escargo
-      - 'Une limace '
-      - "Un camel\xE9on"
-      - 'Une tortue '
-      GreatAnswer: 0
-      Indice: "Il est le hero d'un conte Africain tr\xE9s connu "
-    - Question: "Dans la mythologie Ashanti qui est l'\xEAtre supr\xEAme ?"
-      Answers:
-      - 'Mami Wata '
-      - Bikulou
-      - Nyame
-      - Nan Nan klo
-      GreatAnswer: 2
-      Indice: "Il est le centre d'une trinit\xE9 "
-  answers:
-  - {fileID: 956905079}
-  - {fileID: 193189241}
-  - {fileID: 1575380229}
-  - {fileID: 507775354}
-  QuestionText: {fileID: 2118855925}
-  EndGameUI: {fileID: 1766067501}
-  GameUI: {fileID: 382669971}
-  AnswersGame: {fileID: 1485143375}
-  Questions: {fileID: 499270679}
-  CurrentQuestionText: {fileID: 1807623369}
-  MaxQuestions: {fileID: 1878696814}
-  SliderTimer: {fileID: 1394208828}
-  IndexSubject: 0
-  IndiceText: {fileID: 1864960031}
-  IndicePanel: {fileID: 53923614}
-  AnswerScript: {fileID: 507775356}
-  BonusPanel: {fileID: 1602123611}
-  WrongAnswerPanel: {fileID: 1583332991}
-  QuestionsNumber: 0
-  Animator: {fileID: 1575380236}
-  NumberQuestionsPanel: {fileID: 1492491909}
+  Subject:
+  - {fileID: 233771588}
+  - {fileID: 377992807}
+  - {fileID: 1483358609}
+  - {fileID: 2010943402}
+  - {fileID: 848193883}
+  CurrentSubject: {fileID: 0}
 --- !u!4 &1174994396 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3191609578926003488, guid: efd9d8398cee791439ed4815425c98c9, type: 3}
@@ -4451,6 +4201,202 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1268299039}
   m_CullTransparentMesh: 1
+--- !u!1001 &1299453901
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 1168700782}
+    m_Modifications:
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: GameUI
+      value: 
+      objectReference: {fileID: 382669971}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Subject
+      value: 
+      objectReference: {fileID: 11400000, guid: 651375ece5c78a24b89fef834bf2dd62, type: 2}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Animator
+      value: 
+      objectReference: {fileID: 1575380236}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: RefImage
+      value: 
+      objectReference: {fileID: 128994397}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: EndGameUI
+      value: 
+      objectReference: {fileID: 1766067501}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Questions
+      value: 
+      objectReference: {fileID: 499270679}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: BonusPanel
+      value: 
+      objectReference: {fileID: 1602123611}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: IndiceText
+      value: 
+      objectReference: {fileID: 1864960031}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: AnswersGame
+      value: 
+      objectReference: {fileID: 1485143375}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: IndicePanel
+      value: 
+      objectReference: {fileID: 53923614}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: SliderTimer
+      value: 
+      objectReference: {fileID: 1394208828}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: AnswerScript
+      value: 
+      objectReference: {fileID: 1575380230}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: MaxQuestions
+      value: 
+      objectReference: {fileID: 1878696814}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: QuestionText
+      value: 
+      objectReference: {fileID: 2118855925}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: BookModePanel
+      value: 
+      objectReference: {fileID: 351639451}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: TextRefBookMode
+      value: 
+      objectReference: {fileID: 191580730}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: WrongAnswerPanel
+      value: 
+      objectReference: {fileID: 1583332991}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: CurrentQuestionText
+      value: 
+      objectReference: {fileID: 1807623369}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: NumberQuestionsPanel
+      value: 
+      objectReference: {fileID: 1492491909}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1575380229}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[1]
+      value: 
+      objectReference: {fileID: 507775354}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[2]
+      value: 
+      objectReference: {fileID: 956905079}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[3]
+      value: 
+      objectReference: {fileID: 193189241}
+    - target: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Name
+      value: Subject (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+--- !u!224 &1299453902 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+  m_PrefabInstance: {fileID: 1299453901}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1321530767
 GameObject:
   m_ObjectHideFlags: 0
@@ -5074,6 +5020,11 @@ MonoBehaviour:
   - {fileID: 857324868}
   - {fileID: 1846539911}
   GameMode: 
+--- !u!1 &1483358609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+  m_PrefabInstance: {fileID: 1299453901}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1485143375
 GameObject:
   m_ObjectHideFlags: 0
@@ -5426,6 +5377,7 @@ RectTransform:
   - {fileID: 1492491910}
   - {fileID: 1583332992}
   - {fileID: 1602123612}
+  - {fileID: 1159603640}
   m_Father: {fileID: 496109905}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5848,7 +5800,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isCorrect: 0
-  QuizManager: {fileID: 1168700783}
   GoodAnswerSound: {fileID: 1708292640}
   WrongAnswerSound: {fileID: 1791791782}
   WrongAnswerText: {fileID: 2146744140}
@@ -6179,7 +6130,6 @@ MonoBehaviour:
   IndiceText: {fileID: 1918634896}
   indiceButton: {fileID: 1683455132}
   fiftyFiftyButton: {fileID: 2141719363}
-  QuizManager: {fileID: 1168700783}
 --- !u!1 &1605082883
 GameObject:
   m_ObjectHideFlags: 0
@@ -6289,10 +6239,10 @@ RectTransform:
   m_Father: {fileID: 1529905883}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.14379857}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.375, y: -0.19995117}
-  m_SizeDelta: {x: -0.75, y: -0.55999756}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.9848633, y: 1}
+  m_AnchoredPosition: {x: 15.125, y: -0.6600342}
+  m_SizeDelta: {x: 30.25, y: 0.3600006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1613029616
 MonoBehaviour:
@@ -7124,6 +7074,202 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864960029}
   m_CullTransparentMesh: 1
+--- !u!1001 &1869391252
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 1168700782}
+    m_Modifications:
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: GameUI
+      value: 
+      objectReference: {fileID: 382669971}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Subject
+      value: 
+      objectReference: {fileID: 11400000, guid: 5387ae183f8650d4faaf97891c8babb8, type: 2}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Animator
+      value: 
+      objectReference: {fileID: 1575380236}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: RefImage
+      value: 
+      objectReference: {fileID: 128994397}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: EndGameUI
+      value: 
+      objectReference: {fileID: 1766067501}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Questions
+      value: 
+      objectReference: {fileID: 499270679}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: BonusPanel
+      value: 
+      objectReference: {fileID: 1602123611}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: IndiceText
+      value: 
+      objectReference: {fileID: 1864960031}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: AnswersGame
+      value: 
+      objectReference: {fileID: 1485143375}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: IndicePanel
+      value: 
+      objectReference: {fileID: 53923614}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: SliderTimer
+      value: 
+      objectReference: {fileID: 1394208828}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: AnswerScript
+      value: 
+      objectReference: {fileID: 1575380230}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: MaxQuestions
+      value: 
+      objectReference: {fileID: 1878696814}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: QuestionText
+      value: 
+      objectReference: {fileID: 2118855925}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: BookModePanel
+      value: 
+      objectReference: {fileID: 351639451}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: TextRefBookMode
+      value: 
+      objectReference: {fileID: 191580730}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: WrongAnswerPanel
+      value: 
+      objectReference: {fileID: 1583332991}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: CurrentQuestionText
+      value: 
+      objectReference: {fileID: 1807623369}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: NumberQuestionsPanel
+      value: 
+      objectReference: {fileID: 1492491909}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1575380229}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[1]
+      value: 
+      objectReference: {fileID: 507775354}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[2]
+      value: 
+      objectReference: {fileID: 956905079}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[3]
+      value: 
+      objectReference: {fileID: 193189241}
+    - target: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Name
+      value: Subject (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+--- !u!224 &1869391253 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+  m_PrefabInstance: {fileID: 1869391252}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1878696812
 GameObject:
   m_ObjectHideFlags: 0
@@ -7312,6 +7458,202 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905564365}
   m_CullTransparentMesh: 1
+--- !u!1001 &1908521298
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 1168700782}
+    m_Modifications:
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: GameUI
+      value: 
+      objectReference: {fileID: 382669971}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Subject
+      value: 
+      objectReference: {fileID: 11400000, guid: 349f0678295c9ef4d9ff6f44524e9329, type: 2}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Animator
+      value: 
+      objectReference: {fileID: 1575380236}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: RefImage
+      value: 
+      objectReference: {fileID: 128994397}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: EndGameUI
+      value: 
+      objectReference: {fileID: 1766067501}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Questions
+      value: 
+      objectReference: {fileID: 499270679}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: BonusPanel
+      value: 
+      objectReference: {fileID: 1602123611}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: IndiceText
+      value: 
+      objectReference: {fileID: 1864960031}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: AnswersGame
+      value: 
+      objectReference: {fileID: 1485143375}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: IndicePanel
+      value: 
+      objectReference: {fileID: 53923614}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: SliderTimer
+      value: 
+      objectReference: {fileID: 1394208828}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: AnswerScript
+      value: 
+      objectReference: {fileID: 1575380230}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: MaxQuestions
+      value: 
+      objectReference: {fileID: 1878696814}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: QuestionText
+      value: 
+      objectReference: {fileID: 2118855925}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: BookModePanel
+      value: 
+      objectReference: {fileID: 351639451}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: TextRefBookMode
+      value: 
+      objectReference: {fileID: 191580730}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: WrongAnswerPanel
+      value: 
+      objectReference: {fileID: 1583332991}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: CurrentQuestionText
+      value: 
+      objectReference: {fileID: 1807623369}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: NumberQuestionsPanel
+      value: 
+      objectReference: {fileID: 1492491909}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1575380229}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[1]
+      value: 
+      objectReference: {fileID: 507775354}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[2]
+      value: 
+      objectReference: {fileID: 956905079}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[3]
+      value: 
+      objectReference: {fileID: 193189241}
+    - target: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Name
+      value: Subject (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+--- !u!224 &1908521299 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+  m_PrefabInstance: {fileID: 1908521298}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1918634894
 GameObject:
   m_ObjectHideFlags: 0
@@ -7504,6 +7846,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1956324306}
   m_CullTransparentMesh: 1
+--- !u!1 &2010943402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+  m_PrefabInstance: {fileID: 1908521298}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2018183588
 GameObject:
   m_ObjectHideFlags: 0
@@ -7697,6 +8044,202 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118855923}
   m_CullTransparentMesh: 1
+--- !u!1001 &2135365628
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 1168700782}
+    m_Modifications:
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: GameUI
+      value: 
+      objectReference: {fileID: 382669971}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Subject
+      value: 
+      objectReference: {fileID: 11400000, guid: 8444dc4be93d62a45843a20dddd953a3, type: 2}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Animator
+      value: 
+      objectReference: {fileID: 1575380236}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: RefImage
+      value: 
+      objectReference: {fileID: 128994397}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: EndGameUI
+      value: 
+      objectReference: {fileID: 1766067501}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Questions
+      value: 
+      objectReference: {fileID: 499270679}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: BonusPanel
+      value: 
+      objectReference: {fileID: 1602123611}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: IndiceText
+      value: 
+      objectReference: {fileID: 1864960031}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: AnswersGame
+      value: 
+      objectReference: {fileID: 1485143375}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: IndicePanel
+      value: 
+      objectReference: {fileID: 53923614}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: SliderTimer
+      value: 
+      objectReference: {fileID: 1394208828}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: AnswerScript
+      value: 
+      objectReference: {fileID: 1575380230}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: MaxQuestions
+      value: 
+      objectReference: {fileID: 1878696814}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: QuestionText
+      value: 
+      objectReference: {fileID: 2118855925}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: BookModePanel
+      value: 
+      objectReference: {fileID: 351639451}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: TextRefBookMode
+      value: 
+      objectReference: {fileID: 191580730}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: WrongAnswerPanel
+      value: 
+      objectReference: {fileID: 1583332991}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: CurrentQuestionText
+      value: 
+      objectReference: {fileID: 1807623369}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: NumberQuestionsPanel
+      value: 
+      objectReference: {fileID: 1492491909}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1575380229}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[1]
+      value: 
+      objectReference: {fileID: 507775354}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[2]
+      value: 
+      objectReference: {fileID: 956905079}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[3]
+      value: 
+      objectReference: {fileID: 193189241}
+    - target: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Name
+      value: Subject (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+--- !u!224 &2135365629 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+  m_PrefabInstance: {fileID: 2135365628}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2141719363
 GameObject:
   m_ObjectHideFlags: 0
@@ -7932,3 +8475,190 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2146744138}
   m_CullTransparentMesh: 1
+--- !u!1001 &464573882624743898
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 1168700782}
+    m_Modifications:
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: GameUI
+      value: 
+      objectReference: {fileID: 382669971}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Animator
+      value: 
+      objectReference: {fileID: 1575380236}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: RefImage
+      value: 
+      objectReference: {fileID: 128994397}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: EndGameUI
+      value: 
+      objectReference: {fileID: 1766067501}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: Questions
+      value: 
+      objectReference: {fileID: 499270679}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: BonusPanel
+      value: 
+      objectReference: {fileID: 1602123611}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: IndiceText
+      value: 
+      objectReference: {fileID: 1864960031}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: AnswersGame
+      value: 
+      objectReference: {fileID: 1485143375}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: IndicePanel
+      value: 
+      objectReference: {fileID: 53923614}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: SliderTimer
+      value: 
+      objectReference: {fileID: 1394208828}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: AnswerScript
+      value: 
+      objectReference: {fileID: 1575380230}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: MaxQuestions
+      value: 
+      objectReference: {fileID: 1878696814}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: QuestionText
+      value: 
+      objectReference: {fileID: 2118855925}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: BookModePanel
+      value: 
+      objectReference: {fileID: 351639451}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: TextRefBookMode
+      value: 
+      objectReference: {fileID: 191580730}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: WrongAnswerPanel
+      value: 
+      objectReference: {fileID: 1583332991}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: CurrentQuestionText
+      value: 
+      objectReference: {fileID: 1807623369}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: NumberQuestionsPanel
+      value: 
+      objectReference: {fileID: 1492491909}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[0]
+      value: 
+      objectReference: {fileID: 1575380229}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[1]
+      value: 
+      objectReference: {fileID: 507775354}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[2]
+      value: 
+      objectReference: {fileID: 956905079}
+    - target: {fileID: 464573882396478364, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: answers.Array.data[3]
+      value: 
+      objectReference: {fileID: 193189241}
+    - target: {fileID: 464573882396478366, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Name
+      value: Subject
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_RootOrder
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 464573882396478367, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: c33a20ad8f5a62649aeb4853bb5d1240, type: 3}

@@ -24,4 +24,9 @@ public class AnswerAndQuestion//Class use to create the different variables of t
     /// Reference to the indice for give the Answer
     /// </summary>
     public string Indice;
+
+    /// <summary>
+    /// Reference to the Description for the ref 
+    /// </summary>
+    public string RefDescription;
 }

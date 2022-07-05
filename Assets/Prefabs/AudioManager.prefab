@@ -81,7 +81,9 @@ MonoBehaviour:
   SoundsImage:
   - {fileID: 21300000, guid: 214c49873ddc28b458008800ddc51dfb, type: 3}
   - {fileID: 21300000, guid: 3439393cd5403144588d3d0baf6dd092, type: 3}
-  AudioManagerObject: {fileID: 3191609578926003489}
+  GameSong: {fileID: 3191609580544973099}
+  GoodAnswerSong: {fileID: 2874561974728506951}
+  WrongAnswerSong: {fileID: 6738868289504054197}
   AudioButton: {fileID: 0}
 --- !u!1 &3191609580544973097
 GameObject:

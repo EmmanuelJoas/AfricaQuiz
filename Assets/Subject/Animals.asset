@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee7bc2070da7be4484f3e8980b344a7, type: 3}
+  m_Name: Animals
+  m_EditorClassIdentifier: 
+  Subject: 
+  AnsAndQues:
+  - Question: "Quelle est l'esp\xE9rance de vie moyenne d'un \xE9l\xE9phant d'Afrique
+      ?"
+    Answers:
+    - 30ans
+    - 60ans
+    - 10ans
+    - 90ans
+    GreatAnswer: 1
+    Indice: "L'\xE9l\xE9phant le plus vieux du monde \xE9tait ag\xE9 de plus de 50ans "
+    RefDescription: "Le Guinness World Records classe Lin Wang comme le plus vieil
+      \xE9l\xE9phant de tous les temps. \xC0 sa mort en f\xE9vrier 2003, au zoo de
+      Taipei \xE0 Ta\xEFwan, il avait 86 ans. Elephant.se note que l'\xE9l\xE9phant
+      avec la deuxi\xE8me plus longue dur\xE9e de vie connue \xE9tait Gajarani Lakshmikutty,
+      d\xE9c\xE9d\xE9 en 1997 \xE0 l'\xE2ge de 84 ans. En moyenne, les \xE9l\xE9phants
+      vivent environ 60 ans."
+  - Question: "Combien pese la trompe d'un \xE9l\xE9phant d'Afrique ?"
+    Answers:
+    - 50 Kg
+    - 100 Kg
+    - 130 Kg
+    - 200 Kg
+    GreatAnswer: 2
+    Indice: "En moyenne la trompe d'un \xE9l\xE9phant pese plus de 50 Kg "
+    RefDescription: "La trompe mesure jusqu\u2019\xE0 1,15 m de longueur et p\xE8se
+      jusqu\u2019\xE0 130 kg"
+  - Question: Qu'est ce qu'un caracal, animal vivant en Afrique ?
+    Answers:
+    - 'Un oiseau de proie '
+    - 'Une antilope '
+    - 'Un lynx '
+    - 'Un poisson '
+    GreatAnswer: 2
+    Indice: "Son nom est utilis\xE9 dans une expression : \" Malin comme un ... \" "
+    RefDescription: "Le Caracal, surnomm\xE9 aussi Lynx du d\xE9sert, ou Lynx de
+      Perse, est un chat sauvage qui vit dans la savane africaine, au Moyen-Orient
+      et en Asie. Son pelage de couleur sable remplit parfaitement son r\xF4le de
+      camouflage. Alli\xE9 \xE0 une ou\xEFe tr\xE8s fine et une capacit\xE9 de bondir
+      de pr\xE8s de 3 m\xE8tres, il est connu pour attraper des oiseaux en vol."
+  - Question: Quelle antilopes se rassemblent en troupeaux gigantesques pour migrer
+      ?
+    Answers:
+    - 'Les impalas '
+    - 'Les gazelles '
+    - 'Les gnous '
+    - "Les \xE9l\xE9phants "
+    GreatAnswer: 0
+    Indice: "Les \xE9l\xE9phant ne sont pas de la famille des antilopes  "
+    RefDescription: "En partance de Tanzanie en direction du Kenya plus au Nord,
+      se d\xE9roule chaque d\xE9but d'ann\xE9e un gigantesque mouvement de population
+      animale. Les chiffres donnent le tournis : un \xE0 deux millions de gnous,
+      500 000 z\xE8bres et autant d'antilopes empruntent les 800 kilom\xE8tres du
+      parcours, \xE0 la recherche de terres plus fertiles."
+  - Question: Comment appelle t'on la plus petite antilopes d'Afrique ?
+    Answers:
+    - 'L''antilope naine '
+    - L'antilope Dik-Dik
+    - 'L''antilope de Livingstone '
+    - 'L''antilope minus '
+    GreatAnswer: 1
+    Indice: 'L''antilope minus n''existe pas '
+    RefDescription: "Appartenant \xE0 la famille des bovid\xE9s, le dik dik est une
+      antilope miniature ne d\xE9passant pas les 43 cm au garrot. Originaire d'Afrique
+      de l'Est, ce petit herbivore, reconnaissable notamment, \xE0 ces courtes cornes
+      et \xE0 son point noir au niveau de l'oeil, est un animal semi nocturne dont
+      le repas se constitue essentiellement de fruits, de feuilles et de jeunes pousses.
+      Tr\xE8s vif, le dik dik fuit ses pr\xE9dateurs gr\xE2ce \xE0 une technique
+      tr\xE8s rod\xE9, en s'immobilisant devant eux et en fuyant au dernier moment.
+      Il r\xE9p\xE8te alors l'op\xE9ration, au grand dam de son adversaire, qui las
+      de ce man\xE8ge, abandonne la partie."
+  - Question: "Que mange l'oryct\xE9rope , appel\xE9 aussi \"cochon de terre\" ?"
+    Answers:
+    - 'Des fourmis '
+    - 'Des sauterelles '
+    - 'Des termites '
+    - 'Des verres de terre '
+    GreatAnswer: 2
+    Indice: "Cette insecre est tr\xE8s r\xE9pendu en Afrique et connue pour ces constructions."
+    RefDescription: "L'oryct\xE9rope se nourrit essentiellement de fourmis et de
+      termites, qu'il extrait des termiti\xE8res \xE0 l'aide de ses griffes tr\xE8s
+      puissantes et de sa longue langue enduite d'une salive gluante. Il est \xE9galement
+      capable de rep\xE9rer les processions de termites se d\xE9pla\xE7ant sur le
+      sol \xE0 l'aide de son odorat tr\xE8s fin"
+  - Question: "Quel f\xE9lin Africain hisse ses proies sur les arbres ?"
+    Answers:
+    - "Le gu\xE9pard "
+    - Le puma
+    - "Le l\xE9opard "
+    - 'Le lion '
+    GreatAnswer: 2
+    Indice: "Les gu\xE9pard ne savent pas grimper au arbres "
+    RefDescription: "Le l\xE9opard africain figure parmi les plus grands f\xE9lins
+      d'Afrique. Il peuple les forets, les montagnes et les prairies. C'est une sous-esp\xE8ce
+      en danger, notamment en raison du commerce de sa fourrure. Ce fauve tachet\xE9
+      de noir sur une robe couleur fauve ou rouille est souvent confondu avec le
+      gu\xE9pard. Ses rosettes lui servent de camouflage pour traquer ses proies.
+      Les l\xE9opards vivent de la savane (Kenya, Tanzanie) aux forets tropicales
+      subsaharienne (Gabon, Congo, etc.). On les retrouve \xE9galement dans le d\xE9sert
+      namibien ou au Botswana."
+  - Question: Qu'est ce qu'un potto ?
+    Answers:
+    - 'Un rongeur '
+    - 'Un primate '
+    - 'Un poisson '
+    - 'Un serpent '
+    GreatAnswer: 1
+    Indice: "Le potto est un mammif\xE8re de la m\xEAme famille que le Gorille "
+    RefDescription: "Les pottos sont de petits singes originaires d'Afrique de l'Ouest.
+      Il s'agit de la plus petite des esp\xE8ces de pottos qui se reconnait notamment
+      par sa queue, plus longue que chez les autres esp\xE8ces de ce genre. Le corps
+      est recouvert d'une fourrure \xE9paisse de couleur noire \xE0 brun roux s'\xE9claircissant
+      sur les mains. Une petite population subsiste \xE9galement dans les montagnes
+      kenyanes.  Ce petit primate fr\xE9quente les for\xEAts primaires, secondaires,
+      inond\xE9es et de montagnes d'Afrique tropicale de l'Ouest. On peut le rencontrer
+      plus rarement dans les plantations agricoles ou encore les savanes arbor\xE9es.
+      Il \xE9volue dans la canop\xE9e en partie m\xE9diane et haute (20 \xE0 30 m\xE8tres
+      au dessus du sol).  Peu de choses sont connues sur son mode d'alimentation.
+      Il serait n\xE9anmoins frugivores et consommerait occasionnellement des insectes,
+      oeufs et gommes v\xE9g\xE9tales."
+  - Question: Qu'est ce qu'un serval ?
+    Answers:
+    - "Un f\xE9lin "
+    - 'Un primate '
+    - Un rongeur
+    - 'Un oiseau '
+    GreatAnswer: 0
+    Indice: "Il est de la m\xEAme famille que le chat dor\xE9 Africain ainsi que
+      du caracal "
+    RefDescription: "Voici un des f\xE9lins d'Afrique les moins connus : le serval.
+      Caract\xE9rise par ses longues pattes et de grandes oreilles arrondies, il
+      \xE0 la t\xEAte d'un chat dans le corps d'un petit gu\xE9pard. Le serval est
+      capable de nager, ronronner, cracher, grogner et miauler. Son aire de r\xE9partition
+      s'\xE9tend des savanes humides, soit principalement dans le sud de l'Afrique.
+      Le serval se nourrit de petites proies telles que les oiseaux, les petites
+      antilopes, les reptiles, les petits rongeurs, les poissons et les grenouilles.
+      Sa m\xE9thode de chasse est unique : immobile dans la savane, il rep\xE8re
+      sa proie a l'oreille, puis bondit pour l'immobiliser de ses deux pattes avant.
+      Il peut attraper les oiseaux en vol. Le serval r\xE9ussit 50 % de ses op\xE9rations
+      de chasse, ce qui en fait l'un des chasseurs les plus efficaces des f\xE9lins
+      d'Afrique."
+  - Question: Comment nomme-t-on le perroquet Africain ?
+    Answers:
+    - 'Le toucan Africain '
+    - 'Le gris d''Afrique '
+    - 'Le gros-bec '
+    - Le kakapo
+    GreatAnswer: 1
+    Indice: 'Le kakapo est perroquet mais il ne vie pas en Afrique '
+    RefDescription: "Le nom scientifique du perroquet gris d\u2019Afrique est Psittacus
+      erithacus, et il est originaire des for\xEAts tropicales humides d\u2019Afrique
+      occidentale et centrale. Ces perroquets sont consid\xE9r\xE9s comme l\u2019un
+      des oiseaux les plus intelligents du monde. Ils sont doux de nature et font
+      de charmants animaux de compagnie."
+  - Question: "Quelle est l'esp\xE8ce de votour la plus courante en Afrique ?"
+    Answers:
+    - Le vautour Oricou
+    - Le vautour moine
+    - 'Le vautour chauve '
+    - 'Le vautour Africain '
+    GreatAnswer: 0
+    Indice: 'Le vautour moine ne vie pas en Afrique '
+    RefDescription: "Les vautours oricous fr\xE9quentent les savanes s\xE8ches, les
+      broussailles \xE9pineuses, les plaines arides, les d\xE9serts o\xF9 les arbres
+      \xE9pars poussent dans le lit ass\xE9ch\xE9 des rivi\xE8res.  On les trouve
+      \xE9galement sur les versants ouverts des montagnes. Ces oiseaux montrent une
+      nette pr\xE9f\xE9rence pour les contr\xE9es sauvages o\xF9 les arbres sont
+      clairsem\xE9s et o\xF9 les herbes sont tr\xE8s basses ou absentes. Par contre,
+      ils recherchent leur nourriture dans les zones o\xF9 la couverture est plus
+      \xE9paisse et o\xF9 les humains sont susceptibles d'apporter un peu de perturbation,
+      c'est \xE0 dire le bord des routes. Leur habitat se situe du niveau de la mer
+      jusqu'\xE0 3000 m\xE8tres. Localement, ils sont pr\xE9sents jusqu'\xE0 4500
+      m d'altitude."
+  - Question: Quel est le serpent le plus venimeux d'Afrique ?
+    Answers:
+    - 'Le cobra '
+    - 'Le crotale '
+    - 'Le mamba noir '
+    - 'Le fer de lance '
+    GreatAnswer: 0
+    Indice: Le cobra ne vie pas en Afrique mais en Inde, Sri Lanka, Bangladesh, ouest
+      du Pakistan
+    RefDescription: "Le mamba noir est un serpent de la famille des Elapidae, ce
+      qui signifie qu'il fait partie d'une cat\xE9gorie de serpents extr\xEAmement
+      venimeux. De tous les serpents qui peuvent faire partie de cette famille, le
+      mamba noir en est \xE9videmment le roi !  Tr\xE8s peu de serpents sont aussi
+      intr\xE9pides, agiles, et impr\xE9visibles que le mamba noir. De plus, il est
+      tr\xE8s dangereux car sa morsure est mortelle. M\xEAme s'il n'est pas le serpent
+      le plus venimeux du monde (cette esp\xE8ce se trouve en Australie) il est deuxi\xE8me
+      dans cette liste."
+  - Question: Quel est l'animal terrestre le plus rapide d'Afrique ?
+    Answers:
+    - 'Le puma '
+    - "Le gu\xE9pard "
+    - Le lion
+    - "Le l\xE9opard "
+    GreatAnswer: 1
+    Indice: 'C''est aussi l''animal '
+    RefDescription: "Avec sa fine t\xEAte a\xE9rodynamique et son corps taill\xE9
+      pour la course, le gu\xE9pard est l\u2019animal terrestre le plus rapide au
+      monde. Pour attraper sa proie, il peut atteindre des pointes de 120km/h. Mais
+      il ne peut pas maintenir cette vitesse bien longtemps, sur 300 ou 400m environ,
+      alors il a int\xE9r\xEAt \xE0 bien calculer son coup pour ne pas rater sa proie
+      !"
+  - Question: "Comment est surnomm\xE9 un gorille m\xE2le Africain \xE0 l'\xE2ge 
+      adulte ?"
+    Answers:
+    - 'Kong '
+    - "Dos argen\xE9"
+    - 'L''alpha '
+    - 'King Kong '
+    GreatAnswer: 1
+    Indice: "Cette appelation fait r\xE9f\xE9rence \xE0 une caract\xE9ristique physique
+      unique au m\xE2le."
+    RefDescription: "Un gorille \xE0 dos argent\xE9 est un gorille m\xE2le adulte,
+      sexuellement mature, qui dirige le groupe. Les gorilles sont une esp\xE8ce
+      sociale qui vit en groupe dont le nombre varie selon les groupes. Chez les
+      gorilles orientaux, par exemple, les groupes sont form\xE9s, en moyenne, d'une
+      dizaine d'individus, mais des groupes beaucoup plus importants ont d\xE9j\xE0
+      \xE9t\xE9 identifi\xE9s. Dans le cas des esp\xE8ces occidentales, les groupes
+      varient entre 10 et 20 individus selon les sous-esp\xE8ces. "
+  - Question: Quel est le plus grand serpent d'Afrique ?
+    Answers:
+    - 'Le python de Seba '
+    - "Le python reticl\xE9 "
+    - Le Boa
+    - 'L''anaconda '
+    GreatAnswer: 0
+    Indice: "Le python reticul\xE9 est le plus grand serpent du monde mais ne vie
+      pas en Afrique "
+    RefDescription: "Le Python de Seba (Python sebae) est un des pythons les plus
+      longs, c'est aussi le plus grand serpent africain. Sa taille varie, en g\xE9n\xE9ral,
+      de 4 \xE0 6 m mais il peut mesurer jusqu'\xE0 7,5 m de long. Ce serpent peut
+      d\xE9passer les 100 kg."
+  RefImage:
+  - {fileID: 21300000, guid: e753438ed860c834b8d707df3ca6f152, type: 3}
+  - {fileID: 21300000, guid: b3b660e4dd089cb4f92afa96e5853203, type: 3}
+  - {fileID: 21300000, guid: f6382fd1b69e5c8449bdcbab82271cb6, type: 3}
+  - {fileID: 21300000, guid: 8ae47f574f878c64b897c830784c8b13, type: 3}
+  - {fileID: 21300000, guid: 5555db1ffe59f3e4fb985585c7486d63, type: 3}
+  - {fileID: 21300000, guid: e6856584fa606f549b9093f95fed85dd, type: 3}
+  - {fileID: 21300000, guid: fdee48e3bb9946e4bbb8e2bac87793e0, type: 3}
+  - {fileID: 21300000, guid: c4a1fe6392cfed943b89afce4631f734, type: 3}
+  - {fileID: 21300000, guid: 7ca8a0ea40791f94d8450cc61c8d4632, type: 3}
+  - {fileID: 21300000, guid: a0d6d39befdafa24bba20c5a78de8e72, type: 3}
+  - {fileID: 21300000, guid: c982abbbc4f77e846b4117094263cf5e, type: 3}
+  - {fileID: 21300000, guid: cdcbdf45e44a94e4aa632535915fa421, type: 3}
+  - {fileID: 21300000, guid: edb1fbf04cdd5a043804b7a56898cba7, type: 3}
+  - {fileID: 21300000, guid: 2cb5536d6c0206a45925ddb307d4d016, type: 3}
+  - {fileID: 21300000, guid: d0dcdd9b1bd8d1446ae5289897d824d8, type: 3}

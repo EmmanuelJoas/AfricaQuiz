@@ -25,8 +25,17 @@ public class AudioManager : MonoBehaviour
     /// <summary>
     /// Reference to the Game object audio manager 
     /// </summary>
-    public GameObject AudioManagerObject;
+    public AudioSource GameSong;
 
+    /// <summary>
+    /// Reference to the Game object audio manager 
+    /// </summary>
+    public AudioSource GoodAnswerSong;
+
+    /// <summary>
+    /// Reference to the Game object audio manager 
+    /// </summary>
+    public AudioSource WrongAnswerSong;
 
     /// <summary>
     /// Reference to the audio button 
@@ -74,14 +83,18 @@ public class AudioManager : MonoBehaviour
     {
         if (SoudIsActive)
         {
-            AudioManagerObject.SetActive(false);
+            GameSong.GetComponent<AudioSource>().volume=0f;
+            GoodAnswerSong.GetComponent<AudioSource>().volume = 0f;
+            WrongAnswerSong.GetComponent<AudioSource>().volume = 0f;
             AudioButton.GetComponent<Image>().sprite = SoundsImage[0];
             SoudIsActive = false;
             SaveOption("Active");
         }
         else
         {
-            AudioManagerObject.SetActive(true);
+            GameSong.GetComponent<AudioSource>().volume = 0.5f;
+            GoodAnswerSong.GetComponent<AudioSource>().volume = 0.5f;
+            WrongAnswerSong.GetComponent<AudioSource>().volume = 0.5f;
             AudioButton.GetComponent<Image>().sprite = SoundsImage[1];
             SoudIsActive = true;
             SaveOption("Desable");

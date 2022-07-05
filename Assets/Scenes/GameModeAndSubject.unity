@@ -399,7 +399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.17920877, y: 0.42900002}
   m_AnchorMax: {x: 0.836, y: 0.780309}
-  m_AnchoredPosition: {x: 2, y: -2.899994}
+  m_AnchoredPosition: {x: 2, y: -2.8999941}
   m_SizeDelta: {x: 4, y: 1.800003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &95842177
@@ -1217,7 +1217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7608896304508154488, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1.0000267
+      value: -1.0000305
       objectReference: {fileID: 0}
     - target: {fileID: 7608896304592531412, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: m_Pivot.x
@@ -1481,7 +1481,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.27999878, y: 0}
+  m_AnchoredPosition: {x: 0.2800293, y: 0}
   m_SizeDelta: {x: -54.21, y: -20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &291298322
@@ -2376,7 +2376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.17920877, y: 0.8215274}
   m_AnchorMax: {x: 0.836, y: 0.95785004}
-  m_AnchoredPosition: {x: 0.000061035156, y: 5.0000157}
+  m_AnchoredPosition: {x: 0.000061035156, y: 5.0000305}
   m_SizeDelta: {x: 0.000061035, y: 1.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &427342954
@@ -2750,8 +2750,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1110316427}
   m_HandleRect: {fileID: 1110316426}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.20283462
+  m_Value: 0.000000086039236
+  m_Size: 0.4191954
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3669,7 +3669,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.25279126, y: 0.1351465}
   m_AnchorMax: {x: 0.7722435, y: 0.284}
-  m_AnchoredPosition: {x: 0, y: -2.3501587}
+  m_AnchoredPosition: {x: 0, y: -2.350159}
   m_SizeDelta: {x: 0.000091552734, y: 15.300018}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &801652600
@@ -4185,6 +4185,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 846578778}
     - target: {fileID: 1401911354676624002, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
+      propertyPath: SubjectIndex
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1401911354676624002, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: ModeGamePanel
       value: 
       objectReference: {fileID: 1739344162}
@@ -4200,6 +4204,10 @@ PrefabInstance:
       propertyPath: FadeSysteme
       value: 
       objectReference: {fileID: 846578778}
+    - target: {fileID: 2514925396971138638, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
+      propertyPath: SubjectIndex
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2514925396971138638, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: ModeGamePanel
       value: 
@@ -4336,6 +4344,10 @@ PrefabInstance:
       propertyPath: FadeSysteme
       value: 
       objectReference: {fileID: 846578778}
+    - target: {fileID: 8124805869632598366, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
+      propertyPath: SubjectIndex
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8124805869632598366, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: ModeGamePanel
       value: 
@@ -4628,7 +4640,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.25279126, y: 0.1351465}
   m_AnchorMax: {x: 0.7722435, y: 0.284}
-  m_AnchoredPosition: {x: 0, y: -2.350096}
+  m_AnchoredPosition: {x: 0, y: -2.3500957}
   m_SizeDelta: {x: 0.000091552734, y: 15.300018}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &996461339
@@ -4821,7 +4833,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7608896304508154488, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.9999962
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7608896304592531412, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: m_Pivot.x
@@ -5240,7 +5252,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 11.799622, y: 0.31000042}
+  m_AnchoredPosition: {x: 11.799561, y: 0.31000137}
   m_SizeDelta: {x: -3.6, y: 9.44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1110316427
@@ -5520,7 +5532,7 @@ PrefabInstance:
       objectReference: {fileID: 846578778}
     - target: {fileID: 1401911354676624002, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: SubjectIndex
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1401911354676624002, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: ModeGamePanel
@@ -5540,7 +5552,7 @@ PrefabInstance:
       objectReference: {fileID: 846578778}
     - target: {fileID: 2514925396971138638, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: SubjectIndex
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2514925396971138638, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: ModeGamePanel
@@ -5556,7 +5568,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7608896304508154488, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.9999962
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7608896304592531412, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: m_Pivot.x
@@ -5628,7 +5640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7608896304592531412, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -2.625023
+      value: -2.6250305
       objectReference: {fileID: 0}
     - target: {fileID: 7608896304592531412, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -5680,7 +5692,7 @@ PrefabInstance:
       objectReference: {fileID: 846578778}
     - target: {fileID: 8124805869632598366, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: SubjectIndex
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8124805869632598366, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: ModeGamePanel
@@ -7715,7 +7727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.25279126, y: 0.1351465}
   m_AnchorMax: {x: 0.7722435, y: 0.284}
-  m_AnchoredPosition: {x: -0.000061035156, y: -2.3500352}
+  m_AnchoredPosition: {x: -0.000061035156, y: -2.350035}
   m_SizeDelta: {x: 0.000061035, y: 15.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1657785123
@@ -7974,7 +7986,7 @@ PrefabInstance:
       objectReference: {fileID: 846578778}
     - target: {fileID: 1401911354676624002, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: SubjectIndex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1401911354676624002, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: ModeGamePanel
@@ -7994,7 +8006,7 @@ PrefabInstance:
       objectReference: {fileID: 846578778}
     - target: {fileID: 2514925396971138638, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: SubjectIndex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2514925396971138638, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: ModeGamePanel
@@ -8146,7 +8158,7 @@ PrefabInstance:
       objectReference: {fileID: 846578778}
     - target: {fileID: 8124805869632598366, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: SubjectIndex
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8124805869632598366, guid: c9cdc141b31e878488a9b3046d392572, type: 3}
       propertyPath: ModeGamePanel
@@ -8190,7 +8202,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.17920877, y: 0.42900002}
   m_AnchorMax: {x: 0.836, y: 0.780309}
-  m_AnchoredPosition: {x: 2, y: -2.899994}
+  m_AnchoredPosition: {x: 2, y: -2.8999941}
   m_SizeDelta: {x: 4, y: 1.800003}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1693553339
