@@ -12,142 +12,326 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee7bc2070da7be4484f3e8980b344a7, type: 3}
   m_Name: Story
   m_EditorClassIdentifier: 
-  Subject: 
+  Subject: Story
   AnsAndQues:
-  - Question: 'HISTOIRE test '
+  - Question: "Quel rayaume unifi\xE9 par la dynastie des Ciss\xE9 Tounkara est consid\xE9r\xE9
+      comme l'un des plus ancien de l'Afrique ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    - L'empire du Mali
+    - 'L''empire du Ghana '
+    - 'L''empire Egyptien '
+    - 'L''empire Ivoirien '
+    GreatAnswer: 1
+    Indice: "Aussi connu pour l'abondance en or de ces terres, fond\xE9 par les sonink\xE9s
+      , il s'\xE9tendait du s\xE9n\xE9gal \xE0 tombouctou."
+    RefDescription: "Dans les premi\xE8rs si\xE8cles de notre \xE8re, le Wagadu,
+      un petit royaume situ\xE9 entre le S\xE9n\xE9gal et le Niger, aux sources de
+      l\u2019or, et gouvern\xE9 par le clan des Ciss\xE9 Tounkara finit par domin\xE9
+      l\u2019ensemble des Sonink\xE9s, peuple d\u2019agriculteurs."
+  - Question: "Quel est l'empire fond\xE9 par le mandigue Soundiata Keita en 1235
+      ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    - L'empire Tchad
+    - 'l''empire du Kamen '
+    - L'empire du Mali
+    - 'L''empire du Monomotopa '
+    GreatAnswer: 2
+    Indice: "C'est une des l\xE9gendes la plus connu sur le continent et un cours
+      d'histoire de primaire."
+    RefDescription: "Successeur du Ghana tomb\xE9 sous les coups des Almoravides
+      en 1076, l\u2019empire du Mali fut le premier Etat structur\xE9 d\u2019Afrique
+      occidentale. Ses coutumes et sa structure sociale marquent encore les habitants
+      de la r\xE9gion et leur mode de vie.Soundata Keita  Selon la tradition orale,
+      Soundiata Keita \xE9tait le seul rescap\xE9 des 12 fils du roi du petit royaume
+      Manding du Mali, tu\xE9s par Soumaoror Kant\xE9, roi du Sosso. Soumaoro laissa
+      la vie sauve au petit Soundiata car celui-ci \xE9tait paralytique. Mais le
+      jour de ses 7 ans, n\u2019en pouvant plus d\u2019\xEAtre la ris\xE9e de la
+      Cour, Soundiata plia une barre de fer pour en faire un arc et acquit une force
+      \xE9tonnante. Craignant pour sa vie, il dut s\u2019exiler et d\xE9cida, avec
+      des alli\xE9s, de combattre Soumaoro qui avait enlev\xE9 sa s\u0153ur.  Une
+      nuit, la s\u0153ur de Soundiata r\xE9ussit \xE0 percer le secret de l\u2019invincibilit\xE9
+      de Soumaoro. Aussi, quand un jour de 1235, les arm\xE9e des deux adversaires
+      se trouv\xE8rent face \xE0 face, Soundiata tendit son arc et frappa l\u2019endroit
+      pr\xE9cis de l\u2019\xE9paule de Soumaoro indiqu\xE9 par sa s\u0153ur. Soundiata
+      Keita assura, ensuite, sa victoire en s\u2019emparant des r\xE9gions riches
+      en or du Ghana dont il fit son vassal."
+  - Question: "Quel est l'empire situ\xE9 d\xE8s le VII si\xE8cle sur le bassin du
+      tcahd, connu pour ces cavaliers redoutables ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    - 'L''empire Mongole '
+    - 'L''empire du Tchad '
+    - L'empire du Mali
+    - 'L''empir du Kamen '
+    GreatAnswer: 3
+    Indice: 'Il existait dans les regions qui font maintenant partie du Niger, du
+      Cameroun , du Tchad et du Nigeria '
+    RefDescription: "Situ\xE9 au croisement des routes de la vall\xE9e du Niger,
+      des r\xE9gions foresti\xE8res du Sud, de la vall\xE9e du Nil et de la M\xE9diterran\xE9e,
+      le bassin du Tchad est le plus grand carrefour de civilisations au Sud du Sahara. 
+      Ici c\u2019est d\xE9velopp\xE9 le royaume du Kanem au VIIe si\xE8cle. Son souverain,
+      le \u201Cma\xEF\u201D, tenait son pouvoir de la possession de chevaux et de
+      la pr\xE9sence d\u2019artisans m\xE9tallurgistes. Gr\xE2ce \xE0 la cavalerie
+      dot\xE9e de couteaux de jets redoutables, les Zaghawas, peuple de pasteurs
+      dont il \xE9tait issu, assur\xE8rent leur domination sur les agriculteurs.
+      Le Kanem dura plus de 1000 ans."
+  - Question: "Quel sont les premiers Europ\xE9ens \xE0 s'installer en Afrique ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - 'Les portugais '
+    - "Les fran\xE7ais "
+    - 'Les britanniques '
+    - 'Les hollandais '
     GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    Indice: "Les fran\xE7ais ont \xE9t\xE9 le deuxi\xE8me peuple europ\xE9ens \xE0
+      s'installer en Afrique."
+    RefDescription: "Au cours du Xe si\xE8cle, quelques savants arabes commencent
+      \xE0 d\xE9crire les richesses des grands royaumes d\u2019Afrique. Certains,
+      comme Ibn Battuta, parcourent r\xE9ellement le continent. D\u2019autres s\u2019inspirent
+      des r\xE9cits des voyageurs. Les \xE9crits sur l\u2019Afrique sont alors de
+      plus en plus nombreux et tr\xE8s vite la richesse des royaumes est connue en
+      Europe. Les Portugais sont les premiers Europ\xE9ens \xE0 s\u2019implanter
+      en Afrique au d\xE9but du XVe si\xE8cle. Un peu plus tard viennent les Fran\xE7ais,
+      les Hollandais et les Britanniques.  "
+  - Question: Quel titre portait le roi de l'empire du Ghana ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - Kaya-Manga
+    - Negus
+    - Dohmey
+    - Nanan
     GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    Indice: "Ce titre signifiait \" roi de l'or \" en r\xE9f\xE9rence \xE0 l'abondance
+      d'or dans le  royaume \xE0 cette \xE9poque ."
+    RefDescription: "Le roi fondait son pouvoir sur le culte du Wagadu-Bida, le dieu
+      serpent. Il portait le titre de \u201CKaya-Magan\u201D ou \u201Croi de l\u2019or\u201D.
+      Les probl\xE8mes de successions \xE9taient inconnus car la tradition pla\xE7ait
+      automatiquement sur le tr\xF4ne le fils a\xEEn\xE9 de la s\u0153ur a\xEEn\xE9e
+      du roi.  Le souverain du Wagadu fit bon accueil aux marchands musulmans arriv\xE9s
+      au IXe si\xE8cle dans cette r\xE9gion qu\u2019ils avaient appel\xE9e Ghana
+      (du nom du titre que portait les rois signifiant \u201Cchef de guerre\u201D).
+      Il leur permit de s\u2019installer \xE0 c\xF4t\xE9 de sa capitale, Koumbi Saleh,
+      pour \xE9changer leurs produits contre de l\u2019or, mais sous bonne surveillance,
+      car il se r\xE9servait le secret des origines de cette mati\xE8re pr\xE9cieuse."
+  - Question: "Quel est la principal activit\xE9e responsable de l'expansion de l'empire
+      du Ghana ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - Le commerce transsaharien
+    - "L'\xE9l\xE9vage"
+    - "La p\xEAche "
+    - L'agriculture
     GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    Indice: "Cette expansion est le resultat de l'\xE9change de la ressource la plus
+      abondante de royaume."
+    RefDescription: "Le souverain du Wagadu fit bon accueil aux marchands musulmans
+      arriv\xE9s au IXe si\xE8cle dans cette r\xE9gion qu\u2019ils avaient appel\xE9e
+      Ghana (du nom du titre que portait les rois signifiant \u201Cchef de guerre\u201D).
+      Il leur permit de s\u2019installer \xE0 c\xF4t\xE9 de sa capitale, Koumbi Saleh,
+      pour \xE9changer leurs produits contre de l\u2019or, mais sous bonne surveillance,
+      car il se r\xE9servait le secret des origines de cette mati\xE8re pr\xE9cieuse.Il
+      s\u2019appuie sur une \xE9conomie tr\xE8s d\xE9velopp\xE9e : l\u2019agriculture
+      prosp\xE8re au Sud, l\u2019\xE9levage au Nord ; le commerce, notamment transsaharien,
+      est florissant (or, peau, c\xE9r\xE9ales, esclaves\u2026) ; les mines d\u2019or
+      et de fer se r\xE9v\xE8lent intarissables ; les transports se d\xE9veloppent."
+  - Question: "Quel \xE9tait la principale source de richesse du \"Mai\"(titre donner
+      au souverain du Kamen) ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    - L'or
+    - Les diamants
+    - 'Les esclaves '
+    - 'Les poissons '
+    GreatAnswer: 2
+    Indice: "\" Son enmprise sur ces sujet, \xE9crit un chronique musulman de l'\xE9poque,
+      est absolu. Il reduit en esclave qui il veut \""
+    RefDescription: "La richesse du \u201CMa\xEF\u201D du Kanem n\u2019\xE9tait pas
+      fond\xE9e sur l\u2019or, mais sur l\u2019esclavage. \u201CSon emprise sur ses
+      sujets, \xE9crit un chroniqueur musulman de l\u2019\xE9poque, est absolue.
+      Il r\xE9duit en esclavage qui il veut.\u201D  Au cours de si\xE8cles, la r\xE9gion
+      ne cessa d\u2019\xEAtre le terrain privil\xE9gi\xE9 des chasseurs d\u2019esclaves
+      au profit du monde arabe, puis de l\u2019Empire Ottoman. Aujourd\u2019hui,
+      l\u2019esclavage n\u2019a pas compl\xE8tement disparu dans la r\xE9gion et
+      se perp\xE9tue \xE0 l\u2019occasion des conflits locaux avec le Soudan voisin."
+  - Question: "Quel empire succ\xE8de au Ghana apr\xE8s son d\xE9clin ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - L'empire du Mali
+    - L'empire du Songhai
+    - L'empire du Kamen
+    - L'empire du Monomotopa
     GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    Indice: "Cette empire est comsid\xE9re\xE9 comme le tout premier Etat structur\xE9
+      de l'Afrique occidentale."
+    RefDescription: "Successeur du Ghana tomb\xE9 sous les coups des Almoravides
+      en 1076, l\u2019empire du Mali fut le premier Etat structur\xE9 d\u2019Afrique
+      occidentale. Ses coutumes et sa structure sociale marquent encore les habitants
+      de la r\xE9gion et leur mode de vie."
+  - Question: Quel est la cause de la chute de l'mpire du Ghana ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    - 'Une catastrophe naturel '
+    - 'Une guerre ces voisins '
+    - 'Une guerre civile '
+    - "Un d\xE9sacord de successeur "
+    GreatAnswer: 1
+    Indice: "Les probl\xE8mes de successions \xE9taient inconnus car la tradition
+      pla\xE7ait automatiquement sur le tr\xF4ne le fils a\xEEn\xE9 de la s\u0153ur
+      a\xEEn\xE9e du roi."
+    RefDescription: "Les sources insistent sur les relations \xAB compliqu\xE9es
+      \xBB que le Ghana entretenait avec les Berb\xE8res sahariens. La plupart du
+      temps ces relations \xE9taient pacifiques, avant tout commerciales : des Berb\xE8res
+      \xE9taient m\xEAme sujets du Ghana. Le point de friction r\xE9current entre
+      les deux partenaires semble avoir \xE9t\xE9 la ville commerciale d\u2019Aoudaghost.
+      Cette ville symbolise la tentation des deux parties de contr\xF4ler les ressources
+      de l\u2019autre \xE0 leur source pour se passer de son interm\xE9diaire.En
+      990, Adouaghost passe bri\xE8vement sous le contr\xF4le des berb\xE8res unifi\xE9s
+      par un d\xE9nomm\xE9 Tilutane. Il semble m\xEAme qu\u2019un roi du Ghana ait
+      \xE9t\xE9 assassin\xE9 \xE0 cette occasion. La ville est vite reprise, mais
+      en 1054, les berb\xE8res unifi\xE9s par le mouvement almoravide d\u2019Ibn
+      Yasin la reprennent, avant de pousser en 1076 jusqu\u2019\xE0 Kumbi Saleh,
+      qu\u2019ils d\xE9truisent ( le massacre de ses habitants reste semble-t-il
+      un enjeu m\xE9moriel important encore de nos jours). A cette date, les Almoravides
+      contr\xF4lent donc seul le commerce transsaharien."
+  - Question: "Quel souverain de l'empire du Mali prit la t\xEAte d'un immense cort\xE8ge
+      pour se rendre \xE0 la mecque ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - Mansa Moussa (Kankou Moussa)
+    - 'Soundiata Keita '
+    - Soumaoro Kante
+    - "Ciss\xE9 Tounkara "
     GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    Indice: "Il est concid\xE9r\xE9 comme le plus riche roi de l'empire du Mali."
+    RefDescription: "Plusieurs souverains du Mali firent des p\xE8lerinages \xE0
+      La Mecque et favoris\xE8rent le commerce musulman. En 1324, l\u2019empereur
+      Mansa Moussa (Moussa le Grand) prit la t\xEAte d\u2019un immense cort\xE8ge
+      pour se rendre \xE0 La Mecque. Il emportait des pr\xE9sents ainsi que la plus
+      grande partie de l\u2019or conserv\xE9 depuis des g\xE9n\xE9rations. Durant
+      leur passage au Caire, les Maliens distribu\xE8rent des aum\xF4nes comme tout
+      bon p\xE8lerin et d\xE9pens\xE8rent sans compter au point que le cours de l\u2019or
+      chuta dans la r\xE9gion pour plusieurs ann\xE9es.  Sous son r\xE8gne, le commerce
+      transsaharien prend un essor spectaculaire : du Nord viennent le sel, les tissus,
+      l\u2019encens, les livres. Du Sud partent les \xE9pices, le cuivre, l\u2019or,
+      l\u2019ivoire et les esclaves. Les pays c\xF4tiers fournissent le miel, le
+      kola, l\u2019huile de palme et l\u2019indigo."
+  - Question: "Sous le r\xE8gne de quel roi l'empire Zoulou connu sont apog\xE9 ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    - Senzangakou
+    - Chaka
+    - Nandi
+    - Kwazulu-Natal
+    GreatAnswer: 1
+    Indice: "Il \xE9tait concid\xE9r\xE9 comme une figure \xE9pique de l'Afrique
+      australe au XIX sci\xE8cle "
+    RefDescription: "A la fin du XVIIIe si\xE8cle, des pasteurs bantous, les Ngunis,
+      arriv\xE8rent du nord et s\u2019install\xE8rent au bord du Zamb\xE8ze. Dans
+      un de leurs clans, celui des Abatetwas, naquit un enfant \u201Cb\xE2tard\u201D,
+      fils d\u2019un des chefs et d\u2019une danseuse rencontr\xE9e au march\xE9.
+      Humili\xE9 d\xE8s l\u2019enfance, Chaka dut aussi faire face \xE0 la jalousie,
+      le jour o\xF9 il tua de ses mains un lion qui avait fait fuir tous les villageois.
+      Mais inform\xE9 de son exploit, Dinguiswayo, le grand chef des Abatetwas, le
+      convoqua et en fit son homme de confiance. A sa mort, Chaka prit sa place."
+  - Question: "Quel est l'empire de l'Afrique de l'ouest qui s'\xE9tend du Niger
+      aux c\xF4tes s\xE9n\xE9galaises, et dirig\xE9 par Sonni Ali Ber ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    - L'empire du Soso
+    - L'empire du Songhai
+    - L'empire du Mali
+    - L'empire du Ghana
+    GreatAnswer: 1
+    Indice: 'Cet empire etait devenu l''un des vasseau de l''empire du Mali '
+    RefDescription: "Les royaumes vassaux de l\u2019empire du Mali n\u2019attendaient
+      qu\u2019une occasion de prendre leur revanche. Ce que fit le petit royaume
+      de Gao, qui donna naissance au plus grand empire que la r\xE9gion eut connu
+      jusqu\u2019\xE0 provoquer la convoitise du lointain roi du Maroc.  Sonni Ali 
+      En 1464, Sonni Ali monta sur le tr\xF4ne du petit royaume de Gao, chez les
+      Songha\xEFs, \xE9tabli sur le Niger en aval de Tombouctou. Ce souverain constitua
+      une cavalerie et une flotte de 400 bateaux, puis se lan\xE7a \xE0 l\u2019assaut
+      de Tombouctou, qui fut vaincu en 1468.  Cinq ans plus tard, la flotte de Djenn\xE9
+      assura la domination de Sonni Ali sur tout le delta int\xE9rieur du fleuve.
+      Surnomm\xE9 \u201CAli le Grand\u201D, il favorisa le commerce, cr\xE9a une
+      administration centralis\xE9e et prit l\u2019habitude de r\xE9diger des actes
+      officiels."
+  - Question: "Quel est le royaume Africain autrefois dirig\xE9 par Andrianampoinid\xE9rina
+      ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    - Le royaume Nampoina
+    - 'Le royaume Merina '
+    - Le royaume du Kongo
+    - Le royaume de Nkuku
+    GreatAnswer: 1
+    Indice: "Ce n'est qu'a parti de 1817 que Merina a commenc\xE9 \xE0 se faire app\xE9l\xE9
+      Madascar"
+    RefDescription: "Madagascar s\u2019est peupl\xE9e, il y a 2000 ans, d\u2019Africains
+      et d\u2019immigrants indon\xE9siens. Sur l\u2019\xEEle jusqu\u2019alors d\xE9serte,
+      les grandes tribus comme les Sakalava et les Betsimisaraka fond\xE8rent des
+      royaumes aux coutumes communes. De grands souverains unifi\xE8rent le pays
+      \xE0 partir du XVIIIe si\xE8cle.  Des immigrants indon\xE9siens  Pouss\xE9s
+      sur les c\xF4tes d\u2019Afrique orientale par les vents de la mousson, les
+      immigrants indon\xE9siens ont probablement apport\xE9 avec eux le bananier
+      et le riz, qui offriront une nourriture de base aux Africains. Ils ont aussi
+      donn\xE9 leur langue, le malgache, parl\xE9 aujourd\u2019hui par tous les habitants
+      de l\u2019\xEEle.  Par ailleurs, Madagascar doit au continent africain le principe
+      de la royaut\xE9 sacr\xE9, et le regroupement de la population en clans. Elle
+      tient plus particuli\xE8rement des Swahilis son organisation politique, commerciale
+      et culturelle.  Andrianampoinimerina fondateur de l\u2019unit\xE9 malgache."
+  - Question: "Quel est le royaume appel\xE9 autrefois le Munhumtupa (vers 1450-1629),
+      qui se situait sur les territoires actuels du Zimbabw\xE9 et du Mozanbique
+      ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
-  - Question: 'HISTOIRE test '
+    - Le Katanga
+    - Le Wakanda
+    - Le Monomotapa
+    - Le Kongo
+    GreatAnswer: 2
+    Indice: "La version de ce nom est une deriv\xE9e portugaise du mot \"Mwene Mutapa\"."
+    RefDescription: "les origines de l\u2019empire  \xAB Monomonata \xBB est la version
+      portugaise du mot Mwene Mutapa. \xAB Mutapa \xBB signifiant \xAB les terres
+      conquises \xBB et mwene \xAB le seigneur \xBB. Cette \xE9tymologie vient conforter
+      la l\xE9gende de la fondation de l\u2019empire : dans la premi\xE8re moiti\xE9
+      du XVe si\xE8cle, un prince du Zimbabwe nomm\xE9 Nyatsimba Mutota aurait \xE9t\xE9
+      envov\xE9 au nord du royaume pour y chercher de nouvelles mines de sel. Il
+      aurait fait la conqu\xEAte de ces terres qui appartenaient aux Shonas et aurait
+      cr\xE9\xE9 sa capitale, Zvongambe, sur les rives du Zamb\xE8ze. Il devient
+      donc le \xAB Mwene Mutapa \xBB.  Le successeur de Mutota, Matope, aurait fait
+      la conqu\xEAte des terres jusqu\u2019\xE0 l\u2019oc\xE9an indien, soumettant
+      les autres royaumes Shona : le Maniyka, le Kiteve et le Madanda. Le Monomotapa
+      est donc un empire compos\xE9 d\u2019une m\xE9tropole directement dirig\xE9e
+      par l\u2019empereur et de royaumes tributaires, qui conservent chacun leur
+      roi et leurs traditions. Par contre, le commerce ext\xE9rieur est enti\xE8rement
+      contr\xF4l\xE9 par le Mwenemutapa, sous peine de mort. A noter que le Zimbabwe
+      fait aussi partie de l\u2019empire, mais n\u2019est pas construit par le Monomotapa,
+      qui ne fait que r\xE9cup\xE9rer ces constructions."
+  - Question: "Quel est le royaume \xE0 envoyer des ambassadeurs dans un pays Europ\xE9en
+      ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - 'Le royaume du Kongo '
+    - Le royaume de Negus
+    - "Le royaume du B\xE9nin "
+    - 'Le royaume de Madagascar '
     GreatAnswer: 0
-    Indice: MDR
-    RefDescription: 333
+    Indice: "Les portugais avaient nomm\xE9 ce royaume comme etant un de ces vasseau
+      avant de les trahirent . "
+    RefDescription: "En contact avec le Portugal d\xE8s le XVe si\xE8cle, le Kongo
+      devient vite le plus grand Etat de la r\xE9gion, fort de ses \xE9changes commerciaux
+      : plantes comestibles import\xE9es d\u2019Am\xE9riques, huile de palme locale,
+      ivoire et cauris (monnaie de coquillages ramass\xE9s sur la c\xF4te). C\u2019est
+      en cherchant un passage pour p\xE9n\xE9trer dans l\u2019oc\xE9an indien que
+      les Portugais le d\xE9couvrirent. Les premi\xE8res relations donn\xE8rent lieu
+      \xE0 des \xE9changes d\u2019ambassadeurs entre Lisbonne et Mbanza-Kongo, la
+      capitale du royaume.  Des jeunes Kongolais partirent m\xEAme faire leurs \xE9tudes
+      en Europe et, en 1513, un des fils du roi de l\u2019\xE9poque pronon\xE7a un
+      discours en latin devant le pape.  Mais en raison de la distance, les communications
+      entre les deux pays restaient rares. Et les repr\xE9sentants du Portugal, les
+      commer\xE7ants et les aventuriers, finirent par prendre tous les pouvoirs.
+      Ils surveillaient le royaume \xE0 partir de l\u2019\xEEle de Sao Tom\xE9, au
+      large, qui leur servait d\u2019entrep\xF4t d\u2019esclaves."
   RefImage:
-  - {fileID: 0}
+  - {fileID: 21300000, guid: eddf35a77003d5b439d73d1e374de055, type: 3}
+  - {fileID: 21300000, guid: f21eb94e2f7d1cc4e8b5e495ac993d39, type: 3}
+  - {fileID: 21300000, guid: a4e01151bbd71e8468a3e6de03fa2152, type: 3}
+  - {fileID: 21300000, guid: 2dc3562bb8bd4074d87150753405c975, type: 3}
+  - {fileID: 21300000, guid: eddf35a77003d5b439d73d1e374de055, type: 3}
+  - {fileID: 21300000, guid: 38284fcae546f6443b97ed09c6f5878e, type: 3}
+  - {fileID: 21300000, guid: c57d917f30fa67b4f91e3be25d5ac19c, type: 3}
+  - {fileID: 21300000, guid: edeea9f96b6009247a1c331ae1f0070a, type: 3}
+  - {fileID: 21300000, guid: 751d70dfbe16bd04a89d934401e412cd, type: 3}
+  - {fileID: 21300000, guid: 48aa307d445eacd49b95aa59b31aae40, type: 3}
+  - {fileID: 21300000, guid: c5e7153d9ae285249b823241ff4b5aa4, type: 3}
+  - {fileID: 21300000, guid: edeea9f96b6009247a1c331ae1f0070a, type: 3}
+  - {fileID: 21300000, guid: a50189aa30611dd46b7fb0d89d240891, type: 3}
+  - {fileID: 21300000, guid: b563a6b65d743b14e9c0e71fc0334562, type: 3}
+  - {fileID: 21300000, guid: 528807073b8799746bd5ecd356e14c12, type: 3}

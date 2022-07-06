@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee7bc2070da7be4484f3e8980b344a7, type: 3}
   m_Name: Geographie
   m_EditorClassIdentifier: 
-  Subject: 
+  Subject: Geographie
   AnsAndQues:
   - Question: Quelle est la superficie total de l'Afrique ?
     Answers:

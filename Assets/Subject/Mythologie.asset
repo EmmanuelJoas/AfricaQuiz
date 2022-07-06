@@ -12,141 +12,281 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee7bc2070da7be4484f3e8980b344a7, type: 3}
   m_Name: Mythologie
   m_EditorClassIdentifier: 
-  Subject: 
+  Subject: Mythologie
   AnsAndQues:
-  - Question: Myhologie Test
+  - Question: En combien de periode peut-on diviser les mythes Africain ?
     Answers:
-    - 1
+    - 5
     - 2
     - 3
     - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    GreatAnswer: 2
+    Indice: "Tout mythe Africain \xE0 plus de 2 grande periode qui le caract\xE9rise."
+    RefDescription: "La mythologie de l'Afrique est \xE0 la fois unique et impressionnante
+      de diversit\xE9. M\xEAme si beaucoup de peuples partageaient une langue commune
+      et vivaient g\xE9ographiquement \xE0 proximit\xE9 les uns des autres, les croyances
+      locales variaient \xE9norm\xE9ment. Il existe bien \xE9videmment des th\xE8mes,
+      des personnages et des dieux communs r\xE9currents dans les mythologies de
+      tout le continent, mais les cultures individuelles poss\xE9daient g\xE9n\xE9ralement
+      leurs croyances et leurs coutumes propres.  Certains croient que l'histoire
+      du cosmos se divise en trois \xE9poques. La premi\xE8re est parfaite, un \xE2ge
+      d'or o\xF9 les dieux, les hommes et les animaux cohabitent en une totale harmonie.
+      Puis, durant la deuxi\xE8me de ces trois p\xE9riodes, l'\xE2ge de la cr\xE9ation,
+      le dieu cr\xE9ateur fait na\xEEtre la terre, les hommes et les animaux. C'est
+      une p\xE9riode de diff\xE9renciation car Dieu a cr\xE9\xE9 la vie en s'utilisant
+      comme mati\xE8re et mod\xE8le, tentant ainsi de recr\xE9er l'\xE2ge d'or sur
+      terre. Mais quelque chose se produit, indiquant que l'\xE2ge de la perfection
+      est termin\xE9 et ne peut \xEAtre reproduit sur terre ; la mort fait son entr\xE9e
+      dans le monde, la terre et l'humanit\xE9 sont d\xE9fectueuses. C'est une p\xE9riode
+      de chaos et d'ordre, de peur et d'espoir, d'att\xE9nuation du pass\xE9 et de
+      promesse d'un nouvel avenir. Ce dualisme ordre-chaos est parfois consid\xE9r\xE9
+      comme la nature m\xEAme du dieu cr\xE9ateur."
+  - Question: "Dans la mythologie Akan quel animal represente l'esprit des rivi\xE8re
+      ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    - "Le li\xE8vre "
+    - 'Le cobra '
+    - 'Le python '
+    - 'Le manba '
+    GreatAnswer: 2
+    Indice: "C'est un serpent d'Afrique vivant dans les marais et les for\xEAt humide."
+    RefDescription: "Il y  a longtemps, un homme et une femme sont descendus du ciel,
+      tandis qu\u2019un autre homme et une autre femme sont sortis de terre.  Le
+      \xAB Seigneur des Cieux \xBB a \xE9galement envoy\xE9 un python africain (un
+      serpent non venimeux d\u2019Afrique), qui a \xE9lu domicile dans une rivi\xE8re. 
+      Au d\xE9but, les hommes et les femmes n\u2019avaient pas d\u2019enfants; ils
+      n\u2019avaient aucun d\xE9sir l\u2019un pour l\u2019autre et ne connaissaient
+      pas le processus de procr\xE9ation et de naissance.  C\u2019est le Python qui
+      leur a enseign\xE9. Il a demand\xE9 aux hommes et aux femmes s\u2019ils avaient
+      des enfants, et quand on lui a dit qu\u2019ils n\u2019en avaient pas, le Python
+      a dit qu\u2019il ferait concevoir les femmes. Il a dit aux couples de se tenir
+      face \xE0 face, puis il est all\xE9 dans la rivi\xE8re et en est sorti la bouche
+      pleine d\u2019eau.  Il l\u2019a pulv\xE9ris\xE9 sur leur ventre, en disant
+      \xAB Kus, kus \xBB (mots qui sont encore utilis\xE9s aujourd\u2019hui dans
+      les rituels du clan).  Puis le Python a dit aux couples de rentrer chez eux
+      et de s\u2019allonger ensemble, et les femmes ont con\xE7u et donn\xE9 naissance
+      \xE0 des enfants.  Les enfants et les descendants ont pris le Python (\xAB
+      esprit de la rivi\xE8re \xBB), comme leur \xAB esprit de clan \xBB. Tuer ou
+      blesser un python comme tabou, et s\u2019ils trouvent un python qui est mort
+      ou a \xE9t\xE9 tu\xE9 par quelqu\u2019un d\u2019autre, ils mettent de l\u2019argile
+      blanche dessus et l\u2019enterrent \xE0 la mode humaine."
+  - Question: "Que repr\xE9sente le tabouret d'Or dans la mythologie Ashanti ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    - Le pouvoir du roi
+    - "Le sumum et l'\xE2me des Ashantis "
+    - 'Le symbole de la guerre et de la puissance '
+    - "Le symbole de l'\xE9ch\xE8que et de la mis\xE8re "
+    GreatAnswer: 1
+    Indice: "En 1896 les Ashanti ont demi le roi plut\xF4t que de se lancer dans
+      une guerre pouvant mettre en p\xE9ril l'object sacr\xE9."
+    RefDescription: "Le tabouret d'or est un objet sacr\xE9 qui ne doit jamais touch\xE9
+      le sol et sur lequel personne ne doit s'asseoir. Il repr\xE9sente le Sumsum,
+      l'\xE2me de la nation Ashanti. En 1896 les Ashanti pr\xE9f\xE8rent d\xE9mettre
+      leur roi que de se lancer dans une guerre qui aurait mis en p\xE9ril l'objet
+      sacr\xE9."
+  - Question: "Que symbolise Akawaba la d\xE9esse des Ashanti ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - La bienvenue
+    - "La Guerre et la col\xE8re"
+    - "La nature et le respect de la for\xEAt "
+    - 'la femme et la vie '
     GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    Indice: "Les jeunes filles re\xE7oivent son image de la part d'une a\xEEn\xE9
+      quand elles prennent de l'\xE2ge , pour les accueillir dans leurs r\xF4le de
+      m\xE8re."
+    RefDescription: "D\xE9esse qui symbolise la Bienvenue et qui est toujours plac\xE9
+      au-dessus d'une porte. Les jeunes filles re\xE7oivent son image de la part
+      d'un a\xEEn\xE9 quand elles prennent de l'\xE2ge, pour les accueillir dans
+      leur r\xF4le de m\xE8re. Au Togo, un Akwaba g\xE9ant pr\xE9c\xE8de toujours
+      le chef lors d'une procession, ce qui signifie que la M\xE8re et de respect
+      pour la nature sont les valeurs communes essentielles."
+  - Question: Quel est le nom du hero culturel dans les myths Ashanti ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    - 'Akwaba '
+    - Anansi
+    - Ippoto
+    - Bikoko
+    GreatAnswer: 1
+    Indice: "Bikoko n'\xE8xiste pas dans les myths Ashanti"
+    RefDescription: "Enorme araign\xE9e et grand farceur de la l\xE9gende Afrique
+      de l'Ouest. Initialement cr\xE9dit\xE9 de la cr\xE9ation du monde, le r\xF4le
+      d'Anansi s'est transform\xE9 en celui d'un h\xE9ros culturel."
+  - Question: Qui est le dieu de la guerre dans la mythologie Ashanti ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    - Athena
+    - Tano
+    - Nyame
+    - Anansi
+    GreatAnswer: 1
+    Indice: "Athena est une des d\xE9esse de la guerre dans la mythologie grec "
+    RefDescription: "Second fils de Nyame, il est le dieu de la rivi\xE8re Tano.
+      Il a \xE9galement \xE9t\xE9 invoqu\xE9 comme un dieu de la guerre. Tano devait
+      avoir des terres d\xE9sertiques mais il se d\xE9guisa en son fr\xE8re Bia et
+      re\xE7ut les meilleures terres."
+  - Question: "Dans la mythologie Fon (peuple du centre et sud benin) en combien
+      de jours fu cr\xE9er le monde ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    - 2 jours
+    - '5 jours '
+    - '7 jours '
+    - '4 jours '
+    GreatAnswer: 3
+    Indice: 'Selon le mythe Fon sur la creation du monde cela c''est fait en plus
+      de 2 jours '
+    RefDescription: "Traditionnellement, les Fon avaient une semaine de quatre jours
+      en souvenir des quatre jours n\xE9cessaires \xE0 Mawu et Lisa pour cr\xE9er
+      le monde. Le premier jour, ils ont donn\xE9 naissance aux dieux et aux d\xE9esses
+      du vaudou, le panth\xE9on fon de divinit\xE9s, et ils ont fait l'homme avec
+      de l\u2019argile. Le deuxi\xE8me jour, ils ont rendu la Terre habitable pour
+      l'Homme. Le troisi\xE8me jour, ils ont donn\xE9 aux humains la parole, de la
+      vue, et la conscience. Le quatri\xE8me jour, ils ont donn\xE9 aux humains les
+      comp\xE9tences n\xE9cessaires pour survivre."
+  - Question: "Dans la mythologie Igbo qui est le dieu supr\xEAme ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - Chukwu
+    - Okejoku
+    - 'Na Na Kanan '
+    - Nifeona
     GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    Indice: 'Nifeona n''existe pas dans les mythes Igbo '
+    RefDescription: "Litt\xE9ralement: \xABgrand esprit\xBB. Divinit\xE9 supr\xEAme
+      des Igbo. Il est le cr\xE9ateur essentiellement bon et que tout ce qui est
+      bien et bon vient de lui."
+  - Question: Quelle est la fonction de Agbala dans la mythologie Igbo ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    - Servire du roi
+    - "Pr\xE9dire l'avenir et dialoguer avec les esprits des defuns "
+    - 'S''occuper des rituels '
+    - 'Messager des hommes pour les dieux '
+    GreatAnswer: 1
+    Indice: "Ces femmes etaient consid\xE9r\xE9 comme les oracles du village "
+    RefDescription: "Dieu qui peut pr\xE9dire l'avenir et de dialoguer avec les esprits
+      des d\xE9funts. Une pr\xEAtresse install\xE9e dans une grotte ou \xE0 l'\xE9cart
+      du village interpr\xE8te ses paroles pour renseigner les villageois venu \xE9couter
+      l'oracle en qu\xE8te de conseils. Oracle situ\xE9 \xE0 Awka \xE9tait tr\xE8s
+      c\xE9l\xE8bre."
+  - Question: Qui est Ala dans la mythologie Igbo ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    - "La d\xE9esse de la terre "
+    - "La d\xE9esse Fertilit\xE9 "
+    - "La d\xE9esse de la moral et de l'autre monde"
+    - Toute les reponses sont exacte
+    GreatAnswer: 3
+    Indice: 'Elle a bien plus d''un titre '
+    RefDescription: "Ala est la d\xE9esse de la Terre, de la Fertilit\xE9, de la
+      Morale et de l\u2019Autre Monde, la fille du dieu supr\xEAme Chuku (Chuwu)
+      dans la mythologie Igbo.  Son \xE9poux est l\u2019alusi du ciel, Amadioha.
+      Son messager est un python dont la pr\xE9sence dans une case est consid\xE9r\xE9e
+      de bon augure.  Bien que Chuku ait cr\xE9\xE9 les \xE2mes humaines c\u2019est
+      un dieu lointain. En revanche, Ala est consid\xE9r\xE9e comme la m\xE8re des
+      Igbo car elle est tr\xE8s proche des hommes. Elle portait la Terre en son sein
+      et elle a pris les peuples de la Terre sous sa protection.  En tant que  la
+      d\xE9esse de la Fertilit\xE9, Ala met la graine dans le ventre des femmes pour
+      qu\u2019elle se d\xE9veloppe et donne la vie aux enfants sur lesquels elle
+      veille pendant toute leur vie.  En tant que d\xE9esse de l\u2019Autre Monde,
+      elle re\xE7oit les morts dans son corps (la terre) et r\xE8gne sur les anc\xEAtres
+      enterr\xE9s. Lorsque les morts sont enterr\xE9s, les Igbo croyaient qu'ils
+      transformaient en terre et se trouvaient unis \xE0 Ala. Elle est aussi la patronne
+      de la fertilit\xE9 de la terre.  Comme la d\xE9esse de la Morale, Ala s\u2019implique
+      dans le jugement des actions humaines et elle a la charge du droit et les coutumes
+      igbo connus sous le nom \xAB Omenala \xBB."
+  - Question: "Quel est l'esprit de l'eau le plus c\xE9l\xE8bre du folclore Africain
+      ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    - Nwama
+    - Niame
+    - Mami wata
+    - Boa
+    GreatAnswer: 2
+    Indice: On la represente souvent comme une femme avec un corps de poisson.
+    RefDescription: "Esprit de l'eau, parfois d\xE9crit comme une sir\xE8ne, mi femme
+      mi poisson, ou d'une belle femme tenant un serpent, qu'on trouve dans les r\xE9gions
+      c\xF4ti\xE8res de l'ouest de l'Afrique et en Afrique centrale.  Mami Wata est
+      d\xE9crite comme une tr\xE8s belle femme autoritaire aux longs cheveux noirs,
+      \xE0 la peau claire et aux yeux irr\xE9sistibles. M\xEAme si elle apparait
+      souvent dans les r\xEAves et les visions \xE0 ses adeptes comme une belle sir\xE8ne,
+      on peut \xE9galement la voir marcher dans les rues des villes africaines modernes
+      sous la forme d'une tr\xE8s belle femme, magnifique mais insaisissable. Elle
+      est int\xE9ress\xE9e par toutes les choses modernes; ses offrandes pr\xE9f\xE9r\xE9es
+      sont les bonbons, les parfums import\xE9s, des lunettes de soleil, des bijoux
+      et les boissons \xE0 la mode. A la nuit tomb\xE9e, on la trouve au c\u0153ur
+      des grandes villes. Elle est tr\xE8s pr\xE9sente \xE9galement sur les march\xE9s
+      et surtout dans les bars et les lieux de d\xE9bauche, toujours sous les traits
+      d\u2019une tr\xE8s belle femme qui entra\xEEne les hommes dans leur folie.
+      Elle leur demande fid\xE9lit\xE9 et secret sur leur relation. De ce fait, l\u2019homme
+      est contraint \xE0 l\u2019abstinence sexuelle s\u2019il accepte le pacte, la
+      fortune et la sant\xE9 lui sont accord\xE9es. S\u2019il refuse la ruine, la
+      mis\xE8re et la maladie s\u2019abattront sur lui et les membres de sa famille.
+      Dans le folklore congolais, Mami wata est une prostitu\xE9e qui tente et pervertit
+      les hommes."
+  - Question: Dans la mythologie Zoulou qui sont les Abavata ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    - "Des d\xE9mons vengeur "
+    - "Les esprits des anc\xE8tres "
+    - "Des \xEAtre f\xE9erique de petite taille "
+    - "Des fant\xF4me \xE9gar\xE9s "
+    GreatAnswer: 2
+    Indice: "Se sont des \xEAtre dont on dis que les voir apporte bonne fortune."
+    RefDescription: "\xCAtres f\xE9\xE9riques de toute petite taille qui peuvent
+      marcher sous l'herbe. Ils dorment dans les fourmili\xE8res et lancent des fl\xE8ches
+      empoisonn\xE9es."
+  - Question: Dans la mythologie Zoulou qui est Mbaba Mwana Waresa
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    - "La d\xE9esse de la guerre "
+    - "La d\xE9esse de la lune "
+    - "La d\xE9esse de la chasse "
+    - "La d\xE9esse de l'arc en ciel , de la pluie et des recoltes "
+    GreatAnswer: 3
+    Indice: "D'apr\xE8s la legende elle leurs auraient apris la recette de la bi\xE8re."
+    RefDescription: "Elle porte aussi le nom de Nomkhubulwane quand elle prend l'aspect
+      d'un animal. Elle est la fille d'Umvelinqangi, le dieu du ciel. Elle est bien
+      aim\xE9e par la population parce qu'elle leur a enseign\xE9 la mani\xE8re de
+      semer et r\xE9colter et elle leur a donn\xE9 la recette de la bi\xE8re. Dans
+      les nuages, elle habite une hutte ronde dont les arches sont des arcs en ciel.
+      Quand on entend le son de son tambour tonnerre on sait qu'elle va d\xE9vers\xE9
+      l'eau bienfaitrice sur la Terre. Selon la l\xE9gende, elle \xE9tait incapable
+      de trouver un \xE9poux convenable dans les cieux, alors elle parcourut la terre
+      \xE0 la recherche d'un homme id\xE9al qui r\xE9pondrait \xE0 ses attentes.
+      Bien entendu cela d\xE9plut aux divinit\xE9s males qu'elle puisse tomber amoureuse
+      d'un simple mortel mais elle a tenu bon."
+  - Question: "Dans la mythologie Zoulou quel est l'animal dont la lenteur a caus\xE9
+      la mort ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  - Question: Myhologie Test
+    - Un escargo
+    - 'Une limace '
+    - "Un camel\xE9on "
+    - Une tortue
+    GreatAnswer: 2
+    Indice: "C'est le hero d'un conte Africain tr\xE9s connu "
+    RefDescription: "UNWABU Cam\xE9l\xE9on mythique qui fut trop lent pour apporter
+      aux Hommes et \xE0 toutes les cr\xE9atures le message d'immortalit\xE9 envoy\xE9
+      par le dieu du ciel."
+  - Question: "Dans la mythologie Ashanti qui est l'\xEAtre supr\xEAme ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: j'ai sommeil
-    RefDescription: 333
-  RefImage: []
+    - 'Mami Wata '
+    - Bikulou
+    - Nyame
+    - Nan Nan klo
+    GreatAnswer: 2
+    Indice: "Selon la l\xE9gende il serait le centre d'une trinitt\xE9"
+    RefDescription: "NYAME \xCAtre supr\xEAme et cr\xE9ateur de l\u2019univers. Nyame
+      \xE9tait une entit\xE9 d'une trinit\xE9, ou triade de dieux. Il repr\xE9sente
+      l'univers naturel; Nyankopon repr\xE9sente son kra, ou le pouvoir qui donne
+      la vie; et Odomankoma repr\xE9sente la force cr\xE9atrice qui a fait le monde
+      visible."
+  RefImage:
+  - {fileID: 21300000, guid: 71ec6ffe76821b344b0d723cc0cee73d, type: 3}
+  - {fileID: 21300000, guid: 22fd8e46c0fd02943a17b131153a0b68, type: 3}
+  - {fileID: 21300000, guid: ce0fcd935e9b1da44a381fe2affabf50, type: 3}
+  - {fileID: 21300000, guid: 1d0cee2038b5f9b40a552cebe7e4e02e, type: 3}
+  - {fileID: 21300000, guid: fe8200b7c6901784baa6a2c44f521b77, type: 3}
+  - {fileID: 21300000, guid: 9459c4fae98700e45adb6fb58ca0377d, type: 3}
+  - {fileID: 21300000, guid: aef96dcb6c2caa24caa68d6429b47f97, type: 3}
+  - {fileID: 21300000, guid: 06dd0e949c998b84bb0e5ebe8a65b5b7, type: 3}
+  - {fileID: 21300000, guid: d76d139c8f2bf4247963e544a08fdd09, type: 3}
+  - {fileID: 21300000, guid: 9478d24ec3a9e9a479c3674fdb4fe2ef, type: 3}
+  - {fileID: 21300000, guid: 055e3d71a161bdd44b21d01c6c494472, type: 3}
+  - {fileID: 21300000, guid: 9c84e44d5d851bd45aae475ed3f82721, type: 3}
+  - {fileID: 21300000, guid: 1e6522699c9dcfb4fab15cc670b995a1, type: 3}
+  - {fileID: 21300000, guid: 29806dd6f72b09e44bb944f6a4ea919f, type: 3}
+  - {fileID: 21300000, guid: 599432fa3112fbd46a0d43d8b30e7778, type: 3}

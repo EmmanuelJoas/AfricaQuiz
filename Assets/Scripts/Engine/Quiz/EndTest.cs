@@ -69,8 +69,6 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
 
         GetScoreMytho();
 
-        GetScoreRandome();
-
         GetScoreSport();
 
         GetScoreStory();
@@ -98,10 +96,10 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     void DisplayAward()
     {
 
-        if (GameMode == "Extreme" || GameMode == "Randome")
+        if (GameMode == "Extreme")
         {
 
-            if (int.Parse(TextScore.text)>0 && int.Parse(TextScore.text) >= 5)
+            if (int.Parse(TextScore.text)>=5 && int.Parse(TextScore.text) <=10)
             {
                 Akward[0].SetActive(true);
             }
@@ -123,8 +121,6 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
         SetScoreAnimal();
 
         SetScoreMytho();
-
-        SetScoreRandomeMode();
 
         SetScoreSport();
 
@@ -206,21 +202,6 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     }
 
     /// <summary>
-    ///  Reference to the function who called for set the score 
-    /// </summary>
-    private void SetScoreRandomeMode()
-    {
-        if (GameMode == "Randome")
-        {
-            if (MaxScore < int.Parse(TextScore.text))
-            {
-                PlayerPrefs.SetInt("RandomeHightScore", int.Parse(TextScore.text));
-            }
-
-        }
-    }
-
-    /// <summary>
     /// Reference to the function who called for get the score 
     /// </summary>
     void GetScoreGeo()
@@ -281,15 +262,5 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
       
     }
 
-    /// <summary>
-    ///  Reference to the function who called for get the score 
-    /// </summary>
-    void GetScoreRandome()
-    {
-        if ( GameMode == "Randome")
-        {
-            MaxScore = PlayerPrefs.GetInt("RandomeHightScore");
-        }
-    }
     #endregion
 }

@@ -55,8 +55,6 @@ public class ScoreQuiz : MonoBehaviour
 
         GetScoreMytho();
 
-        GetScoreRandome();
-
     }
 
     #endregion
@@ -70,12 +68,12 @@ public class ScoreQuiz : MonoBehaviour
     void DisplayAward()
     {
 
-      if ( MaxScore >= 5)
+      if ( MaxScore >= 5 && MaxScore <=10)
       {
         Akwards[2].SetActive(true);
       }
 
-       else if (MaxScore > 5 && MaxScore >= 10)
+       else if (MaxScore >= 10 && MaxScore <= 15)
        {
           Akwards[1].SetActive(true);
        }
@@ -153,18 +151,6 @@ public class ScoreQuiz : MonoBehaviour
         DisplayAward();
     }
 
-    /// <summary>
-    ///  Reference to the function who called for get the score 
-    /// </summary>
-    void GetScoreRandome()
-    {
-        if (IndexSubjectScore == 5 && GameMode == "Randome")
-        {
-            MaxScore = PlayerPrefs.GetInt("RandomeHightScore");
-        }
-  
-        DisplayAward();
-    }
 
     #endregion
 }
