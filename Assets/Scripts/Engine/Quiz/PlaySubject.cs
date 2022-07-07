@@ -82,20 +82,6 @@ public class PlaySubject : MonoBehaviour//Class use to play
         StartCoroutine(StartQuizGame());
     }
 
-
-    /// <summary>
-    /// Reference to the mode game function 
-    /// </summary>
-    public void HardGameMode()
-    {
-        FadeSysteme.SetActive(true);
-        inFade = true;
-        PlayerPrefs.SetInt("SubjectIndex", SubjectIndex);
-        PlayerPrefs.SetString("GameMode", GameMode);
-        StartCoroutine(StartQuizGame());
-    }
-
-
     /// <summary>
     /// Reference to the mode game function 
     /// </summary>
@@ -128,7 +114,7 @@ public class PlaySubject : MonoBehaviour//Class use to play
     IEnumerator StartQuizGame()
     {
         Animator.SetBool("InFade", inFade);
-        yield return new WaitForSeconds(0.8f);
+        yield return new WaitForSeconds(0.9f);
         SceneManager.LoadScene("Quiz");
     }
 

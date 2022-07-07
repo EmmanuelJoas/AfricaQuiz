@@ -14,7 +14,195 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Subject: 
   AnsAndQues:
-  - Question: Sport Test
+  - Question: "Qui est le seul joeur Africain \xE0 avoir le ballon d'or ?"
+    Answers:
+    - 'Roger Milla '
+    - Didier Drogba
+    - 'George Weah '
+    - 'Samuel Eto''o '
+    GreatAnswer: 2
+    Indice: "Sacr\xE9 meilleur joueur du monde en 1995, il devient le pr\xE9sident
+      de la republic du Liberia en 2018."
+    RefDescription: "Sacr\xE9 Ballon d\u2019or en 1995, George Weah est le seul joueur
+      africain ayant remport\xE9 ce troph\xE9e."
+  - Question: "Lequel de ces joueurs n'a jamais gagn\xE9 de LDC ?"
+    Answers:
+    - Mickael Essian
+    - Rabah Madjer
+    - Samuel Eto'o
+    - 'Didier Drogba '
+    GreatAnswer: 3
+    Indice: "Samuel Eto'o est un des rares joueurs Africains ayant soulev\xE9 le
+      troph\xE9e de la CAN et l'UEFA ligue"
+    RefDescription: "Didier Drogba, n\xE9 le 11 mars 1978 \xE0 Abidjan, en C\xF4te
+      d\u2019Ivoire, est un footballeur international ivoirien qui \xE9voluait au
+      poste d'avant-centre.  Drogba commence sa carri\xE8re en France, au Mans Union
+      Club 72. Il d\xE9couvre la Ligue 1 avec l'En avant Guingamp, puis dispute ses
+      premi\xE8res rencontres europ\xE9ennes sous les couleurs de l'Olympique de
+      Marseille.  L'attaquant est transf\xE9r\xE9 au Chelsea FC en 2004 o\xF9 il
+      est un des meilleurs joueurs et attaquants de sa g\xE9n\xE9ration. Il remporte
+      notamment l'\xE9dition 2011-2012 de la Ligue des champions avec le club anglais.
+      Apr\xE8s son d\xE9part, il est \xE9lu \xAB meilleur joueur de l'histoire du
+      club \xBB par les supporters. Il est \xE0 ce jour consid\xE9r\xE9 comme l'un
+      des meilleurs joueurs africains de tous les temps2.  Didier Drogba a fait partie
+      de l'\xE9quipe de C\xF4te d'Ivoire de 2002 \xE0 2014. Nomm\xE9 capitaine de
+      la s\xE9lection, dont il est le meilleur buteur, il a \xE9t\xE9 deux fois finaliste
+      de la Coupe d'Afrique des nations en 2006 et 2012."
+  - Question: "Qui detient le record du plus de buts marqu\xE9 en CAN ?"
+    Answers:
+    - 'Samuel Eto''o '
+    - Didier Drogba
+    - Laurent Pokou
+    - Rashili Yekini
+    GreatAnswer: 0
+    Indice: "Il detient son record avec la s\xE9l\xE8ction camerounaise en avec 18
+      buts "
+    RefDescription: "Natif de Nkon, banlieue de Yaound\xE9, Samuel Eto'o Fils fait
+      ses premiers pas dans le quartier de Mvog-Ada, l'un des plus d\xE9munis de
+      la capitale camerounaise. Pour offrir une vie plus confortable \xE0 ses six
+      enfants (trois gar\xE7ons; Samuel, David et Etienne Eto'o, et autant de filles),
+      David Eto'o, le p\xE8re, comptable de m\xE9tier, conduit les siens \xE0 Douala.
+      La famille s'installe \xE0 Newbell, quartier sensible de la cit\xE9 portuaire.
+      Sur les terrains vagues bossel\xE9s, Samuel, fan de Roger Milla, dribble en
+      libert\xE9 avant de rejoindre l'Union camerounaise des brasseries de Douala.
+      \xC0 treize ans et demi, l'attaquant impose son style en deuxi\xE8me division
+      locale. Une poign\xE9e de buts et il d\xE9bute avec les Cadets camerounais,
+      avant d'\xEAtre surclass\xE93."
+  - Question: Qui est le joueur Africain le plus cher de l'histoire ?
+    Answers:
+    - "Nicola P\xE9p\xE9"
+    - Naby Keita
+    - Leonnel Messi
+    - "Yaya Tour\xE9"
+    GreatAnswer: 0
+    Indice: "Avec son transfer \xE0 Arsenal pour 80M, il devient le joueur Africain
+      le plus cher de l'histoire."
+    RefDescription: "C'est un transfert record qui vient d'\xEAtre r\xE9v\xE9l\xE9.
+      L'Ivoirien Nicolas P\xE9p\xE9, deuxi\xE8me buteur du championnat de France
+      avec Lille, rejoint Arsenal pour la prochaine saison. Le club de Naples, en
+      Italie, lui faisait aussi les yeux doux. \xAB Nicolas est un ailier talentueux
+      et tr\xE8s cot\xE9 qui \xE9tait d\xE9sir\xE9 par de nombreux grands clubs en
+      Europe \xBB, s'est r\xE9joui l'entra\xEEneur des Gunners Unai Emery, persuad\xE9
+      que son nouveau num\xE9ro 19 \xAB ajoutera du rythme, de la puissance et de
+      la cr\xE9ativit\xE9 \xBB \xE0 sa ligne offensive.  La dur\xE9e du contrat,
+      estim\xE9 \xE0 5 ans par la presse, n'a pas \xE9t\xE9 r\xE9v\xE9l\xE9e par
+      les deux clubs. Avec un transfert estim\xE9 \xE0 80 millions d'euros hors bonus,
+      P\xE9p\xE9, principal acteur (22 buts, 11 passes d\xE9cisives) de l'excellente
+      saison lilloise, 2e de la Ligue 1 derri\xE8re l'inaccessible Paris SG, frappe
+      aux portes du top 15 des transferts les plus chers de l'histoire du foot. Il
+      devient surtout le joueur africain le plus cher de l'histoire, effa\xE7ant
+      des tablettes le Congolais C\xE9dric Bakambu, pass\xE9 de Villarreal au club
+      chinois de Beijing Guoan pour 74 millions d'euros \xE0 l'hiver 2018."
+  - Question: "Laquel de ces nations n'a jamais remport\xE9 de CAN ?"
+    Answers:
+    - Congo
+    - "C\xF4te d'Ivoire "
+    - Cameroun
+    - "S\xE9n\xE9gal"
+    GreatAnswer: 3
+    Indice: "La c\xF4te d'ivoire optient un nouveau titre de champione d'Afrique
+      en 2012."
+    RefDescription: "Pour son bapt\xEAme du feu dans cette \xE9preuve, il est injustement
+      priv\xE9 de la premi\xE8re finale continentale de son histoire. A \xE9galit\xE9
+      parfaite avec la Tunisie (3 pts+4 pour chacun des deux pays) \xE0 l\u2019issue
+      de la phase de poule, le S\xE9n\xE9gal, pourtant dot\xE9 de la meilleure attaque,
+      est class\xE9 deuxi\xE8me par la Conf\xE9d\xE9ration africaine de football
+      (CAF) qui d\xE9clare le pays organisateur finaliste pour  n\u2019avoir pas
+      encaiss\xE9 de but. Ainsi, victime de ce que le reporter sportif vedette de
+      l\u2019\xE9poque, Alassane Ndiaye \xABAllou\xBB, a appel\xE9 \xABles subtilit\xE9s
+      de l\u2019alg\xE8bre \xBB, le S\xE9n\xE9gal termine la comp\xE9tition \xE0
+      la 4\xE8me place.  Trois (3) ans plus tard, les \xABLions\xBB ratent \xE0 une
+      minute pr\xE8s d\u2019acc\xE9der\u2026 en demi-finales \xE0 la CAN disput\xE9e
+      en Ethiopie. Apr\xE8s ces deux (2) premi\xE8res participations prometteuses
+      mais au go\xFBt d\u2019inachev\xE9, le S\xE9n\xE9gal conna\xEEt une travers\xE9e
+      du d\xE9sert de 18 ans qui lui a fait rater huit (8) phases finales cons\xE9cutives,
+      de 1970 \xE0 1984."
+  - Question: "Qui a remport\xE9 le ballon d'or Africain en 2015 ?"
+    Answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    GreatAnswer: 0
+    Indice: lol
+    RefDescription: sssss
+  - Question: "Qui est le premier joueur Africain de l'histoire \xE0 gagner le troph\xE9e
+      du meilleur joueur de la premi\xE8re ligue ?"
+    Answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    GreatAnswer: 0
+    Indice: lol
+    RefDescription: sssss
+  - Question: "Qui a eu le troph\xE9e du meilleur jeune joueur Africain 2019 ?"
+    Answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    GreatAnswer: 0
+    Indice: lol
+    RefDescription: sssss
+  - Question: "Quelle nation a gagn\xE9 la CAN en 2000 ? "
+    Answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    GreatAnswer: 0
+    Indice: lol
+    RefDescription: sssss
+  - Question: "Quel joueur Africain a marqu\xE9 le plus de buts en C1 ?"
+    Answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    GreatAnswer: 0
+    Indice: lol
+    RefDescription: sssss
+  - Question: "N\xE9 en 1963, il est consid\xE9r\xE9 comme le plus grand footballeur
+      Zanbien, qui est ce ?"
+    Answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    GreatAnswer: 0
+    Indice: lol
+    RefDescription: sssss
+  - Question: "Athl\xE8te marocain de demi-fond et de fond, il est le premier homme
+      \xE0 descendre sous la barre des 13' au 5000m, qui est ce ?"
+    Answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    GreatAnswer: 0
+    Indice: lol
+    RefDescription: sssss
+  - Question: Quelle instance organise la coupe d'Afrique des nations ?
+    Answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    GreatAnswer: 0
+    Indice: lol
+    RefDescription: sssss
+  - Question: "En quelle ann\xE9e a eu lieu la 1er coupe d'Afrique des nations ?"
+    Answers:
+    - 1
+    - 2
+    - 3
+    - 4
+    GreatAnswer: 0
+    Indice: lol
+    RefDescription: sssss
+  - Question: "Quelle est la p\xE9riodicit\xE9 de la coupe d'Afrique des nations
+      ?"
     Answers:
     - 1
     - 2

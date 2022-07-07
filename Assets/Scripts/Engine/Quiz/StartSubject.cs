@@ -362,28 +362,6 @@ public class StartSubject : MonoBehaviour
             }
         }
 
-        else if (GameMode == "Hard")
-        {
-            QuestionsNumber = _Subject.AnsAndQues.Count - 10;
-
-            if (QuestionsNumber > 0)
-            {
-                currentQuestion = Random.Range(6, 10);
-
-                QuestionText.text = _Subject.AnsAndQues[currentQuestion].Question;
-                
-
-                SetAnswers();
-
-                GiveIndice();
-
-                AddAndDisplay();
-
-                QuestionsNumber--;
-
-            }
-        }
-
         else if (GameMode == "Extreme")
         {
             QuestionsNumber = _Subject.AnsAndQues.Count;

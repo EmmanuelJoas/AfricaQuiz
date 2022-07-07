@@ -688,7 +688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1961943506755328651, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
       propertyPath: m_Text
-      value: Sport
+      value: Geographie
       objectReference: {fileID: 0}
     - target: {fileID: 2220798486972447235, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
       propertyPath: GameMode
@@ -820,7 +820,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4888302667992473020, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
       propertyPath: m_Name
-      value: SportScorePanel
+      value: GeoScorePanel
       objectReference: {fileID: 0}
     - target: {fileID: 4916018073550253009, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -2898,6 +2898,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1961943506755328651, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
+      propertyPath: m_Text
+      value: Histoire
+      objectReference: {fileID: 0}
     - target: {fileID: 2220798486972447235, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
       propertyPath: GameMode
       value: None
@@ -3020,7 +3024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4888302667992473020, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
       propertyPath: m_Name
-      value: GeographieScorePanel
+      value: StoryScorePanel
       objectReference: {fileID: 0}
     - target: {fileID: 6283532731628070197, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
       propertyPath: m_IsActive
@@ -3242,7 +3246,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 904279910}
   m_Direction: 0
   m_Value: 0
-  m_Size: 0.45666265
+  m_Size: 0.38257027
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3463,7 +3467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1961943506755328651, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
       propertyPath: m_Text
-      value: Histoire
+      value: Sport
       objectReference: {fileID: 0}
     - target: {fileID: 2220798486972447235, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
       propertyPath: GameMode
@@ -3595,7 +3599,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4888302667992473020, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
       propertyPath: m_Name
-      value: StoryScorePanel
+      value: SportScorePanel
       objectReference: {fileID: 0}
     - target: {fileID: 4916018073550253009, guid: beb7dab92cba48c4d8d74e8c0174ec67, type: 3}
       propertyPath: m_AnchoredPosition.x
