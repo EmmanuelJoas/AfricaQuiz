@@ -103,6 +103,7 @@ public class PlaySubject : MonoBehaviour//Class use to play
         FadeSysteme.SetActive(true);
         inFade = true;
         PlayerPrefs.SetString("GameMode", GameMode);
+        PlayerPrefs.SetInt("SubjectIndex", SubjectIndex);
         StartCoroutine(StartQuizGame());
     }
 
@@ -118,6 +119,13 @@ public class PlaySubject : MonoBehaviour//Class use to play
         SceneManager.LoadScene("Quiz");
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    private void GoBookMode()
+    {
+        SceneManager.LoadScene("BookMode");
+    }
 
     #endregion
 }
