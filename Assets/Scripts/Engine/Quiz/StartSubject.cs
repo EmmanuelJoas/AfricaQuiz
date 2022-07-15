@@ -36,11 +36,6 @@ public class StartSubject : MonoBehaviour
     public Image RefImage;
 
     /// <summary>
-    /// Reference to the book mode panel 
-    /// </summary>
-    public GameObject BookModePanel;
-
-    /// <summary>
     /// Reference to the current answers 
     /// </summary>
     private int currentQuestion;
@@ -547,15 +542,8 @@ public class StartSubject : MonoBehaviour
 
         InitilizeSliderTime();
 
-        if (GameMode != "Randome")
-        {
-            GeneratorQuestion();
-        }
-        else
-        {
-            BookModePanel.SetActive(true);
-        }
-
+        GeneratorQuestion();
+    
         IndicePanel.SetActive(false);
 
         ActiveWrongAnswers();
