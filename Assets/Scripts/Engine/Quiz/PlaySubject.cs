@@ -17,42 +17,35 @@ public class PlaySubject : MonoBehaviour//Class use to play
     /// </summary>
     public int SubjectIndex;
 
-
     /// <summary>
     /// Reference to the mode game panel 
     /// </summary>
     public GameObject ModeGamePanel;
-
 
     /// <summary>
     /// Reference to the name of mode game 
     /// </summary>
     public string GameMode;
 
-
     /// <summary>
     /// Reference to the Animator of the fade systeme 
     /// </summary>
     public Animator Animator;
-
 
     /// <summary>
     /// Reference is the fade systeme is active 
     /// </summary>
     public bool inFade;
 
-
     /// <summary>
     /// Reference to the fade systeme 
     /// </summary>
     public GameObject FadeSysteme;
 
-
     #endregion
 
 
     #region UNity function 
-
 
     /// <summary>
     /// Reference to the function who called for the start game 
@@ -62,13 +55,10 @@ public class PlaySubject : MonoBehaviour//Class use to play
         ModeGamePanel.SetActive(true);
     }
 
-
     #endregion
 
 
-
     #region My Private Function 
-
 
     /// <summary>
     /// Reference to the mode game function 
@@ -94,20 +84,6 @@ public class PlaySubject : MonoBehaviour//Class use to play
         StartCoroutine(StartQuizGame());
     }
 
-
-    /// <summary>
-    /// Reference to the mode game function 
-    /// </summary>
-    public void RandomGameMode()
-    {
-        FadeSysteme.SetActive(true);
-        inFade = true;
-        PlayerPrefs.SetString("GameMode", GameMode);
-        PlayerPrefs.SetInt("SubjectIndex", SubjectIndex);
-        StartCoroutine(StartQuizGame());
-    }
-
-
     /// <summary>
     /// Rference to the courotine why start the game 
     /// </summary>
@@ -117,14 +93,6 @@ public class PlaySubject : MonoBehaviour//Class use to play
         Animator.SetBool("InFade", inFade);
         yield return new WaitForSeconds(0.9f);
         SceneManager.LoadScene("Quiz");
-    }
-
-    /// <summary>
-    /// 
-    /// </summary>
-    private void GoBookMode()
-    {
-        SceneManager.LoadScene("BookMode");
     }
 
     #endregion

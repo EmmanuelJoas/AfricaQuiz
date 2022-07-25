@@ -24,6 +24,9 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
 
     #region Unity function
 
+    /// <summary>
+    /// 
+    /// </summary>
     private void Awake()
     {
         indexSubject= PlayerPrefs.GetInt("SubjectIndex");
@@ -31,12 +34,15 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
         intance = this;
     }
 
-
+    /// <summary>
+    /// 
+    /// </summary>
     private void Start()
     {
         Subject[indexSubject].SetActive(true);
         CurrentSubject = Subject[indexSubject];
     }
 
+ 
     #endregion
 }

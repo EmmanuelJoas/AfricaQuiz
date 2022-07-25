@@ -73,9 +73,9 @@ MonoBehaviour:
   - Question: "Que repr\xE9sente le tabouret d'Or dans la mythologie Ashanti ?"
     Answers:
     - Le pouvoir du roi
-    - "Le sumum et l'\xE2me des Ashantis "
-    - 'Le symbole de la guerre et de la puissance '
-    - "Le symbole de l'\xE9ch\xE8que et de la mis\xE8re "
+    - 'Le sumum des Ashantis '
+    - 'Le symbole de la guerre '
+    - "Le symbole la mis\xE8re "
     GreatAnswer: 1
     Indice: "En 1896 les Ashanti ont demi le roi plut\xF4t que de se lancer dans
       une guerre pouvant mettre en p\xE9ril l'object sacr\xE9."
@@ -87,9 +87,9 @@ MonoBehaviour:
   - Question: "Que symbolise Akawaba la d\xE9esse des Ashanti ?"
     Answers:
     - La bienvenue
-    - "La Guerre et la col\xE8re"
-    - "La nature et le respect de la for\xEAt "
-    - 'la femme et la vie '
+    - 'La Guerre '
+    - 'La nature '
+    - 'la femme '
     GreatAnswer: 0
     Indice: "Les jeunes filles re\xE7oivent son image de la part d'une a\xEEn\xE9
       quand elles prennent de l'\xE2ge , pour les accueillir dans leurs r\xF4le de
@@ -155,9 +155,9 @@ MonoBehaviour:
   - Question: Quelle est la fonction de Agbala dans la mythologie Igbo ?
     Answers:
     - Servire du roi
-    - "Pr\xE9dire l'avenir et dialoguer avec les esprits des defuns "
+    - "Pr\xE9dire l'avenirs "
     - 'S''occuper des rituels '
-    - 'Messager des hommes pour les dieux '
+    - 'Messager des hommes '
     GreatAnswer: 1
     Indice: "Ces femmes etaient consid\xE9r\xE9 comme les oracles du village "
     RefDescription: "Dieu qui peut pr\xE9dire l'avenir et de dialoguer avec les esprits
@@ -169,7 +169,7 @@ MonoBehaviour:
     Answers:
     - "La d\xE9esse de la terre "
     - "La d\xE9esse Fertilit\xE9 "
-    - "La d\xE9esse de la moral et de l'autre monde"
+    - "La d\xE9esse de la moral "
     - Toute les reponses sont exacte
     GreatAnswer: 3
     Indice: 'Elle a bien plus d''un titre '
@@ -223,7 +223,7 @@ MonoBehaviour:
     Answers:
     - "Des d\xE9mons vengeur "
     - "Les esprits des anc\xE8tres "
-    - "Des \xEAtre f\xE9erique de petite taille "
+    - "Des \xEAtre f\xE9erique "
     - "Des fant\xF4me \xE9gar\xE9s "
     GreatAnswer: 2
     Indice: "Se sont des \xEAtre dont on dis que les voir apporte bonne fortune."
@@ -235,7 +235,7 @@ MonoBehaviour:
     - "La d\xE9esse de la guerre "
     - "La d\xE9esse de la lune "
     - "La d\xE9esse de la chasse "
-    - "La d\xE9esse de l'arc en ciel , de la pluie et des recoltes "
+    - "La d\xE9esse de l'arc en ciel"
     GreatAnswer: 3
     Indice: "D'apr\xE8s la legende elle leurs auraient apris la recette de la bi\xE8re."
     RefDescription: "Elle porte aussi le nom de Nomkhubulwane quand elle prend l'aspect

@@ -56,10 +56,10 @@ MonoBehaviour:
       le pic Uhuru \xE0 5.892 m)."
   - Question: "Quelle est la plus grande for\xEAt d'Afrique ?"
     Answers:
-    - "La for\xEAt du Congo (Basin du congo)"
-    - "La for\xEAt Amozonien "
-    - "La for\xEAt du banco"
-    - "La for\xEAt de l'Okavango"
+    - La Basin du congo
+    - 'L'' Amozonien '
+    - Le banco
+    - L'Okavango
     GreatAnswer: 0
     Indice: "l'Okavango n'est pas une for\xEAt mais l'un des plus grand delta d'Afrique "
     RefDescription: "Le bassin du Congo contient quelque 314 millions d'hectares
@@ -72,10 +72,10 @@ MonoBehaviour:
       primaire."
   - Question: Quel est le plus long fleuve d'Afrique ?
     Answers:
-    - Le Nil
-    - L'Amazone
-    - 'La manche '
-    - 'Le comoe '
+    - Nil
+    - Amazone
+    - 'Manche '
+    - 'Comoe '
     GreatAnswer: 0
     Indice: 'L''Amazone est le plus grand fleuve du monde et d''Amerique '
     RefDescription: "D\u2019une longueur de 6 670 kilom\xE8tres hors affluent, le
@@ -105,7 +105,7 @@ MonoBehaviour:
     Answers:
     - '1 373 486 472 '
     - 1 152 865 000
-    - ' 2 123 741 569'
+    - 2 123 741 569
     - '4 000 114 002 '
     GreatAnswer: 0
     Indice: "En 2019 on estime la population Africaine \xE0 plus de 1 340 598 113 "
@@ -132,10 +132,10 @@ MonoBehaviour:
       Pour lire plus https://intellivoire.net/lafrique-possede-65-terres-arables-monde-ne-manger-potentiel/"
   - Question: "O\xF9 se trouve le Kilimandjaro ?"
     Answers:
-    - Au kenya
-    - En Tanzanie
-    - Au Rwanda
-    - "En c\xF4te d'ivoire "
+    - Kenya
+    - Tanzanie
+    - Rwanda
+    - "C\xF4te d'ivoire "
     GreatAnswer: 1
     Indice: "La plus haute montagne de c\xF4te d'ivoire est la dent de Man"
     RefDescription: "Le Kilimandjaro ou Kilimanjaro est une montagne situ\xE9e dans
@@ -165,10 +165,10 @@ MonoBehaviour:
   - Question: "Quel est Etat est situ\xE9 le plus \xE0 l'ouest sur le continent Africain
       ?"
     Answers:
-    - "Le s\xE9n\xE9gal "
-    - "La Guin\xE9e-Bisseau "
-    - 'La Somalie '
-    - Le Cap-Vert
+    - "S\xE9n\xE9gal "
+    - "Guin\xE9e-Bisseau "
+    - 'Somalie '
+    - Cap-Vert
     GreatAnswer: 3
     Indice: "La Guin\xE9e-Bissau est l'un des pays les plus \xE0 l'Est "
     RefDescription: "Le Cap-Vert, en forme longue la r\xE9publique du Cap-Vert (en
@@ -218,20 +218,20 @@ MonoBehaviour:
       \xE0 La Digue.  "
   - Question: Lequel de ces fleuves ne coulent pas en Afrique ?
     Answers:
-    - 'L''Orange '
-    - Le Nil
-    - L'Ouganda
-    - "Le Zamb\xE8ze "
+    - 'Orange '
+    - Nil
+    - Ouganda
+    - "Zamb\xE8ze "
     GreatAnswer: 2
     Indice: 'Le Nil est le plus grand fleuve d''Afrique '
     RefDescription: "Aucune r\xE9f\xE9rence"
   - Question: "Par quel moyen le climat Africain est il  regul\xE9 ?"
     Answers:
-    - 'Les Montagnes '
-    - 'Les Mers '
-    - "Les for\xEAts "
+    - 'Montagnes '
+    - 'Mers '
+    - "For\xEAts "
     - 'Aucun des trois '
-    GreatAnswer: 0
+    GreatAnswer: 3
     Indice: "L'Afrique ne dispose pas de grande cha\xEEne de montagne pour reguler
       son climat "
     RefDescription: "Short presentational grey line Le continent africain sera le

@@ -155,6 +155,13 @@ public class StartSubject : MonoBehaviour
     /// </summary>
     public static StartSubject instance;
 
+    /// <summary>
+    /// Reference to the description panel 
+    /// </summary>
+    public GameObject DescriptionPanel;
+
+
+    IEnumerator myCoroutine;
     #endregion
 
     #region Unity function 
@@ -168,21 +175,19 @@ public class StartSubject : MonoBehaviour
         _Subject = Instantiate(Subject);
         GameMode = PlayerPrefs.GetString("GameMode");
         instance = this;
+        myCoroutine = TimeOnGame();
     }
-
 
     /// <summary>
     /// Referenec to the function who called on the start application 
     /// </summary>
     private void Start()
     {
-        if (GameMode != "Randome")
-        {
-            InitilizeSliderTime();
-
-            StartCoroutine(TimeOnGame());
-        }
        
+        InitilizeSliderTime();
+
+        StartCoroutine(TimeOnGame());
+      
         GeneratorQuestion();
 
         MaxQuestions.text = " / " + (QuestionsNumber + 1) + "";
@@ -228,7 +233,7 @@ public class StartSubject : MonoBehaviour
 
         if (QuestionsNumber == 0)
         {
-            EndGame();
+          EndGame();
         }
     }
 
@@ -345,7 +350,8 @@ public class StartSubject : MonoBehaviour
                 currentQuestion = Random.Range(0, 5);
 
                 QuestionText.text = _Subject.AnsAndQues[currentQuestion].Question;
-              
+
+                BookModeDisplay();
 
                 SetAnswers();
 
@@ -382,38 +388,11 @@ public class StartSubject : MonoBehaviour
 
         }
 
-        else if (GameMode == "Randome")
-        {
-
-           
-            BonusPanel.SetActive(false);
-            QuestionsNumber = _Subject.AnsAndQues.Count;
-
-            if (QuestionsNumber > 0)
-            {
-                currentQuestion = Random.Range(0, _Subject.AnsAndQues.Count);
-
-                QuestionText.text = _Subject.AnsAndQues[currentQuestion].Question;
-
-                BookModeDisplay();
-
-                SetAnswers();
-
-                GiveIndice();
-
-                AddAndDisplay();
-
-                QuestionsNumber--;
-
-            }
-
-        }
-
-
+        DescriptionPanel.SetActive(false);
     }
 
     /// <summary>
-    /// 
+    /// Reference to the function who called for display the ref of the book mode
     /// </summary>
     void BookModeDisplay()
     {
@@ -422,11 +401,25 @@ public class StartSubject : MonoBehaviour
         _Subject.RefImage.RemoveAt(currentQuestion);//Remove the component of the list
     }
 
+    public void BookModeIsActive(bool isActive)
+    {
+        if (isActive == true)
+        {
+            StopAllCoroutines();
+        }
+        else if (isActive == true)
+        {
+            StartCoroutine(LoadNewQuestion());
+        }
+    }
+
     /// <summary>
     /// Referenec to the function who called when the end game 
     /// </summary>
-    void EndGame()
+    public void EndGame()
     {
+        
+
         EndGameUI.SetActive(true);
 
         GameUI.SetActive(false);
@@ -498,13 +491,13 @@ public class StartSubject : MonoBehaviour
 
         IndicePanel.SetActive(false);
 
+        DescriptionPanel.SetActive(false);
+
         if (QuestionsNumber == 0)
         {
-            EndGame();
+           EndGame();
 
         }
-
-
 
     }
 
@@ -533,10 +526,10 @@ public class StartSubject : MonoBehaviour
     /// Reference to the courotine who called for load the new question of the test 
     /// </summary>
     /// <returns></returns>
-    IEnumerator LoadNewQuestion()
+     IEnumerator LoadNewQuestion()
     {
 
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(3f);
 
         NormalStateButton();
 
@@ -547,6 +540,8 @@ public class StartSubject : MonoBehaviour
         IndicePanel.SetActive(false);
 
         ActiveWrongAnswers();
+
+        DescriptionPanel.SetActive(false);
 
     }
 

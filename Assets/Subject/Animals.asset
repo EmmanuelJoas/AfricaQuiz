@@ -31,20 +31,20 @@ MonoBehaviour:
       vivent environ 60 ans."
   - Question: "Combien pese la trompe d'un \xE9l\xE9phant d'Afrique ?"
     Answers:
-    - 50 Kg
-    - 100 Kg
-    - 130 Kg
-    - 200 Kg
+    - 50Kg
+    - 100Kg
+    - 130Kg
+    - 200Kg
     GreatAnswer: 2
     Indice: "En moyenne la trompe d'un \xE9l\xE9phant pese plus de 50 Kg "
     RefDescription: "La trompe mesure jusqu\u2019\xE0 1,15 m de longueur et p\xE8se
       jusqu\u2019\xE0 130 kg"
   - Question: Qu'est ce qu'un caracal, animal vivant en Afrique ?
     Answers:
-    - 'Un oiseau de proie '
-    - 'Une antilope '
-    - 'Un lynx '
-    - 'Un poisson '
+    - 'Oiseau '
+    - 'Antilope '
+    - 'Lynx '
+    - 'Poisson '
     GreatAnswer: 2
     Indice: "Son nom est utilis\xE9 dans une expression : \" Malin comme un ... \" "
     RefDescription: "Le Caracal, surnomm\xE9 aussi Lynx du d\xE9sert, ou Lynx de
@@ -55,10 +55,10 @@ MonoBehaviour:
   - Question: Quelle antilopes se rassemblent en troupeaux gigantesques pour migrer
       ?
     Answers:
-    - 'Les impalas '
-    - 'Les gazelles '
-    - 'Les gnous '
-    - "Les \xE9l\xE9phants "
+    - 'Impalas '
+    - 'Gazelles '
+    - 'Gnous '
+    - "El\xE9phants "
     GreatAnswer: 0
     Indice: "Les \xE9l\xE9phant ne sont pas de la famille des antilopes  "
     RefDescription: "En partance de Tanzanie en direction du Kenya plus au Nord,
@@ -68,10 +68,10 @@ MonoBehaviour:
       parcours, \xE0 la recherche de terres plus fertiles."
   - Question: Comment appelle t'on la plus petite antilopes d'Afrique ?
     Answers:
-    - 'L''antilope naine '
-    - L'antilope Dik-Dik
-    - 'L''antilope de Livingstone '
-    - 'L''antilope minus '
+    - 'Naine '
+    - Dik-Dik
+    - 'Livingstone '
+    - 'Minus '
     GreatAnswer: 1
     Indice: 'L''antilope minus n''existe pas '
     RefDescription: "Appartenant \xE0 la famille des bovid\xE9s, le dik dik est une
@@ -85,10 +85,10 @@ MonoBehaviour:
       de ce man\xE8ge, abandonne la partie."
   - Question: "Que mange l'oryct\xE9rope , appel\xE9 aussi \"cochon de terre\" ?"
     Answers:
-    - 'Des fourmis '
-    - 'Des sauterelles '
-    - 'Des termites '
-    - 'Des verres de terre '
+    - 'Fourmis '
+    - 'Sauterelles '
+    - 'Termites '
+    - 'Verres de terre '
     GreatAnswer: 2
     Indice: "Cette insecre est tr\xE8s r\xE9pendu en Afrique et connue pour ces constructions."
     RefDescription: "L'oryct\xE9rope se nourrit essentiellement de fourmis et de
@@ -98,10 +98,10 @@ MonoBehaviour:
       sol \xE0 l'aide de son odorat tr\xE8s fin"
   - Question: "Quel f\xE9lin Africain hisse ses proies sur les arbres ?"
     Answers:
-    - "Le gu\xE9pard "
-    - Le puma
-    - "Le l\xE9opard "
-    - 'Le lion '
+    - "Gu\xE9pard "
+    - Puma
+    - "L\xE9opard "
+    - 'Lion '
     GreatAnswer: 2
     Indice: "Les gu\xE9pard ne savent pas grimper au arbres "
     RefDescription: "Le l\xE9opard africain figure parmi les plus grands f\xE9lins
@@ -114,10 +114,10 @@ MonoBehaviour:
       namibien ou au Botswana."
   - Question: Qu'est ce qu'un potto ?
     Answers:
-    - 'Un rongeur '
-    - 'Un primate '
-    - 'Un poisson '
-    - 'Un serpent '
+    - 'Rongeur '
+    - 'Primate '
+    - 'Poisson '
+    - 'Serpent '
     GreatAnswer: 1
     Indice: "Le potto est un mammif\xE8re de la m\xEAme famille que le Gorille "
     RefDescription: "Les pottos sont de petits singes originaires d'Afrique de l'Ouest.
@@ -134,10 +134,10 @@ MonoBehaviour:
       oeufs et gommes v\xE9g\xE9tales."
   - Question: Qu'est ce qu'un serval ?
     Answers:
-    - "Un f\xE9lin "
-    - 'Un primate '
-    - Un rongeur
-    - 'Un oiseau '
+    - "F\xE9lin "
+    - 'Primate '
+    - Rongeur
+    - 'Oiseau '
     GreatAnswer: 0
     Indice: "Il est de la m\xEAme famille que le chat dor\xE9 Africain ainsi que
       du caracal "
@@ -155,10 +155,10 @@ MonoBehaviour:
       d'Afrique."
   - Question: Comment nomme-t-on le perroquet Africain ?
     Answers:
-    - 'Le toucan Africain '
-    - 'Le gris d''Afrique '
-    - 'Le gros-bec '
-    - Le kakapo
+    - 'Toucan Africain '
+    - 'Gris d''Afrique '
+    - 'Gros-bec '
+    - Kakapo
     GreatAnswer: 1
     Indice: 'Le kakapo est perroquet mais il ne vie pas en Afrique '
     RefDescription: "Le nom scientifique du perroquet gris d\u2019Afrique est Psittacus
@@ -168,10 +168,10 @@ MonoBehaviour:
       de charmants animaux de compagnie."
   - Question: "Quelle est l'esp\xE8ce de votour la plus courante en Afrique ?"
     Answers:
-    - Le vautour Oricou
-    - Le vautour moine
-    - 'Le vautour chauve '
-    - 'Le vautour Africain '
+    - Oricou
+    - Moine
+    - 'Chauve '
+    - 'Africain '
     GreatAnswer: 0
     Indice: 'Le vautour moine ne vie pas en Afrique '
     RefDescription: "Les vautours oricous fr\xE9quentent les savanes s\xE8ches, les
@@ -187,11 +187,11 @@ MonoBehaviour:
       m d'altitude."
   - Question: Quel est le serpent le plus venimeux d'Afrique ?
     Answers:
-    - 'Le cobra '
-    - 'Le crotale '
-    - 'Le mamba noir '
-    - 'Le fer de lance '
-    GreatAnswer: 0
+    - 'Cobra '
+    - 'Crotale '
+    - 'Mamba noir '
+    - 'Fer de lance '
+    GreatAnswer: 2
     Indice: Le cobra ne vie pas en Afrique mais en Inde, Sri Lanka, Bangladesh, ouest
       du Pakistan
     RefDescription: "Le mamba noir est un serpent de la famille des Elapidae, ce
@@ -204,10 +204,10 @@ MonoBehaviour:
       dans cette liste."
   - Question: Quel est l'animal terrestre le plus rapide d'Afrique ?
     Answers:
-    - 'Le puma '
-    - "Le gu\xE9pard "
-    - Le lion
-    - "Le l\xE9opard "
+    - 'Puma '
+    - "Gu\xE9pard "
+    - Lion
+    - "L\xE9opard "
     GreatAnswer: 1
     Indice: 'C''est aussi l''animal '
     RefDescription: "Avec sa fine t\xEAte a\xE9rodynamique et son corps taill\xE9
@@ -235,10 +235,10 @@ MonoBehaviour:
       varient entre 10 et 20 individus selon les sous-esp\xE8ces. "
   - Question: Quel est le plus grand serpent d'Afrique ?
     Answers:
-    - 'Le python de Seba '
-    - "Le python reticl\xE9 "
-    - Le Boa
-    - 'L''anaconda '
+    - 'Python de Seba '
+    - "Python reticl\xE9 "
+    - Boa
+    - 'Anaconda '
     GreatAnswer: 0
     Indice: "Le python reticul\xE9 est le plus grand serpent du monde mais ne vie
       pas en Afrique "

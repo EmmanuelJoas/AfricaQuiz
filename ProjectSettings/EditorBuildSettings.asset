@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Prize.unity
     guid: 665cb799288e8604fad7953447e1bbc5
-  - enabled: 1
-    path: Assets/Scenes/BookMode.unity
-    guid: a4bb6158c3dc970449b54b2e82e245c3
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}

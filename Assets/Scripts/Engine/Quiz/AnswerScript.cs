@@ -38,12 +38,12 @@ public class AnswerScript : MonoBehaviour//Class use when the user give the answ
 
 
     /// <summary>
-    /// Reference the number of   Answer 
+    /// Reference the number of Answer 
     /// </summary>
    public  int GoodAnswerPoints;
 
     /// <summary>
-    /// Reference the number of   Answer 
+    /// Reference the number of Answer 
     /// </summary>
     public int WrongAnswerPoints;
 
@@ -61,14 +61,22 @@ public class AnswerScript : MonoBehaviour//Class use when the user give the answ
         if (isCorrect)
         {
             QuizManager.intance.CurrentSubject.GetComponent<StartSubject>().Correct();
+
             GoodAnswerSound.Play();
-           
+
+            QuizManager.intance.CurrentSubject.GetComponent<StartSubject>().DescriptionPanel.SetActive(true);
+
+
         }
         else
         {
+
             QuizManager.intance.CurrentSubject.GetComponent<StartSubject>().Wrong();
+
             WrongAnswerSound.Play();
-           
+
+            QuizManager.intance.CurrentSubject.GetComponent<StartSubject>().DescriptionPanel.SetActive(true);
+
         }
       
     }

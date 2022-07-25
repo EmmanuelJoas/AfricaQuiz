@@ -17,10 +17,10 @@ MonoBehaviour:
   - Question: "Quel rayaume unifi\xE9 par la dynastie des Ciss\xE9 Tounkara est consid\xE9r\xE9
       comme l'un des plus ancien de l'Afrique ?"
     Answers:
-    - L'empire du Mali
-    - 'L''empire du Ghana '
-    - 'L''empire Egyptien '
-    - 'L''empire Ivoirien '
+    - Mali
+    - 'Ghana '
+    - 'Egyptien '
+    - 'Ivoirien '
     GreatAnswer: 1
     Indice: "Aussi connu pour l'abondance en or de ces terres, fond\xE9 par les sonink\xE9s
       , il s'\xE9tendait du s\xE9n\xE9gal \xE0 tombouctou."
@@ -31,10 +31,10 @@ MonoBehaviour:
   - Question: "Quel est l'empire fond\xE9 par le mandigue Soundiata Keita en 1235
       ?"
     Answers:
-    - L'empire Tchad
-    - 'l''empire du Kamen '
-    - L'empire du Mali
-    - 'L''empire du Monomotopa '
+    - Tchad
+    - 'Kamen '
+    - Mali
+    - 'Monomotopa '
     GreatAnswer: 2
     Indice: "C'est une des l\xE9gendes la plus connu sur le continent et un cours
       d'histoire de primaire."
@@ -58,10 +58,10 @@ MonoBehaviour:
   - Question: "Quel est l'empire situ\xE9 d\xE8s le VII si\xE8cle sur le bassin du
       tcahd, connu pour ces cavaliers redoutables ?"
     Answers:
-    - 'L''empire Mongole '
-    - 'L''empire du Tchad '
-    - L'empire du Mali
-    - 'L''empir du Kamen '
+    - 'Mongole '
+    - 'Tchad '
+    - Mali
+    - 'Kamen '
     GreatAnswer: 3
     Indice: 'Il existait dans les regions qui font maintenant partie du Niger, du
       Cameroun , du Tchad et du Nigeria '
@@ -76,10 +76,10 @@ MonoBehaviour:
       Le Kanem dura plus de 1000 ans."
   - Question: "Quel sont les premiers Europ\xE9ens \xE0 s'installer en Afrique ?"
     Answers:
-    - 'Les portugais '
-    - "Les fran\xE7ais "
-    - 'Les britanniques '
-    - 'Les hollandais '
+    - 'Portugais '
+    - "Fran\xE7ais "
+    - 'Britanniques '
+    - 'Hollandais '
     GreatAnswer: 0
     Indice: "Les fran\xE7ais ont \xE9t\xE9 le deuxi\xE8me peuple europ\xE9ens \xE0
       s'installer en Afrique."
@@ -113,10 +113,10 @@ MonoBehaviour:
   - Question: "Quel est la principal activit\xE9e responsable de l'expansion de l'empire
       du Ghana ?"
     Answers:
-    - Le commerce transsaharien
-    - "L'\xE9l\xE9vage"
-    - "La p\xEAche "
-    - L'agriculture
+    - Commerce
+    - "El\xE9vage"
+    - "P\xEAche "
+    - Agriculture
     GreatAnswer: 0
     Indice: "Cette expansion est le resultat de l'\xE9change de la ressource la plus
       abondante de royaume."
@@ -133,10 +133,10 @@ MonoBehaviour:
   - Question: "Quel \xE9tait la principale source de richesse du \"Mai\"(titre donner
       au souverain du Kamen) ?"
     Answers:
-    - L'or
-    - Les diamants
-    - 'Les esclaves '
-    - 'Les poissons '
+    - Or
+    - Diamants
+    - 'Esclaves '
+    - 'Poissons '
     GreatAnswer: 2
     Indice: "\" Son enmprise sur ces sujet, \xE9crit un chronique musulman de l'\xE9poque,
       est absolu. Il reduit en esclave qui il veut \""
@@ -150,10 +150,10 @@ MonoBehaviour:
       se perp\xE9tue \xE0 l\u2019occasion des conflits locaux avec le Soudan voisin."
   - Question: "Quel empire succ\xE8de au Ghana apr\xE8s son d\xE9clin ?"
     Answers:
-    - L'empire du Mali
-    - L'empire du Songhai
-    - L'empire du Kamen
-    - L'empire du Monomotopa
+    - Mali
+    - Songhai
+    - Kamen
+    - Monomotopa
     GreatAnswer: 0
     Indice: "Cette empire est comsid\xE9re\xE9 comme le tout premier Etat structur\xE9
       de l'Afrique occidentale."
@@ -163,10 +163,10 @@ MonoBehaviour:
       de la r\xE9gion et leur mode de vie."
   - Question: Quel est la cause de la chute de l'mpire du Ghana ?
     Answers:
-    - 'Une catastrophe naturel '
-    - 'Une guerre ces voisins '
-    - 'Une guerre civile '
-    - "Un d\xE9sacord de successeur "
+    - Catastrophe
+    - 'Guerre '
+    - 'Famine '
+    - "D\xE9sacord "
     GreatAnswer: 1
     Indice: "Les probl\xE8mes de successions \xE9taient inconnus car la tradition
       pla\xE7ait automatiquement sur le tr\xF4ne le fils a\xEEn\xE9 de la s\u0153ur
@@ -189,7 +189,7 @@ MonoBehaviour:
   - Question: "Quel souverain de l'empire du Mali prit la t\xEAte d'un immense cort\xE8ge
       pour se rendre \xE0 la mecque ?"
     Answers:
-    - Mansa Moussa (Kankou Moussa)
+    - Kankou Moussa
     - 'Soundiata Keita '
     - Soumaoro Kante
     - "Ciss\xE9 Tounkara "
@@ -209,10 +209,10 @@ MonoBehaviour:
       kola, l\u2019huile de palme et l\u2019indigo."
   - Question: "Sous le r\xE8gne de quel roi l'empire Zoulou connu sont apog\xE9 ?"
     Answers:
-    - Senzangakou
+    - Senzan
     - Chaka
     - Nandi
-    - Kwazulu-Natal
+    - Kwazulu
     GreatAnswer: 1
     Indice: "Il \xE9tait concid\xE9r\xE9 comme une figure \xE9pique de l'Afrique
       australe au XIX sci\xE8cle "
@@ -227,10 +227,10 @@ MonoBehaviour:
   - Question: "Quel est l'empire de l'Afrique de l'ouest qui s'\xE9tend du Niger
       aux c\xF4tes s\xE9n\xE9galaises, et dirig\xE9 par Sonni Ali Ber ?"
     Answers:
-    - L'empire du Soso
-    - L'empire du Songhai
-    - L'empire du Mali
-    - L'empire du Ghana
+    - Soso
+    - Songhai
+    - Mali
+    - Ghana
     GreatAnswer: 1
     Indice: 'Cet empire etait devenu l''un des vasseau de l''empire du Mali '
     RefDescription: "Les royaumes vassaux de l\u2019empire du Mali n\u2019attendaient
@@ -248,10 +248,10 @@ MonoBehaviour:
   - Question: "Quel est le royaume Africain autrefois dirig\xE9 par Andrianampoinid\xE9rina
       ?"
     Answers:
-    - Le royaume Nampoina
-    - 'Le royaume Merina '
-    - Le royaume du Kongo
-    - Le royaume de Nkuku
+    - Nampoina
+    - 'Merina '
+    - Kongo
+    - Nkuku
     GreatAnswer: 1
     Indice: "Ce n'est qu'a parti de 1817 que Merina a commenc\xE9 \xE0 se faire app\xE9l\xE9
       Madascar"
@@ -272,10 +272,10 @@ MonoBehaviour:
       qui se situait sur les territoires actuels du Zimbabw\xE9 et du Mozanbique
       ?"
     Answers:
-    - Le Katanga
-    - Le Wakanda
-    - Le Monomotapa
-    - Le Kongo
+    - Katanga
+    - Wakanda
+    - Monomotapa
+    - Kongo
     GreatAnswer: 2
     Indice: "La version de ce nom est une deriv\xE9e portugaise du mot \"Mwene Mutapa\"."
     RefDescription: "les origines de l\u2019empire  \xAB Monomonata \xBB est la version
@@ -298,10 +298,10 @@ MonoBehaviour:
   - Question: "Quel est le royaume \xE0 envoyer des ambassadeurs dans un pays Europ\xE9en
       ?"
     Answers:
-    - 'Le royaume du Kongo '
-    - Le royaume de Negus
-    - "Le royaume du B\xE9nin "
-    - 'Le royaume de Madagascar '
+    - 'Kongo '
+    - Negus
+    - "B\xE9nin "
+    - 'Madagascar '
     GreatAnswer: 0
     Indice: "Les portugais avaient nomm\xE9 ce royaume comme etant un de ces vasseau
       avant de les trahirent . "
