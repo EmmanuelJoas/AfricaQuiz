@@ -37,7 +37,7 @@ public class UnblockedStory : MonoBehaviour//Class use to undeblocked the story 
     /// <summary>
     /// Reference if the subject is unblocked
     /// </summary>
-    public int isUnblocked;
+    public int isUnblockedStory;
 
     #endregion
 
@@ -51,11 +51,12 @@ public class UnblockedStory : MonoBehaviour//Class use to undeblocked the story 
     private void Start()
     {
         Coins = PlayerPrefs.GetInt("QuizCoins");
-        isUnblocked = PlayerPrefs.GetInt("UnblockedStory");
-        if (isUnblocked == 1)
+        isUnblockedStory = PlayerPrefs.GetInt("UnblockedStory");
+        if (isUnblockedStory == 1)
         {
             LockedPanel.SetActive(false);
         }
+        
     }
 
 
@@ -70,11 +71,12 @@ public class UnblockedStory : MonoBehaviour//Class use to undeblocked the story 
     public void ButtonBuy()
     {
         Coins = PlayerPrefs.GetInt("QuizCoins");
-        if (Coins > int.Parse(Prix.text) && (Coins - int.Parse(Prix.text)) > 0)
+        if (Coins > int.Parse(Prix.text) && (Coins - int.Parse(Prix.text)) >= 0)
         {
             Buy();
             SaveBuy();
         }
+        
     }
 
 
@@ -86,7 +88,7 @@ public class UnblockedStory : MonoBehaviour//Class use to undeblocked the story 
         Coins -= int.Parse(Prix.text);
         LockedPanel.SetActive(false);
         CoinsText.text = Coins + "";
-        isUnblocked = 1;
+        isUnblockedStory = 1;
     }
 
 
@@ -96,7 +98,7 @@ public class UnblockedStory : MonoBehaviour//Class use to undeblocked the story 
     private void SaveBuy()
     {
         PlayerPrefs.SetInt("QuizCoins", Coins);
-        PlayerPrefs.SetInt("UnblockedStory", isUnblocked);
+        PlayerPrefs.SetInt("UnblockedStory", isUnblockedStory);
     }
 
 

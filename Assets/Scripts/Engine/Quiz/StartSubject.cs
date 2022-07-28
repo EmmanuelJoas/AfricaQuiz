@@ -401,18 +401,6 @@ public class StartSubject : MonoBehaviour
         _Subject.RefImage.RemoveAt(currentQuestion);//Remove the component of the list
     }
 
-    public void BookModeIsActive(bool isActive)
-    {
-        if (isActive == true)
-        {
-            StopAllCoroutines();
-        }
-        else if (isActive == true)
-        {
-            StartCoroutine(LoadNewQuestion());
-        }
-    }
-
     /// <summary>
     /// Referenec to the function who called when the end game 
     /// </summary>
@@ -527,7 +515,7 @@ public class StartSubject : MonoBehaviour
     /// </summary>
     /// <returns></returns>
      IEnumerator LoadNewQuestion()
-    {
+     {
 
         yield return new WaitForSeconds(3f);
 
@@ -543,7 +531,7 @@ public class StartSubject : MonoBehaviour
 
         DescriptionPanel.SetActive(false);
 
-    }
+     }
 
 
     #endregion

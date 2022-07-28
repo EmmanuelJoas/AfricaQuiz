@@ -73,12 +73,12 @@ public class ScoreQuiz : MonoBehaviour
         Akwards[2].SetActive(true);
       }
 
-       else if (MaxScore >= 10 && MaxScore <= 15)
+       else if (MaxScore >= 10 && MaxScore < 15)
        {
           Akwards[1].SetActive(true);
        }
 
-      else if (MaxScore >= 15)
+      else if (MaxScore == 15)
       {
          Akwards[0].SetActive(true);
       }

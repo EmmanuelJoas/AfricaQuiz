@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dee7bc2070da7be4484f3e8980b344a7, type: 3}
   m_Name: Sport
   m_EditorClassIdentifier: 
-  Subject: 
+  Subject: Sport
   AnsAndQues:
   - Question: "Qui est le seul joeur Africain \xE0 avoir le ballon d'or ?"
     Answers:
@@ -119,96 +119,177 @@ MonoBehaviour:
       de 1970 \xE0 1984."
   - Question: "Qui a remport\xE9 le ballon d'or Africain en 2015 ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: lol
-    RefDescription: sssss
-  - Question: "Qui est le premier joueur Africain de l'histoire \xE0 gagner le troph\xE9e
-      du meilleur joueur de la premi\xE8re ligue ?"
+    - "Nicola P\xE9p\xE9"
+    - Pierre-Emerick
+    - Naby Keita
+    - "Yaya Tour\xE9"
+    GreatAnswer: 1
+    Indice: "Yaya Tour\xE9 est sacr\xE9 ballon d'or en 2014"
+    RefDescription: "\"C'est un grand honneur. Je suis fier d'\xEAtre \xE0 ce niveau
+      surtout d'o\xF9 je viens. Mais voil\xE0, je reste concentr\xE9. Il ne faut
+      pas s'arr\xEAter l\xE0, et continuer \xE0 travailler\", a-t-il d\xE9clar\xE9
+      \xE0 France Football, en r\xE9agissant \xE0 sa pr\xE9s\xE9lection pour le titre
+      de Ballon d'Or.  Pierre-Emerick Aubameyang, meilleur joueur africain de 2015
+      et meilleur footballeur de la Bundesliga, le championnat allemand, en 2015-2016,
+      est \xE9galement parmi les 30 pr\xE9s\xE9lectionn\xE9s."
+  - Question: Qui est le premier ballon d'or Africain ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: lol
-    RefDescription: sssss
+    - "Yaya Tour\xE9"
+    - "Nicola P\xE9p\xE9"
+    - Didier Drogba
+    - Salif Keita
+    GreatAnswer: 3
+    Indice: Il remporte le premier ballon d'or Africain en 1970.
+    RefDescription: "Salif Ke\xEFta, n\xE9 le 12 d\xE9cembre 1946 \xE0 Bamako, est
+      un footballeur international malien. Premier vainqueur du Ballon d\u2019or
+      africain en 1970, il commence sa carri\xE8re \xE0 l\u2019AS Real Bamako avec
+      qui il remporte trois fois la Coupe du Mali puis au Stade malien."
   - Question: "Qui a eu le troph\xE9e du meilleur jeune joueur Africain 2019 ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: lol
-    RefDescription: sssss
+    - Samuel Eto
+    - Achraf Hakimi
+    - Pierre-Emerick
+    - "Sadio Man\xE9"
+    GreatAnswer: 1
+    Indice: "En 2019 Sadio Man\xE9 est sacr\xE9 meilleur joueur Africain."
+    RefDescription: "Apr\xE8s avoir remport\xE9 le prix de meilleur jeune joueur
+      arabe lors de la 11\xE8me \xE9dition des Globe Soccer Awards, l\u2019arri\xE8re
+      droit du Borussia Dortmund (21 ans) s\u2019est de nouveau illustr\xE9 ce mardi
+      soir, en remportant le titre de meilleur jeune joueur africain en 2019 lors
+      de la 28\xE8 \xE9dition des CAF awards qui s\u2019est d\xE9roul\xE9e mardi
+      \xE0 la station baln\xE9aire \xE9gyptienne d\u2019Hurghada."
   - Question: "Quelle nation a gagn\xE9 la CAN en 2000 ? "
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - Nigeria
+    - Soudan
+    - Mali
+    - Congo
     GreatAnswer: 0
-    Indice: lol
-    RefDescription: sssss
-  - Question: "Quel joueur Africain a marqu\xE9 le plus de buts en C1 ?"
+    Indice: Avec cette victoire le nombre de titre remporter est de 3.
+    RefDescription: "Le Nig\xE9ria gagne la CAN pour la premi\xE8re dans son pays
+      face \xE0 l'Alg\xE9rie en 1980. S'en suivent quatre finales perdues pour les
+      Super Eagles (1984,1988, 1990 et 2000). Les Nig\xE9rians ne retrouveront la
+      victoire qu'en 2013 apr\xE8s un succ\xE8s 1-0 face au Burkina Faso."
+  - Question: "Quel pays Africains poss\xE8de le record du plus de titre en coupe
+      d'Afrique ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
+    - Egypte
+    - Cameroun
+    - Ghana
+    - Nigeria
     GreatAnswer: 0
-    Indice: lol
-    RefDescription: sssss
+    Indice: "Avec leurs dernier succ\xE8s en 2010 leurs nombre de titre est de 7."
+    RefDescription: "Loin devant on retrouve l'\xC9gypte avec sept succ\xE8s pour
+      neuf finales jou\xE9es. Les Pharaons ont gagn\xE9 les deux premi\xE8res \xE9ditions
+      de la comp\xE9tition en 1957 et 1959. Le troisi\xE8me titre interviendra 27
+      ans plus tard, en 1986, avec un succ\xE8s aux tirs aux buts face au Cameroun.
+      Ils vont s'imposer en 1998 contre l'Afrique du Sud avant de gagner la CAN trois
+      fois d'affil\xE9es. 2006, 2008 et 2010 le dernier succ\xE8s en date. Emmen\xE9s
+      par un \xE9tincelant Mohamed Salah, l'\xC9gypte va tout faire pour remporter
+      une nouvelle fois la CAN cette ann\xE9e et accro\xEEtre son avance sur les
+      autres nations."
   - Question: "N\xE9 en 1963, il est consid\xE9r\xE9 comme le plus grand footballeur
       Zanbien, qui est ce ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: lol
-    RefDescription: sssss
-  - Question: "Athl\xE8te marocain de demi-fond et de fond, il est le premier homme
-      \xE0 descendre sous la barre des 13' au 5000m, qui est ce ?"
+    - Didier Drogba
+    - Samuel Eto
+    - Chitalu Godfrey
+    - "Nicola P\xE9p\xE9"
+    GreatAnswer: 2
+    Indice: "Didier Drogba n'est pas de nationnalit\xE9 Zambienne."
+    RefDescription: "Godfrey Chitalu est un attaquant des Kabwe Warriors et de l\u2019\xE9quipe
+      de football professionnelle senior de Zambie. Chitalu est largement consid\xE9r\xE9
+      comme le plus grand joueur zambien de tous les temps. Il a \xE9tabli un record
+      de buts pour son pays. Le Zambien a \xE9galement \xE9t\xE9 nomm\xE9 joueur
+      zambien de l\u2019ann\xE9e \xE0 cinq reprises.Godfrey Chitalu est un attaquant
+      des Kabwe Warriors et de l\u2019\xE9quipe de football professionnelle senior
+      de Zambie. Chitalu est largement consid\xE9r\xE9 comme le plus grand joueur
+      zambien de tous les temps. Il a \xE9tabli un record de buts pour son pays.
+      Le Zambien a \xE9galement \xE9t\xE9 nomm\xE9 joueur zambien de l\u2019ann\xE9e
+      \xE0 cinq reprises.Godfrey Chitalu est un attaquant des Kabwe Warriors et de
+      l\u2019\xE9quipe de football professionnelle senior de Zambie. Chitalu est
+      largement consid\xE9r\xE9 comme le plus grand joueur zambien de tous les temps.
+      Il a \xE9tabli un record de buts pour son pays. Le Zambien a \xE9galement \xE9t\xE9
+      nomm\xE9 joueur zambien de l\u2019ann\xE9e \xE0 cinq reprises."
+  - Question: "Qui est concid\xE9r\xE9 comme le meilleur basketteur Africain de la
+      NBA ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: lol
-    RefDescription: sssss
-  - Question: Quelle instance organise la coupe d'Afrique des nations ?
+    - Samuel Eto
+    - Lebron Jams
+    - Mickel Jordan
+    - Steve Nash
+    GreatAnswer: 3
+    Indice: Samuel Eto n'est pa un joueur de bastket.
+    RefDescription: "Le meneur qui est n\xE9 en Afrique du Sud et qui a jou\xE9 pour
+      les Phoenix Suns de 1996 \xE0 1998 et de 2004 \xE0 2012, les Dallas Mavericks
+      de 1998 \xE0 2004, et les Los Angeles Lakers de 2012 \xE0 2015 est consid\xE9r\xE9
+      comme \xE9tant le meilleur meneur africain de l\u2019histoire de la ligue am\xE9ricaine.
+      Ainsi, il a termin\xE9 sa carri\xE8re en tant que meilleur passeur de la ligue
+      \xE0 5 reprises (2005, 2006, 2007, 2010 et 2011) et a \xE9galement remport\xE9
+      2 troph\xE9es de MVP en 2005 et 2006"
+  - Question: Qui est le meilleur boxer Africain ?
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: lol
-    RefDescription: sssss
-  - Question: "En quelle ann\xE9e a eu lieu la 1er coupe d'Afrique des nations ?"
+    - Samuel Peter
+    - Azuma Nelson
+    - Ike Quartey
+    - Didier Drogba
+    GreatAnswer: 1
+    Indice: Didier Drogba n'est pas un boxeur.
+    RefDescription: "Originaire du Ghana, Azuma Nelson est consid\xE9r\xE9 par de
+      nombreux experts comme le plus grand boxeur africain de tous les temps. Il
+      a remport\xE9 trois titres mondiaux au cours de sa carri\xE8re, remportant
+      le titre poids plume une fois et le titre poids plume deux fois. Il a remport\xE9
+      son premier titre mondial en 1984 en \xE9liminant Wilfredo Gomez au 11\xE8me
+      tour. Au cours des trois ann\xE9es suivantes, il a vaincu tous ses adversaires.
+      En 1987, il a c\xE9d\xE9 son titre pour monter en poids et combattre des adversaire
+      plus forts . En 1988, il devenait d\xE9j\xE0 champion du monde des super-poids
+      plume en battant Mario Martinez."
+  - Question: "Qui est le premier Africain \xE0 remporter une m\xE9daille d'or au
+      jeux Olympiques ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: lol
-    RefDescription: sssss
+    - Ezekiel Kemboi
+    - David Rudisha
+    - Abebe Bikila
+    - Tirunesh Dibaba
+    GreatAnswer: 2
+    Indice: "Il est le seul \xE0 avoir remporter un course les pieds nues."
+    RefDescription: "Le 7 ao\xFBt 1932, Abebe Bikila, athl\xE8te \xE9thiopien et
+      double m\xE9daill\xE9 d'or olympique, est n\xE9. Il est entr\xE9 dans l' histoire
+      apr\xE8s avoir couru pieds nus et remport\xE9 le marathon aux Jeux olympiques
+      d'\xE9t\xE9 de 1960 \xE0 Rome, en Italie.Sa d\xE9cision de courir pieds nus
+      d\xE9coule des nouvelles chaussures de course achet\xE9es \xE0 Rome, qui ne
+      lui vont pas et lui donnent des ampoules.  Pour avoir remport\xE9 la m\xE9daille
+      d\u2019or, le nom de l\u2019athl\xE8te \xE9thiopien a \xE9t\xE9 inscrit au
+      Livre des Records du Monde Guinness comme le marathon le plus rapide \xE0 pieds
+      nus. Abebe a couru la course le 10 septembre 1960 en 2 heures, 15 minutes et
+      16.2 secondes. Il est \xE9galement entr\xE9 dans l' histoire en tant que premier
+      Africain \xE9thiopien et subsaharienne \xE0 remporter une m\xE9daille olympique."
   - Question: "Quelle est la p\xE9riodicit\xE9 de la coupe d'Afrique des nations
       ?"
     Answers:
-    - 1
-    - 2
-    - 3
-    - 4
-    GreatAnswer: 0
-    Indice: lol
-    RefDescription: sssss
-  RefImage: []
+    - 1ans
+    - '2ans '
+    - '3ans '
+    - 4ans
+    GreatAnswer: 1
+    Indice: C'est moins de quatre ans mais plus d'un an.
+    RefDescription: "Des r\xE8glements furent adopt\xE9s. Et depuis, la coupe dont
+      la p\xE9riodicit\xE9 est de deux ans, est ouverte aux membres de la CAF, elle
+      se dispute selon la formule d'\xE9liminatoire directe ou selon la formule de
+      championnat si le nombre de participant est inf\xE9rieur \xE0 quatre."
+  RefImage:
+  - {fileID: 21300000, guid: 5c75f86d299eb3746a7d9e9618f019f8, type: 3}
+  - {fileID: 21300000, guid: a884847d8e1f6654da90cad3e9275172, type: 3}
+  - {fileID: 21300000, guid: d1ec7a13a3e7344449f2170fd262e10f, type: 3}
+  - {fileID: 21300000, guid: cd67556fac8962d4f9c6c26c228fe6fb, type: 3}
+  - {fileID: 21300000, guid: 2d73cead7dade664a85d25666301f8ae, type: 3}
+  - {fileID: 21300000, guid: b472444ae5522b54b998dc0c8cccafc9, type: 3}
+  - {fileID: 21300000, guid: b039c7f2309ba404495e5e85d716bd01, type: 3}
+  - {fileID: 21300000, guid: fba0efd32ed3e4a45913e723cbaca02c, type: 3}
+  - {fileID: 21300000, guid: 129d8a2f4ccb7834a894e59bbf13fcf1, type: 3}
+  - {fileID: 21300000, guid: 9124c21559dd35c458c4f5f6dec606f8, type: 3}
+  - {fileID: 21300000, guid: 52475d9a1d00d28479af1fe32748313b, type: 3}
+  - {fileID: 21300000, guid: c2846363d21066540b65e9a2ad1c1974, type: 3}
+  - {fileID: 21300000, guid: 9bb7c2f2c40ce52428b5bb932656b521, type: 3}
+  - {fileID: 21300000, guid: 8c04ad764464db84e8701ddffa487217, type: 3}
+  - {fileID: 21300000, guid: 2d73cead7dade664a85d25666301f8ae, type: 3}

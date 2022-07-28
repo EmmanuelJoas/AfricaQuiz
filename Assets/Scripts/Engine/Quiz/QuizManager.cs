@@ -9,15 +9,21 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
     /// <summary>
     /// Reference to the all subject 
     /// </summary>
-    public GameObject[] Subject;
+    public GameObject[] Themes;
 
     /// <summary>
     /// Reference to the index subject 
     /// </summary>
     private int indexSubject;
 
-    public GameObject CurrentSubject;
+    /// <summary>
+    /// 
+    /// </summary>
+    public GameObject CurrentTheme;
 
+    /// <summary>
+    /// 
+    /// </summary>
     public static QuizManager intance;
 
     #endregion
@@ -39,8 +45,8 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
     /// </summary>
     private void Start()
     {
-        Subject[indexSubject].SetActive(true);
-        CurrentSubject = Subject[indexSubject];
+        Themes[indexSubject].SetActive(true);
+        CurrentTheme = Themes[indexSubject];
     }
 
  

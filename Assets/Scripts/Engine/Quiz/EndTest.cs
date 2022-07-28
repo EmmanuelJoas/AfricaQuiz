@@ -59,8 +59,6 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     private void Awake()
     {
-        GameMode = PlayerPrefs.GetString("GameMode");
-
         IndexSubject = PlayerPrefs.GetInt("SubjectIndex");
 
         GetScoreAnimals();
@@ -96,25 +94,22 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     void DisplayAward()
     {
 
-        if (GameMode == "Extreme")
-        {
+        
 
-            if (int.Parse(TextScore.text)>=5 && int.Parse(TextScore.text) <=10)
+            if (int.Parse(TextScore.text)>=5 && int.Parse(TextScore.text) <10)
             {
                 Akward[0].SetActive(true);
             }
 
-            else if (int.Parse(TextScore.text) >= 10 && int.Parse(TextScore.text) <= 15)
+            else if (int.Parse(TextScore.text) >= 10 && int.Parse(TextScore.text) < 15)
             {
                 Akward[1].SetActive(true);
             }
 
-            else if (int.Parse(TextScore.text) >= 15)
+            else if (int.Parse(TextScore.text) == 15)
             {
                 Akward[2].SetActive(true);
             }
-
-        }
 
         SetScoreGeo();
 
@@ -132,8 +127,8 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     void SetScoreGeo()
     {
-        if (IndexSubject == 0 && GameMode == "Extreme")
-        {
+        if (IndexSubject == 0) 
+        { 
             if (MaxScore < int.Parse(TextScore.text))
             {
                 PlayerPrefs.SetInt("GeoHightScore", int.Parse(TextScore.text));
@@ -147,7 +142,7 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     void SetScoreStory()
     {
-        if (IndexSubject == 1 && GameMode == "Extreme")
+        if (IndexSubject == 1 )
         {
             if (MaxScore < int.Parse(TextScore.text))
             {
@@ -161,7 +156,7 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     void SetScoreAnimal()
     {
-        if (IndexSubject == 2 && GameMode == "Extreme")
+        if (IndexSubject == 2 )
         {
             if (MaxScore < int.Parse(TextScore.text))
             {
@@ -176,7 +171,7 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     void SetScoreSport()
     {
-        if (IndexSubject == 3 && GameMode == "Extreme")
+        if (IndexSubject == 3 )
         {
             if (MaxScore < int.Parse(TextScore.text))
             {
@@ -191,7 +186,7 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     void SetScoreMytho()
     {
-        if (IndexSubject == 4 && GameMode == "Extreme")
+        if (IndexSubject == 4 )
         {
             if (MaxScore < int.Parse(TextScore.text))
             {
@@ -206,7 +201,7 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     void GetScoreGeo()
     {
-        if (IndexSubject == 0 && GameMode == "Extreme")
+        if (IndexSubject == 0 )
         {
             MaxScore = PlayerPrefs.GetInt("GeoHightScore");
         }
@@ -219,7 +214,7 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     void GetScoreStory()
     {
-        if (IndexSubject == 1 && GameMode == "Extreme")
+        if (IndexSubject == 1 )
         {
             MaxScore = PlayerPrefs.GetInt("StoryHightScore");
         }
@@ -231,7 +226,7 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     void GetScoreAnimals()
     {
-        if (IndexSubject == 2 && GameMode == "Extreme")
+        if (IndexSubject == 2)
         {
             MaxScore = PlayerPrefs.GetInt("AnimalsHightScore");
         }
@@ -243,7 +238,7 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     void GetScoreSport()
     {
-        if (IndexSubject == 3 && GameMode == "Extreme")
+        if (IndexSubject == 3)
         {
             MaxScore = PlayerPrefs.GetInt("SportHightScore");
         }
@@ -255,7 +250,7 @@ public class EndTest : MonoBehaviour//Class reference the action of the end game
     /// </summary>
     void GetScoreMytho()
     {
-        if (IndexSubject == 4 && GameMode == "Extreme")
+        if (IndexSubject == 4)
         {
             MaxScore = PlayerPrefs.GetInt("MythoHightScore");
         }

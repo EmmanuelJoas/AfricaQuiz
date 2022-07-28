@@ -40,7 +40,6 @@ public class UnblockedMythology : MonoBehaviour//Class use to unlocked the Econo
 
     #endregion
 
-
     #region Unity function 
 
     /// <summary>
@@ -49,7 +48,9 @@ public class UnblockedMythology : MonoBehaviour//Class use to unlocked the Econo
     private void Start()
     {
         Coins = PlayerPrefs.GetInt("QuizCoins");
+
         isUnblocked = PlayerPrefs.GetInt("UnblockedMytho");
+
         if (isUnblocked == 1)
         {
             LockedPanel.SetActive(false);
@@ -57,8 +58,6 @@ public class UnblockedMythology : MonoBehaviour//Class use to unlocked the Econo
     }
 
     #endregion
-
-
 
     #region My Private Function 
 
@@ -69,7 +68,7 @@ public class UnblockedMythology : MonoBehaviour//Class use to unlocked the Econo
     public void ButtonBuy()
     {
         Coins = PlayerPrefs.GetInt("QuizCoins");
-        if (Coins > int.Parse(Prix.text) && (Coins - int.Parse(Prix.text)) > 0)
+        if (Coins > int.Parse(Prix.text) && (Coins - int.Parse(Prix.text)) >= 0)
         {
             Buy();
             SaveBuy();
