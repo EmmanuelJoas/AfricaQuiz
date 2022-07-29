@@ -16,10 +16,14 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
     /// </summary>
     private int indexSubject;
 
+    private int CurrentSubject;
+
+    private GameObject _currentSubject;
+
     /// <summary>
     /// 
     /// </summary>
-    public GameObject CurrentTheme;
+    public StartSubject CurrentTheme;
 
     /// <summary>
     /// 
@@ -38,17 +42,27 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
         indexSubject= PlayerPrefs.GetInt("SubjectIndex");
 
         intance = this;
+
+        Themes[indexSubject].SetActive(true);
+
+        StartSubject();
+
+
+
     }
 
     /// <summary>
     /// 
     /// </summary>
-    private void Start()
+    private void StartSubject()
     {
-        Themes[indexSubject].SetActive(true);
-        CurrentTheme = Themes[indexSubject];
-    }
+        CurrentSubject = Random.Range(0, Themes[indexSubject].transform.childCount);
 
- 
+        _currentSubject=Themes[indexSubject].transform.GetChild(CurrentSubject).gameObject;
+
+        _currentSubject.SetActive(true);
+
+       CurrentTheme = Themes[indexSubject].transform.GetChild(CurrentSubject).transform.GetComponent<StartSubject>();
+    }
     #endregion
 }

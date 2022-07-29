@@ -60,22 +60,22 @@ public class AnswerScript : MonoBehaviour//Class use when the user give the answ
     {
         if (isCorrect)
         {
-            QuizManager.intance.CurrentTheme.GetComponent<StartSubject>().Correct();
+            QuizManager.intance.CurrentTheme.Correct();
 
             GoodAnswerSound.Play();
 
-            QuizManager.intance.CurrentTheme.GetComponent<StartSubject>().DescriptionPanel.SetActive(true);
+            QuizManager.intance.CurrentTheme.DescriptionPanel.SetActive(true);
 
 
         }
         else
         {
 
-            QuizManager.intance.CurrentTheme.GetComponent<StartSubject>().Wrong();
+            QuizManager.intance.CurrentTheme.Wrong();
 
             WrongAnswerSound.Play();
 
-            QuizManager.intance.CurrentTheme.GetComponent<StartSubject>().DescriptionPanel.SetActive(true);
+            QuizManager.intance.CurrentTheme.DescriptionPanel.SetActive(true);
 
         }
       

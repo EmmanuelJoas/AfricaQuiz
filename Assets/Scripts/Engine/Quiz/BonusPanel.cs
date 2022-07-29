@@ -93,7 +93,7 @@ public class BonusPanel : MonoBehaviour
     public void FiftyFiftyButton()
     {
 
-        QuizManager.intance.CurrentTheme.GetComponent<StartSubject>().DesableWrongAnswers();
+        QuizManager.intance.CurrentTheme.DesableWrongAnswers();
         fiftyFiftyButton.SetActive(false);
 
     }
