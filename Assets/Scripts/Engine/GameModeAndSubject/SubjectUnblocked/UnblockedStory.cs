@@ -71,7 +71,7 @@ public class UnblockedStory : MonoBehaviour//Class use to undeblocked the story 
     public void ButtonBuy()
     {
         Coins = PlayerPrefs.GetInt("QuizCoins");
-        if (Coins > int.Parse(Prix.text) && (Coins - int.Parse(Prix.text)) >= 0)
+        if (Coins >= int.Parse(Prix.text) && (Coins - int.Parse(Prix.text)) >= 0)
         {
             Buy();
             SaveBuy();
