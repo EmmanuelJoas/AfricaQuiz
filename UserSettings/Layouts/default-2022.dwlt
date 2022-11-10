@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 725
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 8}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -39,12 +39,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 538
+    x: 554
     y: 0
-    width: 400
+    width: 384
     height: 675
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -69,14 +69,14 @@ MonoBehaviour:
     y: 315
     width: 428
     height: 360
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 16}
   - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -259,22 +259,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 538
+    width: 554
     height: 675
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 13}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 13}
   - {fileID: 14}
-  m_Selected: 0
+  m_Selected: 1
   m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
@@ -306,10 +306,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 0cfbffff
-      m_LastClickedID: -1268
-      m_ExpandedIDs: 30fbffff565800005a5800006c580000e858000008590000
+      scrollPos: {x: 0, y: 191}
+      m_SelectedIDs: 38720000
+      m_LastClickedID: 29240
+      m_ExpandedIDs: 0ce7ffff76e7ffff28f8ffffb2f8ffff30fbffff3e6400004e6400006a6400006e64000098640000c2640000c6640000de640000e8640000186600001c6600002066000068720000ca7200003873000090730000d6730000fe7300001a7400001e740000d0740000e87400000c750000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -355,7 +355,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 537
+    width: 471
     height: 654
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -374,22 +374,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Art/Engine/UI/UI 2/level_select
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 63
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Art/Engine/UI/UI 2/level_select
   m_LastFoldersGridSize: 63
   m_LastProjectPath: C:\Users\emmanueljoas\Desktop\AfricaQuiz\AfricaQuiz
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 885c0000
-    m_LastClickedID: 23688
-    m_ExpandedIDs: 00000000b45b0000b65b0000b85b0000ba5b0000bc5b0000be5b0000c05b000000ca9a3b
+    scrollPos: {x: 0, y: 26}
+    m_SelectedIDs: fa6b0000
+    m_LastClickedID: 27642
+    m_ExpandedIDs: 00000000d45b0000d65b0000d85b0000da5b0000dc5b0000de5b0000e05b00009c5c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -417,7 +417,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b45b0000b65b0000b85b0000ba5b0000bc5b0000be5b0000c05b0000
+    m_ExpandedIDs: 00000000d45b0000d65b0000d85b0000da5b0000dc5b0000de5b0000e05b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -442,8 +442,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 38720000
+    m_LastClickedInstanceID: 29240
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e65d0000a8600000ac600000ca600000ce600000d6600000d4600000d8600000d2600000d0600000c660000012840000905b0000b6590000
     m_RenameOverlay:
@@ -495,7 +495,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 537
+    width: 553
     height: 654
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -731,9 +731,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.42846587, y: 0.93541825, z: 0.767641}
+    m_Target: {x: 9.481289, y: -2.1916826, z: -0.25841823}
     speed: 2
-    m_Value: {x: 0.42846587, y: 0.93541825, z: 0.767641}
+    m_Value: {x: 9.481289, y: -2.1916826, z: -0.25841823}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -783,9 +783,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.2797585
+    m_Target: 8.734083
     speed: 2
-    m_Value: 4.2797585
+    m_Value: 8.734083
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -873,7 +873,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 29
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -899,9 +899,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 538
+    x: 554
     y: 73
-    width: 398
+    width: 382
     height: 654
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -910,12 +910,12 @@ MonoBehaviour:
   m_SerializedViewNames:
   - UnityEditor.GameView
   m_SerializedViewValues:
-  - C:\Users\emmanueljoas\Desktop\AfricaQuiz\AfricaQuiz\Library\PlayModeViewStates\5d86444851d199b4a9a6a81ca6454630
+  - C:\Users\emmanueljoas\Desktop\AfricaQuiz\AfricaQuiz\Library\PlayModeViewStates\64deba0bf33c4144c8234faa3dc76836
   m_PlayModeViewName: Device Simulator
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 1}
-  m_TargetSize: {x: 1080, y: 2256}
+  m_TargetSize: {x: 1440, y: 2560}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -935,11 +935,11 @@ MonoBehaviour:
     - UnityEditor.DeviceSimulation.ApplicationSettingsPlugin
     pluginStates:
     - '{}'
-    scale: 26
+    scale: 19
     fitToScreenEnabled: 0
     rotationDegree: 0
     highlightSafeAreaEnabled: 0
-    friendlyName: vivo NEX 3 5G
+    friendlyName: Motorola Nexus 6
     screenIndex: 0
     networkReachability: 1
     systemLanguage: 10

@@ -56,11 +56,11 @@ public class QuizManager : MonoBehaviour//Class use to the gestion of the Quiz G
     /// </summary>
     private void StartSubject()
     {
-        CurrentSubject = Random.Range(0, Themes[indexSubject].transform.childCount);
+        /*CurrentSubject = Random.Range(0, Themes[indexSubject].transform.childCount);
 
         _currentSubject=Themes[indexSubject].transform.GetChild(CurrentSubject).gameObject;
 
-        _currentSubject.SetActive(true);
+        _currentSubject.SetActive(true);*/
 
        CurrentTheme = Themes[indexSubject].transform.GetChild(CurrentSubject).transform.GetComponent<StartSubject>();
     }

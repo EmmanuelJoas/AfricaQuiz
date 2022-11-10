@@ -26,18 +26,6 @@ public class AnswerScript : MonoBehaviour//Class use when the user give the answ
 
 
     /// <summary>
-    /// Reference to the text who display the number of wrong Answers 
-    /// </summary>
-    public Text WrongAnswerText;
-
-
-    /// <summary>
-    /// Reference to the text who display the number of good  Answer 
-    /// </summary>
-    public Text GoodAnswerText;
-
-
-    /// <summary>
     /// Reference the number of Answer 
     /// </summary>
    public  int GoodAnswerPoints;
@@ -89,7 +77,6 @@ public class AnswerScript : MonoBehaviour//Class use when the user give the answ
     public void WrongAnswers()
     {
         WrongAnswerPoints++;
-        WrongAnswerText.text = WrongAnswerPoints.ToString();
     }
 
 
@@ -99,7 +86,6 @@ public class AnswerScript : MonoBehaviour//Class use when the user give the answ
     public void GoodAnswer()
     {
         GoodAnswerPoints++;
-        GoodAnswerText.text = GoodAnswerPoints.ToString();
     }
 
 
